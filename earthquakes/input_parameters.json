@@ -1,0 +1,200 @@
+{
+  "Author information": 
+   {
+      "author name": "",
+      "form filing date": {
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "reference of the related study": {
+       "author names": "",
+       "title": "",
+       "journal": "",
+       "volume and pages": "",
+       "DOI": ""
+      }
+    },
+
+  "Surface deformation": 
+    {
+        "surface rupture characteristics":
+        {
+            "total length of the surface rupture (based on the mapped fault traces; km)": "",
+            "total length of the surface deformation zone (based on the geodesy; km)": "",
+            "qualitative assesment of the fault continuity (0: no primary faults; 10: only continuous primary faults)": "",
+            "number of fault geometrical complexities": {
+              "relay zones": "",
+              "bends": "",
+              "jumps": ""
+            },
+            "maximum width of fault geometrical complexities (m)": {
+              "relay zones": "",
+              "bends": "",
+              "jumps": ""
+            }
+        },
+          
+        "horizontal displacement":
+        {
+            "localized slip on identified surface ruptures (m)": {
+              "min": "",
+              "average": "",
+              "max": ""
+            },
+            "width of the surface ruptures (m)": {
+              "min": "",
+              "average": "",
+              "max": ""
+            },
+            "near-field (<500 m) OFD (m)": {
+              "min": "",
+              "average": "",
+              "max": ""
+            },
+            "far-field (>500 m) OFD (from the geodesy, and including the near-field OFD; m)": {
+              "min": "",
+              "average": "",
+              "max": ""
+            },
+            "total surface displacement (from the geodesy; includingn all OFD; m)": {
+              "min": "",
+              "average": "",
+              "max": ""
+            },
+            "width of the total deformation zone (based on the total surface displacement measurement; m)": {
+              "min": "",
+              "average": "",
+              "max": ""
+            }
+        },
+
+      "vertical displacement":
+      {
+            "localized slip on identified surface ruptures (m)": {
+                "min": "",
+                "average": "",
+                "max": ""
+            },
+            "width of the surface ruptures (m)": {
+                "min": "",
+                "average": "",
+                "max": ""
+            },
+            "near-field (<100 m) OFD (m)": {
+                "min": "",
+                "average": "",
+                "max": ""
+            },
+            "far-field (>100 m) OFD (from the geodesy, and including the near-field OFD; m)": {
+                "min": "",
+                "average": "",
+                "max": ""
+            },
+            "total surface displacement (from the geodesy; includingn all OFD; m)": {
+                "min": "",
+                "average": "",
+                "max": ""
+            },
+            "width of the total deformation zone (based on the total surface displacement measurement; m)": {
+                "min": "",
+                "average": "",
+                "max": ""
+            }
+        }
+    },
+ 
+  "Deeper rupture process":
+    {
+        "event magnintude (with uncertainty is available)": "",
+        "moment magnitude (with uncertainty is available)": "",
+        "total length of the rupture (slip>95th percentile ; m)": "",
+        "stress drop": {
+            "peak": "",
+            "average": ""
+        },
+        "mechanism (relative contributions of strike-slip, and dip-slip; right lateral thrust faulting is poitive, left-lateral and normal faulting is negative; e.g., 1:-2 for an earthquake that has twice normal slip than right-lateral slip) ": "",
+        "average rupture speed (km/s)": "",
+        "supershear (1 for YES, 0 for NO)": "",
+
+        "strike-slip component":{
+          "peak slip observed in the rupture model (m)": "",
+          "average peak slip from the along-dip average slip profile for the entire ruputure (m)": "",
+          "depth of the average peak slip (lower end:upper end; same values if peak slip is occuring at a single depth) (m)": "",
+          "peak surface slip in the rupture model (m)": "",
+          "average peak surface slip from the along-dip average slip profile for the entire ruputure (m)": "",
+          "inferred SSD from the difference between the average peak and surface slip values": {
+              "in meters": "",
+              "in percents of the peak average slip": ""
+          }
+        },
+
+        "dip-slip component":{
+            "peak slip observed in the rupture model (m)": "",
+            "average peak slip from the along-dip average slip profile for the entire ruputure (m)": "",
+            "depth of the average peak slip (lower end:upper end; same values if peak slip is occuring at a single depth) (m)": "",
+            "peak surface slip in the rupture model (m)": "",
+            "average peak surface slip from the along-dip average slip profile for the entire ruputure (m)": "",
+            "inferred SSD from the difference between the average peak and surface slip values": {
+                "in meters": "",
+                "in percents of the peak average slip": ""
+            }
+          },
+
+        "total slip":{
+            "peak slip observed in the rupture model (m)": "",
+            "average peak slip from the along-dip average slip profile for the entire ruputure (m)": "",
+            "depth of the average peak slip (lower end:upper end; same values if peak slip is occuring at a single depth) (m)": "",
+            "peak surface slip in the rupture model (m)": "",
+            "average peak surface slip from the along-dip average slip profile for the entire ruputure (m)": "",
+            "inferred SSD from the difference between the average peak and surface slip values": {
+                "in meters": "",
+                "in percents of the peak average slip": ""
+            }
+        }
+    },
+
+  "Seismotectonic context":
+   {
+        "fault strike (N0 to N360)": 
+        {
+          "min": "",
+          "average": "",
+          "max": ""
+        },
+        "fault dip (0 to 90º)": 
+        {
+          "min": "",
+          "average": "",
+          "max": ""
+        },
+        "pre-existing fault in the geomorpholoy (0: NO; 1: barely visible, 2: clearly visible)": "",
+        "pre-existing fault geometry (0: non existing; 1: discontinuous , 2: continuous)": "",
+        "cumulative displacement from geology (km)": 
+        {
+            "min": "",
+            "average": "",
+            "max": ""
+        },
+        "fault slip rate (from geology or geodesy; mm/yr)": 
+        {
+            "min": "",
+            "average": "",
+            "max": ""
+        },
+        "regional slip rate (from geodesy; mm/yr)": 
+        {
+            "min": "",
+            "average": "",
+            "max": ""
+        },
+        "lithology":
+        {
+            "heterogeneity (0: uniform, 2: non-uniform, 3: highly complex and heterogeneous": "",
+            "dominant lithology at depth (basement or sediment)": "",
+            "dominant lithology at the surface (basement or sediment)": "",
+            "presence of unconsolidated sediments at the surface (0: no, 1: partially, 2: everywhere)": ""
+        }
+        
+    }
+}
