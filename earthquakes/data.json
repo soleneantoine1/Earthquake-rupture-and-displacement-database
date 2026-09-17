@@ -1,0 +1,1 @@
+"{\"html\": {\"@lang\": \"en\", \"head\": {\"title\": \"Document\"}, \"body\": {\"div\": {\"h1\": \"Geeks For Geeks\", \"p\": \"Welcome to the world of programming geeks!\", \"input\": [{\"@type\": \"text\", \"@placeholder\": \"Enter your name\"}, {\"@type\": \"button\", \"@value\": \"submit\"}]}}}}"
