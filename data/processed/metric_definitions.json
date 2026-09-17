@@ -1,0 +1,65 @@
+[
+  {
+    "metric_id": "moment_magnitude",
+    "display_name": "Moment magnitude",
+    "category": "event_summary",
+    "definition": "Moment magnitude assigned to an earthquake event.",
+    "data_type": "numerical",
+    "canonical_unit": null,
+    "definition_version": "1.0"
+  },
+  {
+    "metric_id": "earthquake_mechanism",
+    "display_name": "Earthquake mechanism",
+    "category": "event_summary",
+    "definition": "Focal mechanism classification assigned to an earthquake event.",
+    "data_type": "categorical",
+    "canonical_unit": null,
+    "definition_version": "1.0"
+  },
+  {
+    "metric_id": "surface_fault_slip",
+    "display_name": "Surface fault slip",
+    "category": "fault_summary",
+    "definition": "Displacement measured on a surface fault.",
+    "data_type": "numerical",
+    "canonical_unit": "m",
+    "definition_version": "1.0"
+  },
+  {
+    "metric_id": "total_surface_displacement",
+    "display_name": "Total surface displacement",
+    "category": "fault_summary",
+    "definition": "Total measured surface displacement associated with an earthquake.",
+    "data_type": "numerical",
+    "canonical_unit": "m",
+    "definition_version": "1.0"
+  },
+  {
+    "metric_id": "off_fault_deformation",
+    "display_name": "Off-fault deformation",
+    "category": "fault_summary",
+    "definition": "Deformation occurring away from mapped surface fault rupture.",
+    "data_type": "numerical",
+    "canonical_unit": "m",
+    "definition_version": "1.0"
+  },
+  {
+    "metric_id": "off_fault_deformation_fraction",
+    "display_name": "Off-fault deformation fraction",
+    "category": "fault_summary",
+    "definition": "Fraction of total surface displacement attributed to off-fault deformation.",
+    "data_type": "numerical",
+    "canonical_unit": null,
+    "definition_version": "1.0"
+  },
+  {
+    "metric_id": "surface_rupture_zone_width",
+    "display_name": "Surface rupture zone width",
+    "category": "fault_summary",
+    "definition": "Width of the surface rupture or deformation zone.",
+    "data_type": "numerical",
+    "canonical_unit": "m",
+    "definition_version": "1.0"
+  }
+]

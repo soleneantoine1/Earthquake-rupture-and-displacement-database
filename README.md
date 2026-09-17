@@ -46,3 +46,12 @@ python -m ruff check .
 python -m ruff format --check .
 ```
 
+Initialize a local SQLite database without storing it in the repository:
+
+```bash
+python -m earthquake_db.cli /tmp/ridgecrest-pilot.sqlite
+```
+
+See [docs/schema.md](docs/schema.md) for the schema, relationships, geometry
+representation, controlled vocabularies, and current limitations.
+
