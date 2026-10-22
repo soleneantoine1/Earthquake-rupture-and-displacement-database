@@ -1,0 +1,68 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Study comparison</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="head"><h1>Study-to-study metric comparison</h1>
+<p>For one earthquake and metric, every published statistic is shown by study. Whiskers = reported uncertainty (bounds from the published offsets). Thick bars = ranges published as ranges. Hollow symbols = digitized from a figure. Computed statistics are marked "computed".</p>
+<div class="controls"><label>Earthquake<select id="events"></select></label><label>Metric<select id="metric"></select></label><button id="csv">Download shown records (CSV)</button></div></header>
+<div id="banner" class="banner" hidden></div>
+<main class="main"><div id="legend" class="legend-row"></div>
+<div class="grid"><div class="plot-wrap"><svg id="plot" class="plot" role="img" aria-label="Literature estimates by study"></svg><div id="tip" class="tip"></div>
+<details id="unplotted" class="unplotted" hidden><summary></summary><div id="unplottedList"></div></details></div>
+<aside class="side"><h2 id="detailTitle">Select an estimate</h2><p id="detailHint" class="hint">Click any estimate to inspect its publication, method, statistic, provenance and source location.</p><div id="detail"></div></aside></div></main>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script src="data.js"></script><script src="common.js"></script>
+<script>
+const R=RDB,$=id=>document.getElementById(id),es=$('events'),ms=$('metric');
+R.nav('comparison.html');
+const colors={minimum:'#2f98f5',mean:'#2da66f',median:'#7b61d1',maximum:'#f58a3a',individual:'#1f7a8c',category:'#b94a48'};
+R.D.events.slice().sort((a,b)=>(a.event_date||'').localeCompare(b.event_date||'')).forEach(e=>es.add(new Option(e.event_name+' · '+(e.event_date||'date unknown')+' · Mw '+R.mwText(e)+(e.n_records?' · '+e.n_records+' records':''),e.event_id)));
+R.fillMetrics(ms);
+// default: requested, else the event with most records, else the first
+const best=R.D.events.slice().sort((a,b)=>b.n_records-a.n_records)[0];
+es.value=R.getParam('e')&&R.eventMap.has(R.getParam('e'))?R.getParam('e'):(best?best.event_id:'');
+function bestMetric(){const c={};R.D.metrics.forEach(m=>c[m.metric_id]=R.eventMetricRecords(es.value,m.metric_id).length);return Object.keys(c).sort((a,b)=>c[b]-c[a])[0]}
+ms.value=R.getParam('m')&&R.metricMap.has(R.getParam('m'))?R.getParam('m'):(R.D.records.length?bestMetric():R.D.metrics[0].metric_id);
+const label=r=>r.publication||r.source_id||'Unspecified publication';
+const symbol=s=>s==='maximum'?d3.symbolDiamond:s==='minimum'?d3.symbolTriangle:s==='median'?d3.symbolSquare:d3.symbolCircle;
+let shownRows=[];
+function show(r){$('detailTitle').textContent=label(r);$('detailHint').textContent=(r.event_name||r.target_id)+' · '+(r.metric_name||r.metric_id);$('detail').innerHTML=R.recordCard(r,true)}
+function draw(){
+ R.setParams({e:es.value,m:ms.value});
+ const event=R.eventMap.get(es.value),metric=R.metricMap.get(ms.value),cat=metric.value_type==='categorical';
+ const all=R.eventMetricRecords(es.value,ms.value);R.banner($('banner'),null);
+ if(R.D.records.length&&!all.length){$('banner').hidden=false;$('banner').textContent='No records yet for this event and metric. Try another metric or earthquake.'}
+ // numeric position of a record: a plain number, a qualifier bound, or the middle of a published range (drawn as a bar, never as a value)
+ const pos=r=>cat?(typeof r.value==='string'?r.value:null):(R.isNum(r.value)?r.value:(r.value_lo!=null&&r.value_hi!=null?(r.value_lo+r.value_hi)/2:(R.isNum(r.value_num)?r.value_num:null)));
+ const rows=all.filter(r=>pos(r)!=null).sort((a,b)=>label(a).localeCompare(label(b))||R.STAT_ORDER.indexOf(a.statistic_type)-R.STAT_ORDER.indexOf(b.statistic_type));
+ const left=all.filter(r=>pos(r)==null);shownRows=all.map(r=>({record_id:r.record_id,event:r.event_name,metric:r.metric_id,study:label(r),statistic:r.statistic_type,value:r.value,unit:r.unit,unc_lower:r.uncertainty_lower,unc_upper:r.uncertainty_upper,unc_type:r.uncertainty_type,origin:r.origin,source_location:r.source_location,value_origin:r.value_origin}));
+ const un=$('unplotted');un.hidden=!left.length;if(left.length){un.querySelector('summary').textContent=left.length+' record(s) cannot be placed on the axis';$('unplottedList').innerHTML=left.map(r=>R.esc(label(r))+': '+R.esc(r.value??'(no value)')).join('<br>')}
+ const studies=[...new Set(rows.map(label))],svg=d3.select('#plot'),w=Math.max(420,svg.node().parentElement.clientWidth),rowH=46,h=Math.max(300,105+studies.length*rowH),m={top:34,right:34,bottom:70,left:Math.min(250,Math.max(145,w*.25))};
+ svg.attr('viewBox',`0 0 ${w} ${h}`).selectAll('*').remove();
+ $('legend').innerHTML='<b>'+R.esc(event?event.event_name:'')+(event?' · Mw '+R.mwText(event):'')+'</b>'+R.STAT_ORDER.filter(s=>cat?s==='category':s!=='category').map(st=>'<span><i class="swatch" style="background:'+colors[st]+'"></i>'+R.esc(R.STAT_LABEL[st])+'</span>').join('');
+ if(!rows.length){svg.append('text').attr('class','axis-label').attr('x',w/2).attr('y',h/2).attr('text-anchor','middle').text(R.D.records.length?'No placeable value for this event and metric.':'No data yet.');return}
+ const y=d3.scaleBand().domain(studies).range([m.top,h-m.bottom]).padding(.28);let x;
+ if(cat){x=d3.scalePoint().domain([...new Set(rows.map(r=>String(pos(r))))]).range([m.left,w-m.right]).padding(.5);svg.append('g').attr('class','axis').attr('transform',`translate(0,${h-m.bottom})`).call(d3.axisBottom(x))}
+ else{const ext=[];rows.forEach(r=>{ext.push(pos(r));[r.uncertainty_lower,r.uncertainty_upper,r.value_lo,r.value_hi].forEach(v=>R.isNum(v)&&ext.push(v))});let[lo,hi]=d3.extent(ext);const pad=(hi-lo||Math.max(Math.abs(lo),1))*.08;
+  x=d3.scaleLinear().domain([lo-pad,hi+pad]).nice().range([m.left,w-m.right]);
+  svg.append('g').attr('class','gridline').attr('transform',`translate(0,${h-m.bottom})`).call(d3.axisBottom(x).ticks(7).tickSize(-(h-m.top-m.bottom)).tickFormat(''));
+  svg.append('g').attr('class','axis').attr('transform',`translate(0,${h-m.bottom})`).call(d3.axisBottom(x).ticks(7))}
+ svg.append('g').attr('class','axis').attr('transform',`translate(${m.left},0)`).call(d3.axisLeft(y).tickSize(0).tickFormat(t=>t.length>36?t.slice(0,35)+'…':t));
+ svg.append('text').attr('class','axis-label').attr('x',(m.left+w-m.right)/2).attr('y',h-18).attr('text-anchor','middle').text(metric.display_name+(metric.canonical_unit?' ('+metric.canonical_unit+')':''));
+ const groups=new Map();rows.forEach(r=>{const k=label(r);(groups.get(k)||groups.set(k,[]).get(k)).push(r)});
+ const tip=$('tip');
+ rows.forEach(r=>{const a=groups.get(label(r)),off=(a.indexOf(r)-(a.length-1)/2)*9,yy=y(label(r))+y.bandwidth()/2+off,col=colors[r.statistic_type]||'#1f7a8c',px=cat?x(String(pos(r))):x(pos(r));
+  if(!cat&&r.value_lo!=null&&r.value_hi!=null&&!R.isNum(r.value))svg.append('line').attr('class','rangebar').attr('stroke',col).attr('x1',x(r.value_lo)).attr('x2',x(r.value_hi)).attr('y1',yy).attr('y2',yy);
+  if(!cat&&(R.isNum(r.uncertainty_lower)||R.isNum(r.uncertainty_upper))){const l=R.isNum(r.uncertainty_lower)?r.uncertainty_lower:pos(r),u=R.isNum(r.uncertainty_upper)?r.uncertainty_upper:pos(r);svg.append('line').attr('class','whisker').attr('x1',x(l)).attr('x2',x(u)).attr('y1',yy).attr('y2',yy)}
+  if(!cat&&r.origin==='figure_digitized'&&R.isNum(r.digitization_unc))svg.append('line').attr('class','whisker').attr('stroke-dasharray','3 2').attr('x1',x(pos(r)-r.digitization_unc)).attr('x2',x(pos(r)+r.digitization_unc)).attr('y1',yy).attr('y2',yy);
+  const isRange=!cat&&r.value_lo!=null&&!R.isNum(r.value);
+  if(!isRange)svg.append('path').attr('class','mark'+(r.origin==='figure_digitized'?' digitized':'')).attr('d',d3.symbol().type(symbol(r.statistic_type)).size(115)()).attr('transform',`translate(${px},${yy})`).attr('fill',col).attr('stroke',r.origin==='figure_digitized'?col:null);
+  if(!cat&&r.qualifier)svg.append('text').attr('class','axis-label').attr('x',px+10).attr('y',yy+4).text(r.qualifier==='>'?'≥ bound':r.qualifier==='<'?'≤ bound':'≈');
+  // invisible larger hit area for hover/click
+  svg.append('circle').attr('cx',px).attr('cy',yy).attr('r',10).attr('fill','transparent').style('cursor','pointer')
+   .on('mousemove',ev=>{tip.style.display='block';tip.style.left=(ev.offsetX+12)+'px';tip.style.top=(ev.offsetY+12)+'px';tip.innerHTML='<b>'+R.esc(label(r))+'</b><br>'+R.esc(R.STAT_LABEL[r.statistic_type]||r.statistic_type)+': '+R.valueText(r)+(r.value_origin!=='reported'?' (computed)':'')+'<br>'+R.esc(r.method||'method not reported')})
+   .on('mouseleave',()=>tip.style.display='none').on('click',()=>show(r))});
+}
+es.onchange=draw;ms.onchange=draw;
+$('csv').onclick=()=>R.downloadCSV('comparison_records.csv',shownRows);
+new ResizeObserver(draw).observe(document.querySelector('.plot-wrap'));draw();
+</script></body></html>

@@ -1,0 +1,11 @@
+alias,alias_type,event_id,reason
+event:menyuan2022,legacy_id,event:menyuan,Same earthquake (Menyuan 2022 stub).
+event:sakhalin,legacy_id,event:neftegorsk1995,Same earthquake (Sakhalin = Neftegorsk 1995); identical coordinates and Mw.
+scaling:borregomtnca:19680408,legacy_id,sure:19680409,Same earthquake (8 Apr is the local date).
+scaling:chichitaiwan:19990921,legacy_id,sure:19990920,Same earthquake (21 Sep is the local date). Literature Mw 7.4-7.6.
+scaling:duzceturkey:19991112,legacy_id,event:duzce,Same earthquake.
+scaling:kunlunchina:20011114,legacy_id,event:kokoxili,Same earthquake (Kunlun = Kokoxili 2001).
+scaling:kunlunchinaspot:20011114,legacy_id,event:kokoxili,Same earthquake; SPOT = optical-imagery variant of the same event.
+scaling:luzonphilippines:19900716,legacy_id,event:luzon1990,Same earthquake; literature Mw 7.6-7.7.
+scaling:pleasantvalleynv:19151002,legacy_id,sure:19151003,Same earthquake (2 Oct is the local date). Literature Mw 6.8-7.3.
+scaling:superstitionhillsca:19871123,legacy_id,sure:19871124,"Same earthquake listed one day earlier. CONFIRM it is not the Elmore Ranch event (Mw 6.2, 23 Nov local time)."

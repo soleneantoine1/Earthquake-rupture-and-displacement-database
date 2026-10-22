@@ -1,0 +1,67 @@
+name: ci
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12", cache: pip}
+      - run: pip install -r requirements.txt
+      - name: Validate canonical tables (fails on any NEW error or dropped count)
+        run: python scripts/validate.py
+        - name: Summarize validator counts
+        run: |
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import csv
+          from collections import Counter
+          from pathlib import Path
+          with Path("reports/validation_report.csv").open(newline="", encoding="utf-8") as f:
+            counts = Counter((r["severity"], r["code"]) for r in csv.DictReader(f))
+          print("## Validator counts\n")
+          for (severity, code), count in sorted(counts.items()):
+            print(f"- {severity} {code}: {count}")
+          for table in ("events", "sources", "observations", "arrays"):
+            with Path(f"data/{table}.csv").open(newline="", encoding="utf-8") as f:
+              print(f"- {table}: {sum(1 for _ in csv.DictReader(f))}")
+          PY
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Template is up to date with the registries
+        run: |
+          python scripts/make_template.py /tmp/template.xlsx
+          python - <<'PY'
+          import openpyxl
+          a = openpyxl.load_workbook("/tmp/template.xlsx"); b = openpyxl.load_workbook("templates/ingestion_template.xlsx")
+          assert [c.value for c in a["INGESTION"][2]] == [c.value for c in b["INGESTION"][2]], "template INGESTION header is stale: run python scripts/make_template.py"
+          for n in ("NEW_EVENTS","NEW_PUBLICATIONS","EVENT_ALIASES"):
+              assert [c.value for c in a[n][1]] == [c.value for c in b[n][1]], f"template sheet {n} is stale: run python scripts/make_template.py"
+          lists = lambda w: [[c.value for c in col if c.value] for col in w["LISTS"].iter_cols()]
+          assert lists(a) == lists(b), "template dropdown lists are stale: run python scripts/make_template.py and commit"
+          PY
+      - name: Build site
+        run: python scripts/build.py
+      - name: Interface smoke test (headless Chromium, empty and fixture data)
+        run: |
+          pip install playwright && playwright install --with-deps chromium
+          python tests/ui_smoke.py
+      - uses: actions/upload-pages-artifact@v3
+        with: {path: site}
+  deploy:
+    needs: check
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment: {name: github-pages, url: "${{ steps.d.outputs.page_url }}"}
+    steps:
+      - id: d
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,9 @@
+site/
+reports/*.md
+reports/validation_report.csv
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+~$*.xlsx
+*.sqlite-journal

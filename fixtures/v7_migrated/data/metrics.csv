@@ -1,0 +1,30 @@
+metric_id,display_name,category,value_type,canonical_unit,allowed_statistics,plausible_min,plausible_max,distribution_policy,definition_source
+centroid_depth,Centroid depth,General rupture context,numeric,km,individual|minimum|mean|median|maximum,0,100,reported event value with reference datum and source-model method,Definitions of metrics.docx plus approved addition
+creep_rate,Creep rate,Long-term fault deformation,numeric,mm/yr,individual|minimum|mean|median|maximum,,,reported value; spatial series retained,Definitions of metrics.docx
+creep_zone_width,Creep-zone width,Long-term fault deformation,numeric,m,individual|minimum|mean|median|maximum,,,reported value; spatial series retained,Definitions of metrics.docx
+cumulative_fault_displacement,Cumulative fault displacement,Long-term fault deformation,numeric,km,individual|minimum|mean|median|maximum,0,2000,"plot minimum, maximum, mean/average, and median; retain array",Definitions of metrics.docx
+dominant_lithology,Dominant lithology,General rupture context,categorical,,category,,,event or segment classification,Definitions of metrics.docx
+earthquake_mechanism,Earthquake mechanism,General rupture context,categorical,,category,,,event classification,Definitions of metrics.docx
+fault_rupture_roughness,Fault and rupture roughness,General rupture context,numeric,,individual|minimum|mean|median|maximum,,,"plot minimum, maximum, mean/average, and median; retain array and roughness measure",Definitions of metrics.docx plus approved addition
+fault_slip_depth,Fault slip at depth,General rupture context,numeric,m,individual|minimum|mean|median|maximum,,,"plot minimum, maximum, mean/average, and median; retain array",Definitions of metrics.docx
+fault_slip_rate,Fault slip rate,Long-term fault deformation,numeric,mm/yr,individual|minimum|mean|median|maximum,0,100,reported value; spatial series retained,Definitions of metrics.docx
+friction_coefficient,Friction coefficient,General rupture context,numeric,coefficient,individual|minimum|mean|median|maximum,,,reported value with friction type,Definitions of metrics.docx
+hypocenter_depth,Hypocentral depth,General rupture context,numeric,km,individual|minimum|mean|median|maximum,0,100,reported event value with reference datum and location method,Definitions of metrics.docx plus approved addition
+mapped_surface_rupture_length,Mapped surface-rupture length,Coseismic surface deformation,numeric,km,individual|minimum|mean|median|maximum,0,1500,reported event value,Definitions of metrics.docx
+moment_magnitude,Moment magnitude,General rupture context,numeric,Mw,individual|minimum|mean|median|maximum,3,10,reported preferred value,Definitions of metrics.docx
+off_fault_deformation_fraction,Off-fault deformation fraction,Coseismic surface deformation,numeric,%,individual|minimum|mean|median|maximum,0,100,"plot minimum, maximum, mean/average, and median; retain array",Definitions of metrics.docx
+rupture_length_depth,Rupture length at depth,General rupture context,numeric,km,individual|minimum|mean|median|maximum,,,reported value with boundary criterion,Definitions of metrics.docx
+rupture_velocity,Rupture velocity,General rupture context,numeric,km/s,individual|minimum|mean|median|maximum,0,8,"plot minimum, maximum, mean/average, and median; retain array",Definitions of metrics.docx plus approved addition
+ssd_fraction,Shallow slip deficit fraction,Coseismic surface deformation,numeric,%,individual|minimum|mean|median|maximum,-300,100,"plot minimum, maximum, mean/average, and median; retain array and SSD subtype",Definitions of metrics.docx
+stress,Stress,General rupture context,numeric,,individual|minimum|mean|median|maximum,,,retain stress quantity and sign convention,Definitions of metrics.docx
+stress_drop,Stress drop,General rupture context,numeric,MPa,individual|minimum|mean|median|maximum,0,100,reported average or peak,Definitions of metrics.docx
+stressing_rate,Stressing rate,General rupture context,numeric,,individual|minimum|mean|median|maximum,,,retain stress quantity and sign convention,Definitions of metrics.docx
+structural_fault_zone_width,Structural fault-zone width,Long-term fault deformation,numeric,m,individual|minimum|mean|median|maximum,,,reported value; spatial series retained,Definitions of metrics.docx
+supershear_classification,Supershear rupture classification,General rupture context,categorical,,category,,,event classification; velocity is metadata,Definitions of metrics.docx
+surface_afterslip,Surface afterslip,Coseismic surface deformation,numeric,m,individual|minimum|mean|median|maximum,,,"plot minimum, maximum, mean/average, and median; retain array",Requested by project owner; definition to be written
+surface_fault_slip,Surface fault slip,Coseismic surface deformation,numeric,m,individual|minimum|mean|median|maximum,0,50,"plot minimum, maximum, mean/average, and median; retain array",Definitions of metrics.docx
+surface_rupture_discontinuity,Surface-rupture discontinuity,Coseismic surface deformation,numeric,%,individual|minimum|mean|median|maximum,,,derived from span and mapped length when both explicit,Definitions of metrics.docx
+surface_rupture_span,Surface-rupture span,Coseismic surface deformation,numeric,km,individual|minimum|mean|median|maximum,,,reported event value,Definitions of metrics.docx
+surface_rupture_zone_width,Surface-rupture-zone width,Coseismic surface deformation,numeric,m,individual|minimum|mean|median|maximum,0,20000,"plot minimum, maximum, mean/average, and median; retain array",Definitions of metrics.docx
+total_deformation_zone_width,Total coseismic deformation-zone width,Coseismic surface deformation,numeric,m,individual|minimum|mean|median|maximum,,,"plot minimum, maximum, mean/average, and median; retain array",Definitions of metrics.docx
+total_surface_displacement,Total surface displacement,Coseismic surface deformation,numeric,m,individual|minimum|mean|median|maximum,0,50,"plot minimum, maximum, mean/average, and median; retain array",Definitions of metrics.docx

@@ -1,0 +1,58 @@
+severity,code,key,detail,known
+ERROR,D002,event:kahramanmarasmw76|ssd_fraction|antoine_2024|mean|||,"one study, several different 'mean' values with nothing to tell them apart (add model_id / segment / component): {'R0001799': '22', 'R0001800': '25'}",True
+ERROR,D002,event:kahramanmarasmw78|ssd_fraction|antoine_2024|mean|||,"one study, several different 'mean' values with nothing to tell them apart (add model_id / segment / component): {'R0001804': '6', 'R0001805': '25'}",True
+ERROR,D002,event:kahramanmarasmw78|surface_rupture_zone_width|karabacak_2023|maximum|||,"one study, several different 'maximum' values with nothing to tell them apart (add model_id / segment / component): {'R0002101': '5', 'R0002102': '50'}",True
+ERROR,D002,event:kokoxili|surface_fault_slip|wesnousky_2008|maximum|||,"one study, several different 'maximum' values with nothing to tell them apart (add model_id / segment / component): {'R0000652': '8.7', 'R0000656': '8.3'}",True
+ERROR,D002,event:kokoxili|surface_fault_slip|wesnousky_2008|mean|||,"one study, several different 'mean' values with nothing to tell them apart (add model_id / segment / component): {'R0000651': '3.3', 'R0000655': '2.4'}",True
+ERROR,D002,event:maduo2021|ssd_fraction|antoine_2024|mean|||,"one study, several different 'mean' values with nothing to tell them apart (add model_id / segment / component): {'R0001794': '30', 'R0001795': '28'}",True
+ERROR,D002,event:petrinja2020|ssd_fraction|antoine_2024|mean|||,"one study, several different 'mean' values with nothing to tell them apart (add model_id / segment / component): {'R0001775': '57', 'R0001776': '89'}",True
+ERROR,D002,event:yushu|cumulative_fault_displacement|antoine_2024|minimum|||,"one study, several different 'minimum' values with nothing to tell them apart (add model_id / segment / component): {'R0001820': '39', 'R0001822': '60'}",True
+ERROR,D002,sure:19541216|surface_fault_slip|wesnousky_2008|maximum|||,"one study, several different 'maximum' values with nothing to tell them apart (add model_id / segment / component): {'R0000573': '5.2', 'R0000577': '3.1'}",True
+ERROR,D002,sure:19541216|surface_fault_slip|wesnousky_2008|mean|||,"one study, several different 'mean' values with nothing to tell them apart (add model_id / segment / component): {'R0000572': '1.1', 'R0000576': '0.8'}",True
+ERROR,D002,sure:19920628|cumulative_fault_displacement|antoine_2024|maximum|||,"one study, several different 'maximum' values with nothing to tell them apart (add model_id / segment / component): {'R0001840': '4.6', 'R0001842': '40'}",True
+ERROR,D002,sure:19920628|cumulative_fault_displacement|antoine_2024|minimum|||,"one study, several different 'minimum' values with nothing to tell them apart (add model_id / segment / component): {'R0001839': '3.1', 'R0001841': '4.6'}",True
+ERROR,D002,sure:19920628|ssd_fraction|antoine_2024|mean|||,"one study, several different 'mean' values with nothing to tell them apart (add model_id / segment / component): {'R0001792': '18', 'R0001793': '30'}",True
+ERROR,D002,sure:19990817|cumulative_fault_displacement|antoine_2024|maximum|||,"one study, several different 'maximum' values with nothing to tell them apart (add model_id / segment / component): {'R0001851': '88', 'R0001853': '75'}",True
+ERROR,D002,sure:19990817|cumulative_fault_displacement|antoine_2024|minimum|||,"one study, several different 'minimum' values with nothing to tell them apart (add model_id / segment / component): {'R0001850': '70', 'R0001852': '4'}",True
+ERROR,D002,sure:19991016|ssd_fraction|antoine_2024|mean|||,"one study, several different 'mean' values with nothing to tell them apart (add model_id / segment / component): {'R0001787': '19', 'R0001788': '14'}",True
+ERROR,D002,sure:20160415|ssd_fraction|antoine_2024|mean|||,"one study, several different 'mean' values with nothing to tell them apart (add model_id / segment / component): {'R0001782': '0', 'R0001783': '21', 'R0001784': '11', 'R0001785': '30', 'R0001786': '3'}",True
+ERROR,D002,sure:20190704|ssd_fraction|antoine_2024|mean|||,"one study, several different 'mean' values with nothing to tell them apart (add model_id / segment / component): {'R0001757': '56', 'R0001774': '48'}",True
+WARNING,D003,event:kokoxili|mapped_surface_rupture_length|wesnousky_2008|individual|||,"one study, several individual values: {'R0000650': '421', 'R0000654': '428'}",True
+WARNING,D003,sure:19541216|mapped_surface_rupture_length|wesnousky_2008|individual|||,"one study, several individual values: {'R0000571': '62', 'R0000575': '47'}",True
+WARNING,D003,sure:19541216|moment_magnitude|wesnousky_2008|individual|||,"one study, several individual values: {'R0000570': '7', 'R0000574': '6.8'}",True
+WARNING,D003,sure:20160415|cumulative_fault_displacement|antoine_2024|individual|||,"one study, several individual values: {'R0001827': '0.74', 'R0001828': '3.4'}",True
+WARNING,E002,event:chuya,no date,True
+WARNING,E002,event:kahramanmarasmw78,no date,True
+WARNING,E001,event:kaktovik2018,no coordinates: cannot be shown on the map,True
+WARNING,E002,event:kaktovik2018,no date,True
+WARNING,E002,event:kekerengu,no date,True
+WARNING,E001,event:manyi1997,no coordinates: cannot be shown on the map,True
+WARNING,E002,event:manyi1997,no date,True
+WARNING,E002,event:menyuan,no date,True
+WARNING,E002,event:montecristo,no date,True
+WARNING,E001,event:muji2016,no coordinates: cannot be shown on the map,True
+WARNING,E002,event:muji2016,no date,True
+WARNING,E001,event:nenanamtn2002,no coordinates: cannot be shown on the map,True
+WARNING,E002,event:nenanamtn2002,no date,True
+WARNING,E001,event:ormoc2017,no coordinates: cannot be shown on the map,True
+WARNING,E002,event:ormoc2017,no date,True
+WARNING,E001,event:rigan2010,no coordinates: cannot be shown on the map,True
+WARNING,E002,event:rigan2010,no date,True
+WARNING,E002,event:yushu,no date,True
+WARNING,E001,event:zirkuh1997,no coordinates: cannot be shown on the map,True
+WARNING,E001,scaling:cadouxaustralia:19790602,no coordinates: cannot be shown on the map,True
+WARNING,E001,scaling:erbaaniksarturkey:19421220,no coordinates: cannot be shown on the map,True
+WARNING,E001,scaling:erzincanturkey:19391225,no coordinates: cannot be shown on the map,True
+WARNING,E001,scaling:fandoqairan:19980314,no coordinates: cannot be shown on the map,True
+WARNING,E001,scaling:geredeboluturkey:19440201,no coordinates: cannot be shown on the map,True
+WARNING,E001,scaling:imperialca:19400519,no coordinates: cannot be shown on the map,True
+WARNING,E001,scaling:kitaizujapan:19301102,no coordinates: cannot be shown on the map,True
+WARNING,E001,scaling:marryataustralia:19860303,no coordinates: cannot be shown on the map,True
+WARNING,E001,scaling:mikawajapan:19450131,no coordinates: cannot be shown on the map,True
+WARNING,E001,scaling:mudurnuturkey:19670722,no coordinates: cannot be shown on the map,True
+WARNING,E001,scaling:neodanijapan:18911028,no coordinates: cannot be shown on the map,True
+WARNING,E001,scaling:rikuujapan:18960831,no coordinates: cannot be shown on the map,True
+WARNING,E001,scaling:sanandreasca:18570109,no coordinates: cannot be shown on the map,True
+WARNING,E001,scaling:sirchiran:19810729,no coordinates: cannot be shown on the map,True
+WARNING,E001,scaling:tosyaturkey:19431126,no coordinates: cannot be shown on the map,True
+WARNING,E001,scaling:tottorijapan:19430910,no coordinates: cannot be shown on the map,True

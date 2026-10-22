@@ -1,0 +1,56 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Surface rupture map</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="head"><h1>Surface rupture metrics map</h1>
+<p>Values are published in the literature. Marker colour = median across studies of the selected statistic. Only min/mean/median/max may be calculated, from an exact published array and only if the study does not report that statistic itself.</p>
+<div class="controls"><label>Metric<select id="metric"></select></label><label>Statistic<select id="stat"></select></label><button id="csv">Download shown values (CSV)</button></div></header>
+<div id="banner" class="banner" hidden></div>
+<p id="nocoord" class="hint" style="margin:6px 16px"></p>
+<main class="layout"><div id="map" class="map"></div>
+<aside class="side"><h2 id="title">Select an earthquake</h2><p id="info" class="hint">Click a point to inspect every study record for the selected statistic.</p><div id="values"></div></aside></main>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="data.js"></script><script src="common.js"></script>
+<script>
+const R=RDB,ms=document.getElementById('metric'),ss=document.getElementById('stat');
+R.nav('map.html');
+const EVENTS=R.D.events.filter(e=>R.isNum(e.hypocenter_latitude)&&R.isNum(e.hypocenter_longitude));
+const ramp=['#440154','#3b528b','#21918c','#5ec962','#fde725'],cats=['#1f7a8c','#d99a2b','#7656a8','#b94a48','#5c8f45','#486a9b'];
+const map=L.map('map',{worldCopyJump:true,minZoom:2}).setView([24,10],2);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'Map © OpenStreetMap contributors'}).addTo(map);
+const layer=L.layerGroup().addTo(map),legend=L.control({position:'bottomleft'});
+legend.onAdd=()=>{const x=L.DomUtil.create('div','legend');x.id='legend';return x};legend.addTo(map);
+R.fillMetrics(ms);
+ms.value=R.getParam('m')&&R.metricMap.has(R.getParam('m'))?R.getParam('m'):R.firstPopulated('off_fault_deformation_fraction');
+R.fillStats(ss,ms.value,R.getParam('s')||'mean');
+const color=(v,a,b)=>ramp[Math.max(0,Math.min(4,Math.floor(((v-a)/(b-a||1))*4.999)))];
+const radius=e=>5+Math.max(0,(e.mw||5)-4.9)*2.5;
+function show(e){const a=R.eventRecords(e.event_id,ms.value,ss.value),d=R.metricMap.get(ms.value);
+ document.getElementById('title').textContent=e.event_name;
+ document.getElementById('info').textContent=(e.event_date||'Date unavailable')+' · Mw '+R.mwText(e)+' · '+d.display_name+' · '+a.length+' record'+(a.length===1?'':'s')+(e.aliases.length?' · also: '+e.aliases.slice(0,4).join(', '):'');
+ document.getElementById('values').innerHTML=R.recordsPanel(a)}
+let shown=[];
+function draw(){
+ layer.clearLayers();R.setParams({m:ms.value,s:ss.value});R.banner(document.getElementById('banner'),ms.value);
+ const d=R.metricMap.get(ms.value),st=ss.value,cat=d.value_type==='categorical'||st==='category';
+ const rows=EVENTS.map(e=>({e,v:st?R.eventValue(e.event_id,ms.value,st):null,n:st?R.eventRecords(e.event_id,ms.value,st).length:0}));
+ shown=rows.filter(x=>x.n).map(x=>({event_id:x.e.event_id,event:x.e.event_name,metric:ms.value,statistic:st,across_study_value:x.v,n_records:x.n}));
+ const legendEl=document.getElementById('legend');
+ const nocoord=R.D.events.length-EVENTS.length;
+ document.getElementById('nocoord').textContent=nocoord?nocoord+' event(s) have no coordinates yet and cannot be shown on the map (listed in reports/validation_report.csv, code E001).':'';
+ const mark=(x,fill,op,dash)=>{const p=L.circleMarker([x.e.hypocenter_latitude,x.e.hypocenter_longitude],{radius:radius(x.e),fillColor:fill,color:dash?'#17324d':'#fff',weight:dash?2:1.4,dashArray:dash?'3 3':null,fillOpacity:op});
+  p.bindTooltip(x.e.event_name+'<br>'+(x.n?(x.v!=null?(R.isNum(x.v)?R.fmtNum(x.v,d.canonical_unit||''):R.esc(x.v)):'records exist, none plottable (range/text)'):'no record'));
+  p.on('click',()=>show(x.e));p.addTo(layer)};
+ if(cat){const domain=[...new Set(rows.map(x=>x.v).filter(v=>typeof v==='string'))];
+  rows.forEach(x=>typeof x.v==='string'?mark(x,cats[domain.indexOf(x.v)%cats.length],.88):mark(x,'#9ca3af',x.n?.5:.18,x.n>0));
+  legendEl.innerHTML='<b>'+R.esc(d.display_name)+'</b><br>'+(domain.length?domain.map((x,i)=>'<span style="color:'+cats[i%cats.length]+'">●</span> '+R.esc(x)).join('<br>')+'<br>':'No categories yet<br>')+'Grey = no value';return}
+ const vals=rows.map(x=>x.v).filter(R.isNum),lo=Math.min(...vals),hi=Math.max(...vals);
+ rows.forEach(x=>R.isNum(x.v)?mark(x,color(x.v,lo,hi),.88):mark(x,'#9ca3af',x.n?.5:.18,x.n>0));
+ const unp=rows.filter(x=>x.n&&!R.isNum(x.v)).length;
+ legendEl.innerHTML='<b>'+R.esc(d.display_name)+'</b>'+(d.canonical_unit?' ('+R.esc(d.canonical_unit)+')':'')+'<br>'+R.esc(R.STAT_LABEL[st]||st||'')+' · across-study median'+
+  (vals.length?'<div class="bar"></div><span>'+R.fmtNum(lo)+'</span><span style="float:right">'+R.fmtNum(hi)+'</span><br>':'<br>No numeric values yet<br>')+
+  'Grey = no value'+(unp?'<br>Dashed = records exist but none is a plain number ('+unp+')':'')}
+ms.onchange=()=>{R.fillStats(ss,ms.value,'individual');draw()};ss.onchange=draw;
+document.getElementById('csv').onclick=()=>R.downloadCSV('map_values.csv',shown);
+draw();
+</script></body></html>
