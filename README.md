@@ -1,5 +1,9 @@
 # Surface-rupture earthquake database
 
+# Authors: Solene Antoine (SCEC/USC), Ahmed Elbanna (SCEC/USC), Theo Bourdais (Caltech), and Roland Burgman (UC Berkeley)
+# Created: 10/22/2026
+# Last update: 10/22/2026
+
 A literature-based database of surface-rupture earthquake metrics (slip, rupture length, off-fault deformation, shallow slip deficit, stress drop, ...). Every number is published in a study and stored with its provenance, source location, method, and uncertainty. Live observation tables are intentionally empty; contributors enter values manually using the Excel workbook.
 
 ```text
