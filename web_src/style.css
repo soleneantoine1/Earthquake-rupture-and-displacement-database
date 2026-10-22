@@ -1,0 +1,56 @@
+:root{--ink:#17324d;--mute:#5b6573;--line:#d9e2e8;--bg:#fff;--tag:#eaf3f5;--warn:#fff6e0;--warnline:#e6c46a;--acc:#1f7a8c}
+@media(prefers-color-scheme:dark){:root{--ink:#e6eef5;--mute:#9fb0bf;--line:#2d3b48;--bg:#10171e;--tag:#1d2c37;--warn:#2d2610;--warnline:#8a6d1c;--acc:#5fc1d4}}
+*{box-sizing:border-box}
+html,body{margin:0;font-family:system-ui,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+a{color:var(--acc)}
+.nav{display:flex;gap:4px;flex-wrap:wrap;align-items:center;padding:8px 16px;border-bottom:1px solid var(--line);font-size:13px}
+.nav a{padding:5px 10px;border-radius:6px;text-decoration:none;color:var(--ink)}
+.nav a.on{background:var(--tag);font-weight:600}
+.nav .badge{margin-left:auto;color:var(--mute);font-size:12px}
+.head{padding:14px 16px 11px;border-bottom:1px solid var(--line)}
+.head h1{font-size:22px;margin:0 0 5px}
+.head p,.hint{margin:0;color:var(--mute);font-size:13px;max-width:1100px}
+.controls{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px;align-items:end}
+.controls label{font-size:12px;font-weight:600}
+.controls select,.controls button{display:block;margin-top:3px;padding:7px 9px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);max-width:360px;font-size:13px}
+.controls button{cursor:pointer;margin-top:0}
+.banner{margin:10px 16px;padding:9px 12px;background:var(--warn);border:1px solid var(--warnline);border-radius:6px;font-size:13px}
+.banner[hidden]{display:none}
+.side{padding:14px;overflow:auto}
+.side h2{font-size:18px;margin:0 0 4px}
+.value{border-top:1px solid var(--line);padding:8px 0}
+.value summary{font-weight:600;cursor:pointer}
+.meta{font-size:12px;line-height:1.55;color:var(--mute);padding:7px 0}
+.tag{display:inline-block;background:var(--tag);border-radius:10px;padding:2px 7px;margin:2px 3px 2px 0;color:var(--ink)}
+.tag.dig{background:var(--warn);border:1px solid var(--warnline)}
+.empty{color:var(--mute);font-style:italic}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 420px;height:78vh;min-height:620px}
+.map{height:100%}
+.layout .side{border-left:1px solid var(--line)}
+.legend{background:var(--bg);color:var(--ink);padding:8px 10px;border-radius:6px;box-shadow:0 1px 5px #0003;font-size:12px}
+.bar{width:180px;height:9px;margin:5px 0;background:linear-gradient(90deg,#440154,#3b528b,#21918c,#5ec962,#fde725)}
+.main{padding:12px 16px}
+.stats{font-size:13px;color:var(--mute);margin:0 0 8px}
+.grid{display:grid;grid-template-columns:minmax(0,1fr) 380px;gap:16px}
+.plot-wrap{position:relative;min-width:0}
+.plot{width:100%;height:auto;display:block}
+.tip{position:absolute;display:none;pointer-events:none;background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:6px 8px;font-size:12px;box-shadow:0 2px 8px #0003;z-index:5}
+.axis text,.axis-label{fill:var(--ink);font-size:12px}
+.axis path,.axis line{stroke:var(--mute)}
+.gridline line{stroke:var(--line)}.gridline path{display:none}
+.whisker{stroke:var(--mute);stroke-width:1.6}
+.rangebar{stroke-width:7;stroke-linecap:round;opacity:.55}
+.mark{stroke:var(--bg);stroke-width:1;cursor:pointer}
+.mark.digitized{fill:var(--bg)!important;stroke-width:2}
+.dot{cursor:pointer;fill:var(--acc)}
+.legend-row{display:flex;gap:12px;flex-wrap:wrap;font-size:12px;margin:8px 0}
+.swatch{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:4px}
+.unplotted{font-size:12px;color:var(--mute);margin:8px 0}
+.unplotted summary{cursor:pointer}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;padding:16px}
+.card{border:1px solid var(--line);border-radius:8px;padding:14px;text-decoration:none;color:var(--ink);display:block}
+.card h2{margin:0 0 6px;font-size:17px}
+.card p{margin:0;color:var(--mute);font-size:13px}
+table.cov{border-collapse:collapse;font-size:12px;margin:8px 16px}
+table.cov td,table.cov th{border-bottom:1px solid var(--line);padding:4px 10px;text-align:left}
+@media(max-width:850px){.layout,.grid{grid-template-columns:1fr;height:auto}.map{min-height:520px}.layout .side{border-left:0;border-top:1px solid var(--line)}}

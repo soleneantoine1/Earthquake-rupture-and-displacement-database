@@ -1,0 +1,19 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Surface rupture database</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="head"><h1>Surface-rupture earthquake database</h1>
+<p>Values published in the literature, with their study, source location and uncertainty. Nothing here is calculated except min/mean/median/max of published arrays (marked "computed"). OFD and SSD are only ever ingested as published percentages.</p></header>
+<div id="banner" class="banner" hidden></div>
+<div class="cards">
+<a class="card" href="map.html"><h2>Global event map</h2><p>One metric and statistic across all earthquakes; click an event for every study value.</p></a>
+<a class="card" href="correlation.html"><h2>Correlation explorer</h2><p>Any metric against any other, one point per earthquake. No regression is fitted.</p></a>
+<a class="card" href="comparison.html"><h2>Study comparison</h2><p>For one earthquake and metric, every study side by side with its uncertainty.</p></a>
+<a class="card" href="all_records.csv"><h2>Download all records</h2><p>Flat CSV of every record (reported + computed). The relational database is rupture.sqlite.</p></a>
+</div>
+<h2 style="margin:8px 16px 0;font-size:16px">Coverage by metric</h2>
+<table class="cov" id="cov"><thead><tr><th>Metric</th><th>Category</th><th>Unit</th><th>Events</th><th>Records</th></tr></thead><tbody></tbody></table>
+<script src="data.js"></script><script src="common.js"></script>
+<script>
+RDB.nav('index.html');RDB.banner(document.getElementById('banner'));
+document.querySelector('#cov tbody').innerHTML=RDB.D.metrics.map(m=>`<tr><td>${RDB.esc(m.display_name)}</td><td>${RDB.esc(m.category)}</td><td>${RDB.esc(m.canonical_unit||'')}</td><td>${RDB.metricEvents(m.metric_id).size}</td><td>${RDB.metricRecords(m.metric_id).length}</td></tr>`).join('');
+</script></body></html>

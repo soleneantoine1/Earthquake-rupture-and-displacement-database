@@ -1,0 +1,58 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Correlation explorer</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="head"><h1>Correlation explorer</h1>
+<p>One point per earthquake: the across-study median of each selected statistic. Hollow-ringed events have records that are ranges or text and cannot be placed. No regression is fitted.</p>
+<div class="controls"><label>X metric<select id="xm"></select></label><label>X statistic<select id="xs"></select></label>
+<label>Y metric<select id="ym"></select></label><label>Y statistic<select id="ys"></select></label><button id="csv">Download plotted pairs (CSV)</button></div></header>
+<div id="banner" class="banner" hidden></div>
+<main class="main"><p id="stats" class="stats"></p>
+<div class="grid"><div class="plot-wrap"><svg id="plot" class="plot"></svg><div id="tip" class="tip"></div></div>
+<aside class="side"><h2 id="title">Select an earthquake</h2><p id="info" class="hint">Click a point to inspect all contributing study records.</p><div id="values"></div></aside></div></main>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script src="data.js"></script><script src="common.js"></script>
+<script>
+const R=RDB,$=id=>document.getElementById(id),xm=$('xm'),ym=$('ym'),xs=$('xs'),ys=$('ys');
+R.nav('correlation.html');
+R.fillMetrics(xm);R.fillMetrics(ym);
+const pop=R.D.metrics.filter(m=>R.metricRecords(m.metric_id).length).map(m=>m.metric_id);
+const pick=(k,d)=>R.getParam(k)&&R.metricMap.has(R.getParam(k))?R.getParam(k):d;
+xm.value=pick('xm',pop.includes('moment_magnitude')?'moment_magnitude':(pop[0]||R.D.metrics[0].metric_id));
+ym.value=pick('ym',pop.includes('off_fault_deformation_fraction')?'off_fault_deformation_fraction':(pop[1]||pop[0]||R.D.metrics[1].metric_id));
+R.fillStats(xs,xm.value,R.getParam('xs')||'individual');R.fillStats(ys,ym.value,R.getParam('ys')||'mean');
+let pairs=[];
+function show(e){const a=[...R.eventRecords(e.event_id,xm.value,xs.value),...R.eventRecords(e.event_id,ym.value,ys.value)];
+ $('title').textContent=e.event_name;$('info').textContent=(e.event_date||'Date unavailable')+' · Mw '+R.mwText(e)+' · '+R.metricMap.get(xm.value).display_name+' and '+R.metricMap.get(ym.value).display_name;$('values').innerHTML=R.recordsPanel(a)}
+function draw(){
+ R.setParams({xm:xm.value,xs:xs.value,ym:ym.value,ys:ys.value});
+ R.banner($('banner'),R.metricRecords(xm.value).length?ym.value:xm.value);
+ const xd=R.metricMap.get(xm.value),yd=R.metricMap.get(ym.value),xc=xd.value_type==='categorical'||xs.value==='category',yc=yd.value_type==='categorical'||ys.value==='category';
+ const ok=(v,c)=>c?typeof v==='string':R.isNum(v);
+ const all=R.D.events.map(e=>({e,x:xs.value?R.eventValue(e.event_id,xm.value,xs.value):null,y:ys.value?R.eventValue(e.event_id,ym.value,ys.value):null,
+   nx:xs.value?R.eventRecords(e.event_id,xm.value,xs.value).length:0,ny:ys.value?R.eventRecords(e.event_id,ym.value,ys.value).length:0}));
+ const data=all.filter(d=>ok(d.x,xc)&&ok(d.y,yc));
+ pairs=data.map(d=>({event_id:d.e.event_id,event:d.e.event_name,x_metric:xm.value,x_statistic:xs.value,x:d.x,y_metric:ym.value,y_statistic:ys.value,y:d.y}));
+ const svg=d3.select('#plot'),w=Math.max(360,svg.node().parentElement.clientWidth),h=Math.min(680,Math.max(480,w*.65)),m={top:24,right:28,bottom:82,left:108};
+ svg.attr('viewBox',`0 0 ${w} ${h}`).selectAll('*').remove();
+ const withBoth=all.filter(d=>d.nx&&d.ny).length,unp=withBoth-data.length;
+ $('stats').textContent='Events plotted: '+data.length+' · events with records for both but not plottable (range/text): '+unp+' · No regression fitted';
+ if(!data.length){svg.append('text').attr('class','axis-label').attr('x',w/2).attr('y',h/2).attr('text-anchor','middle').text(R.D.records.length?'No earthquake has a plottable value for both selections yet.':'No data yet.');return}
+ const pad=v=>{const q=(v[1]-v[0]||1)*.08;return[v[0]-q,v[1]+q]};
+ const x=xc?d3.scalePoint().domain([...new Set(data.map(d=>d.x))]).range([m.left,w-m.right]).padding(.5):d3.scaleLinear().domain(pad(d3.extent(data,d=>d.x))).nice().range([m.left,w-m.right]);
+ const y=yc?d3.scalePoint().domain([...new Set(data.map(d=>d.y))]).range([h-m.bottom,m.top]).padding(.5):d3.scaleLinear().domain(pad(d3.extent(data,d=>d.y))).nice().range([h-m.bottom,m.top]);
+ const gx=d3.axisBottom(x),gy=d3.axisLeft(y);if(!xc)gx.ticks(7);if(!yc)gy.ticks(7);
+ if(!xc)svg.append('g').attr('class','gridline').attr('transform',`translate(0,${h-m.bottom})`).call(d3.axisBottom(x).ticks(7).tickSize(-(h-m.top-m.bottom)).tickFormat(''));
+ if(!yc)svg.append('g').attr('class','gridline').attr('transform',`translate(${m.left},0)`).call(d3.axisLeft(y).ticks(7).tickSize(-(w-m.left-m.right)).tickFormat(''));
+ svg.append('g').attr('class','axis').attr('transform',`translate(0,${h-m.bottom})`).call(gx);svg.append('g').attr('class','axis').attr('transform',`translate(${m.left},0)`).call(gy);
+ const lab=(d,s)=>d.display_name+(d.canonical_unit?' ('+d.canonical_unit+')':'')+' — '+(R.STAT_LABEL[s]||s);
+ svg.append('text').attr('class','axis-label').attr('x',(m.left+w-m.right)/2).attr('y',h-18).attr('text-anchor','middle').text(lab(xd,xs.value));
+ svg.append('text').attr('class','axis-label').attr('transform','rotate(-90)').attr('x',-(m.top+h-m.bottom)/2).attr('y',20).attr('text-anchor','middle').text(lab(yd,ys.value));
+ const tip=$('tip');
+ svg.selectAll('.dot').data(data).join('circle').attr('class','dot').attr('cx',d=>x(d.x)).attr('cy',d=>y(d.y)).attr('r',6).attr('opacity',.82)
+  .on('mousemove',(ev,d)=>{tip.style.display='block';tip.style.left=(ev.offsetX+12)+'px';tip.style.top=(ev.offsetY+12)+'px';tip.innerHTML='<b>'+R.esc(d.e.event_name)+'</b><br>'+R.esc(xd.display_name)+': '+R.fmtNum(d.x,xd.canonical_unit||'')+'<br>'+R.esc(yd.display_name)+': '+R.fmtNum(d.y,yd.canonical_unit||'')})
+  .on('mouseleave',()=>tip.style.display='none').on('click',(ev,d)=>show(d.e));
+}
+xm.onchange=()=>{R.fillStats(xs,xm.value,'individual');draw()};ym.onchange=()=>{R.fillStats(ys,ym.value,'individual');draw()};xs.onchange=draw;ys.onchange=draw;
+$('csv').onclick=()=>R.downloadCSV('correlation_pairs.csv',pairs);
+new ResizeObserver(draw).observe(document.querySelector('.plot-wrap'));draw();
+</script></body></html>

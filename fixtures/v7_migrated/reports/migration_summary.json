@@ -1,0 +1,19 @@
+{
+  "legacy_records": 1942,
+  "legacy_reported": 1010,
+  "legacy_derived": 932,
+  "observations_written": 979,
+  "duplicates_merged": 15,
+  "placeholders_dropped": 14,
+  "derived_replaced_by_array_view": 932,
+  "arrays_v7": 274,
+  "arrays_written": 270,
+  "arrays_duplicate_dropped": 4,
+  "array_values_written": 26931,
+  "events_v7": 110,
+  "events_written": 100,
+  "events_merged": 10,
+  "sources_v7": 212,
+  "publications_written": 132,
+  "curation_queue_items": 165
+}

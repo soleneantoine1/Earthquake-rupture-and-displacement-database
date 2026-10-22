@@ -1,0 +1,1943 @@
+legacy_record_id,action,new_id,detail
+R0000001,kept,R0000001,
+R0000002,dropped_placeholder,,"v7 value ""-"" is an empty placeholder (no data)"
+R0000003,kept,R0000003,
+R0000004,kept,R0000004,
+R0000005,kept,R0000005,
+R0000006,kept,R0000006,
+R0000007,kept,R0000007,
+R0000008,kept,R0000008,
+R0000009,dropped_placeholder,,"v7 value ""-"" is an empty placeholder (no data)"
+R0000010,kept,R0000010,
+R0000011,kept,R0000011,
+R0000012,kept,R0000012,
+R0000013,kept,R0000013,
+R0000014,kept,R0000014,
+R0000015,kept,R0000015,
+R0000016,kept,R0000016,
+R0000017,kept,R0000017,
+R0000018,kept,R0000018,
+R0000019,kept,R0000019,
+R0000020,kept,R0000020,
+R0000021,dropped_placeholder,,"v7 value ""unknown"" is an empty placeholder (no data)"
+R0000022,kept,R0000022,
+R0000023,kept,R0000023,
+R0000024,kept,R0000024,
+R0000025,kept,R0000025,
+R0000026,kept,R0000026,
+R0000027,kept,R0000027,
+R0000028,kept,R0000028,
+R0000029,kept,R0000029,
+R0000030,kept,R0000030,
+R0000031,kept,R0000031,
+R0000032,kept,R0000032,
+R0000033,kept,R0000033,
+R0000034,dropped_placeholder,,"v7 value ""-"" is an empty placeholder (no data)"
+R0000035,kept,R0000035,
+R0000036,kept,R0000036,
+R0000037,dropped_placeholder,,"v7 value ""-"" is an empty placeholder (no data)"
+R0000038,kept,R0000038,
+R0000039,kept,R0000039,
+R0000040,kept,R0000040,
+R0000041,dropped_placeholder,,"v7 value ""-"" is an empty placeholder (no data)"
+R0000042,kept,R0000042,
+R0000043,kept,R0000043,
+R0000044,kept,R0000044,
+R0000045,kept,R0000045,
+R0000046,kept,R0000046,
+R0000047,kept,R0000047,
+R0000048,kept,R0000048,
+R0000049,kept,R0000049,
+R0000050,kept,R0000050,
+R0000051,kept,R0000051,
+R0000052,kept,R0000052,
+R0000053,kept,R0000053,
+R0000054,kept,R0000054,
+R0000055,kept,R0000055,
+R0000056,kept,R0000056,
+R0000057,kept,R0000057,
+R0000058,kept,R0000058,
+R0000059,kept,R0000059,
+R0000060,kept,R0000060,
+R0000061,kept,R0000061,
+R0000062,kept,R0000062,
+R0000063,kept,R0000063,
+R0000064,kept,R0000064,
+R0000065,kept,R0000065,
+R0000066,kept,R0000066,
+R0000067,merged_duplicate,R0000587,"same study/event/metric/statistic/value as R0000587 (dropped copy compiled_in=""sure2"", source label ""Wesnousky (2008)"")"
+R0000068,merged_duplicate,R0000589,"same study/event/metric/statistic/value as R0000589 (dropped copy compiled_in=""sure2"", source label ""Wesnousky (2008)"")"
+R0000069,merged_duplicate,R0000588,"same study/event/metric/statistic/value as R0000588 (dropped copy compiled_in=""sure2"", source label ""Wesnousky (2008)"")"
+R0000070,kept,R0000070,
+R0000071,kept,R0000071,
+R0000072,kept,R0000072,
+R0000073,kept,R0000073,
+R0000074,kept,R0000074,
+R0000075,kept,R0000075,
+R0000076,kept,R0000076,
+R0000077,kept,R0000077,
+R0000078,kept,R0000078,
+R0000079,kept,R0000079,
+R0000080,merged_duplicate,R0000591,"same study/event/metric/statistic/value as R0000591 (dropped copy compiled_in=""sure2"", source label ""Wesnousky (2008)"")"
+R0000081,merged_duplicate,R0000593,"same study/event/metric/statistic/value as R0000593 (dropped copy compiled_in=""sure2"", source label ""Wesnousky (2008)"")"
+R0000082,merged_duplicate,R0000592,"same study/event/metric/statistic/value as R0000592 (dropped copy compiled_in=""sure2"", source label ""Wesnousky (2008)"")"
+R0000083,kept,R0000083,
+R0000084,kept,R0000084,
+R0000085,kept,R0000085,
+R0000086,kept,R0000086,
+R0000087,kept,R0000087,
+R0000088,kept,R0000088,
+R0000089,dropped_placeholder,,"v7 value ""-"" is an empty placeholder (no data)"
+R0000090,kept,R0000090,
+R0000091,kept,R0000091,
+R0000092,kept,R0000092,
+R0000093,kept,R0000093,
+R0000094,kept,R0000094,
+R0000095,kept,R0000095,
+R0000096,dropped_placeholder,,"v7 value ""-"" is an empty placeholder (no data)"
+R0000097,kept,R0000097,
+R0000098,kept,R0000098,
+R0000099,kept,R0000099,
+R0000100,kept,R0000100,
+R0000101,kept,R0000101,
+R0000102,kept,R0000102,
+R0000103,kept,R0000103,
+R0000104,kept,R0000104,
+R0000105,kept,R0000105,
+R0000106,kept,R0000106,
+R0000107,kept,R0000107,
+R0000108,kept,R0000108,
+R0000109,kept,R0000109,
+R0000110,kept,R0000110,
+R0000111,kept,R0000111,
+R0000112,kept,R0000112,
+R0000113,kept,R0000113,
+R0000114,kept,R0000114,
+R0000115,kept,R0000115,
+R0000116,kept,R0000116,
+R0000117,kept,R0000117,
+R0000118,kept,R0000118,
+R0000119,kept,R0000119,
+R0000120,kept,R0000120,
+R0000121,kept,R0000121,
+R0000122,kept,R0000122,
+R0000123,kept,R0000123,
+R0000124,kept,R0000124,
+R0000125,kept,R0000125,
+R0000126,kept,R0000126,
+R0000127,kept,R0000127,
+R0000128,kept,R0000128,
+R0000129,kept,R0000129,
+R0000130,kept,R0000130,
+R0000131,kept,R0000131,
+R0000132,kept,R0000132,
+R0000133,kept,R0000133,
+R0000134,kept,R0000134,
+R0000135,kept,R0000135,
+R0000136,kept,R0000136,
+R0000137,kept,R0000137,
+R0000138,dropped_placeholder,,"v7 value ""-"" is an empty placeholder (no data)"
+R0000139,kept,R0000139,
+R0000140,kept,R0000140,
+R0000141,kept,R0000141,
+R0000142,kept,R0000142,
+R0000143,merged_duplicate,R0000608,"same study/event/metric/statistic/value as R0000608 (dropped copy compiled_in=""sure2"", source label ""Wesnousky (2008)"")"
+R0000144,merged_duplicate,R0000610,"same study/event/metric/statistic/value as R0000610 (dropped copy compiled_in=""sure2"", source label ""Wesnousky (2008)"")"
+R0000145,merged_duplicate,R0000609,"same study/event/metric/statistic/value as R0000609 (dropped copy compiled_in=""sure2"", source label ""Wesnousky (2008)"")"
+R0000146,kept,R0000146,
+R0000147,kept,R0000147,
+R0000148,kept,R0000148,
+R0000149,kept,R0000149,
+R0000150,kept,R0000150,
+R0000151,kept,R0000151,
+R0000152,kept,R0000152,
+R0000153,kept,R0000153,
+R0000154,kept,R0000154,
+R0000155,kept,R0000155,
+R0000156,merged_duplicate,R0000613,"same study/event/metric/statistic/value as R0000613 (dropped copy compiled_in=""sure2"", source label ""Wesnousky (2008)"")"
+R0000157,merged_duplicate,R0000615,"same study/event/metric/statistic/value as R0000615 (dropped copy compiled_in=""sure2"", source label ""Wesnousky (2008)"")"
+R0000158,merged_duplicate,R0000614,"same study/event/metric/statistic/value as R0000614 (dropped copy compiled_in=""sure2"", source label ""Wesnousky (2008)"")"
+R0000159,kept,R0000159,
+R0000160,kept,R0000160,
+R0000161,kept,R0000161,
+R0000162,kept,R0000162,
+R0000163,merged_duplicate,R0000616,"same study/event/metric/statistic/value as R0000616 (dropped copy compiled_in=""sure2"", source label ""Wesnousky (2008)"")"
+R0000164,kept,R0000164,
+R0000165,kept,R0000165,
+R0000166,kept,R0000166,
+R0000167,kept,R0000167,
+R0000168,kept,R0000168,
+R0000169,kept,R0000169,
+R0000170,kept,R0000170,
+R0000171,kept,R0000171,
+R0000172,kept,R0000172,
+R0000173,kept,R0000173,
+R0000174,kept,R0000174,
+R0000175,kept,R0000175,
+R0000176,kept,R0000176,
+R0000177,kept,R0000177,
+R0000178,kept,R0000178,
+R0000179,kept,R0000179,
+R0000180,kept,R0000180,
+R0000181,kept,R0000181,
+R0000182,kept,R0000182,
+R0000183,kept,R0000183,
+R0000184,kept,R0000184,
+R0000185,kept,R0000185,
+R0000186,kept,R0000186,
+R0000187,kept,R0000187,
+R0000188,kept,R0000188,
+R0000189,kept,R0000189,
+R0000190,kept,R0000190,
+R0000191,kept,R0000191,
+R0000192,dropped_placeholder,,"v7 value ""-"" is an empty placeholder (no data)"
+R0000193,kept,R0000193,
+R0000194,kept,R0000194,
+R0000195,kept,R0000195,
+R0000196,kept,R0000196,
+R0000197,kept,R0000197,
+R0000198,dropped_placeholder,,"v7 value ""-"" is an empty placeholder (no data)"
+R0000199,kept,R0000199,
+R0000200,kept,R0000200,
+R0000201,kept,R0000201,
+R0000202,kept,R0000202,
+R0000203,kept,R0000203,
+R0000204,kept,R0000204,
+R0000205,kept,R0000205,
+R0000206,kept,R0000206,
+R0000207,kept,R0000207,
+R0000208,kept,R0000208,
+R0000209,kept,R0000209,
+R0000210,kept,R0000210,
+R0000211,kept,R0000211,
+R0000212,dropped_placeholder,,"v7 value ""-"" is an empty placeholder (no data)"
+R0000213,kept,R0000213,
+R0000214,kept,R0000214,
+R0000215,kept,R0000215,
+R0000216,kept,R0000216,
+R0000217,kept,R0000217,
+R0000218,kept,R0000218,
+R0000219,kept,R0000219,
+R0000220,kept,R0000220,
+R0000221,kept,R0000221,
+R0000222,kept,R0000222,
+R0000223,kept,R0000223,
+R0000224,kept,R0000224,
+R0000225,kept,R0000225,
+R0000226,kept,R0000226,
+R0000227,kept,R0000227,
+R0000228,kept,R0000228,
+R0000229,kept,R0000229,
+R0000230,kept,R0000230,
+R0000231,kept,R0000231,
+R0000232,kept,R0000232,
+R0000233,kept,R0000233,
+R0000234,kept,R0000234,
+R0000235,kept,R0000235,
+R0000236,kept,R0000236,
+R0000237,kept,R0000237,
+R0000238,kept,R0000238,
+R0000239,kept,R0000239,
+R0000240,kept,R0000240,
+R0000241,kept,R0000241,
+R0000242,kept,R0000242,
+R0000243,kept,R0000243,
+R0000244,kept,R0000244,
+R0000245,kept,R0000245,
+R0000246,dropped_placeholder,,"v7 value ""-"" is an empty placeholder (no data)"
+R0000247,kept,R0000247,
+R0000248,kept,R0000248,
+R0000249,kept,R0000249,
+R0000250,kept,R0000250,
+R0000251,kept,R0000251,
+R0000252,kept,R0000252,
+R0000253,kept,R0000253,
+R0000254,kept,R0000254,
+R0000255,kept,R0000255,
+R0000256,kept,R0000256,
+R0000257,kept,R0000257,
+R0000258,kept,R0000258,
+R0000259,kept,R0000259,
+R0000260,kept,R0000260,
+R0000261,kept,R0000261,
+R0000262,kept,R0000262,
+R0000263,kept,R0000263,
+R0000264,kept,R0000264,
+R0000265,kept,R0000265,
+R0000266,kept,R0000266,
+R0000267,kept,R0000267,
+R0000268,kept,R0000268,
+R0000269,kept,R0000269,
+R0000270,kept,R0000270,
+R0000271,kept,R0000271,
+R0000272,kept,R0000272,
+R0000273,kept,R0000273,
+R0000274,kept,R0000274,
+R0000275,kept,R0000275,
+R0000276,kept,R0000276,
+R0000277,kept,R0000277,
+R0000278,kept,R0000278,
+R0000279,kept,R0000279,
+R0000280,kept,R0000280,
+R0000281,dropped_placeholder,,"v7 value ""-"" is an empty placeholder (no data)"
+R0000282,kept,R0000282,
+R0000283,kept,R0000283,
+R0000284,kept,R0000284,
+R0000285,kept,R0000285,
+R0000286,kept,R0000286,
+R0000287,kept,R0000287,
+R0000288,kept,R0000288,
+R0000289,kept,R0000289,
+R0000290,kept,R0000290,
+R0000291,kept,R0000291,
+R0000292,kept,R0000292,
+R0000293,kept,R0000293,
+R0000294,kept,R0000294,
+R0000295,kept,R0000295,
+R0000296,kept,R0000296,
+R0000297,kept,R0000297,
+R0000298,kept,R0000298,
+R0000299,kept,R0000299,
+R0000300,kept,R0000300,
+R0000301,kept,R0000301,
+R0000302,kept,R0000302,
+R0000303,kept,R0000303,
+R0000304,kept,R0000304,
+R0000305,kept,R0000305,
+R0000306,kept,R0000306,
+R0000307,kept,R0000307,
+R0000308,kept,R0000308,
+R0000309,kept,R0000309,
+R0000310,kept,R0000310,
+R0000311,kept,R0000311,
+R0000312,kept,R0000312,
+R0000313,kept,R0000313,
+R0000314,kept,R0000314,
+R0000315,kept,R0000315,
+R0000316,kept,R0000316,
+R0000317,kept,R0000317,
+R0000318,kept,R0000318,
+R0000319,kept,R0000319,
+R0000320,kept,R0000320,
+R0000321,kept,R0000321,
+R0000322,kept,R0000322,
+R0000323,kept,R0000323,
+R0000324,kept,R0000324,
+R0000325,kept,R0000325,
+R0000326,kept,R0000326,
+R0000327,kept,R0000327,
+R0000328,kept,R0000328,
+R0000329,kept,R0000329,
+R0000330,kept,R0000330,
+R0000331,kept,R0000331,
+R0000332,kept,R0000332,
+R0000333,kept,R0000333,
+R0000334,kept,R0000334,
+R0000335,kept,R0000335,
+R0000336,kept,R0000336,
+R0000337,kept,R0000337,
+R0000338,kept,R0000338,
+R0000339,kept,R0000339,
+R0000340,kept,R0000340,
+R0000341,kept,R0000341,
+R0000342,kept,R0000342,
+R0000343,kept,R0000343,
+R0000344,kept,R0000344,
+R0000345,kept,R0000345,
+R0000346,kept,R0000346,
+R0000347,kept,R0000347,
+R0000348,kept,R0000348,
+R0000349,kept,R0000349,
+R0000350,kept,R0000350,
+R0000351,kept,R0000351,
+R0000352,kept,R0000352,
+R0000353,kept,R0000353,
+R0000354,kept,R0000354,
+R0000355,kept,R0000355,
+R0000356,kept,R0000356,
+R0000357,kept,R0000357,
+R0000358,kept,R0000358,
+R0000359,kept,R0000359,
+R0000360,kept,R0000360,
+R0000361,kept,R0000361,
+R0000362,kept,R0000362,
+R0000363,kept,R0000363,
+R0000364,kept,R0000364,
+R0000365,kept,R0000365,
+R0000366,kept,R0000366,
+R0000367,kept,R0000367,
+R0000368,kept,R0000368,
+R0000369,kept,R0000369,
+R0000370,kept,R0000370,
+R0000371,kept,R0000371,
+R0000372,kept,R0000372,
+R0000373,kept,R0000373,
+R0000374,kept,R0000374,
+R0000375,kept,R0000375,
+R0000376,kept,R0000376,
+R0000377,kept,R0000377,
+R0000378,kept,R0000378,
+R0000379,kept,R0000379,
+R0000380,kept,R0000380,
+R0000381,kept,R0000381,
+R0000382,kept,R0000382,
+R0000383,kept,R0000383,
+R0000384,kept,R0000384,
+R0000385,kept,R0000385,
+R0000386,kept,R0000386,
+R0000387,kept,R0000387,
+R0000388,kept,R0000388,
+R0000389,kept,R0000389,
+R0000390,kept,R0000390,
+R0000391,kept,R0000391,
+R0000392,kept,R0000392,
+R0000393,kept,R0000393,
+R0000394,kept,R0000394,
+R0000395,kept,R0000395,
+R0000396,kept,R0000396,
+R0000397,kept,R0000397,
+R0000398,kept,R0000398,
+R0000399,kept,R0000399,
+R0000400,kept,R0000400,
+R0000401,kept,R0000401,
+R0000402,kept,R0000402,
+R0000403,kept,R0000403,
+R0000404,kept,R0000404,
+R0000405,kept,R0000405,
+R0000406,kept,R0000406,
+R0000407,kept,R0000407,
+R0000408,kept,R0000408,
+R0000409,kept,R0000409,
+R0000410,kept,R0000410,
+R0000411,kept,R0000411,
+R0000412,kept,R0000412,
+R0000413,kept,R0000413,
+R0000414,kept,R0000414,
+R0000415,kept,R0000415,
+R0000416,kept,R0000416,
+R0000417,kept,R0000417,
+R0000418,kept,R0000418,
+R0000419,kept,R0000419,
+R0000420,kept,R0000420,
+R0000421,kept,R0000421,
+R0000422,kept,R0000422,
+R0000423,kept,R0000423,
+R0000424,kept,R0000424,
+R0000425,kept,R0000425,
+R0000426,kept,R0000426,
+R0000427,kept,R0000427,
+R0000428,kept,R0000428,
+R0000429,kept,R0000429,
+R0000430,kept,R0000430,
+R0000431,kept,R0000431,
+R0000432,kept,R0000432,
+R0000433,kept,R0000433,
+R0000434,kept,R0000434,
+R0000435,kept,R0000435,
+R0000436,kept,R0000436,
+R0000437,kept,R0000437,
+R0000438,kept,R0000438,
+R0000439,kept,R0000439,
+R0000440,kept,R0000440,
+R0000441,kept,R0000441,
+R0000442,kept,R0000442,
+R0000443,kept,R0000443,
+R0000444,kept,R0000444,
+R0000445,kept,R0000445,
+R0000446,kept,R0000446,
+R0000447,kept,R0000447,
+R0000448,kept,R0000448,
+R0000449,kept,R0000449,
+R0000450,kept,R0000450,
+R0000451,kept,R0000451,
+R0000452,kept,R0000452,
+R0000453,kept,R0000453,
+R0000454,kept,R0000454,
+R0000455,kept,R0000455,
+R0000456,kept,R0000456,
+R0000457,kept,R0000457,
+R0000458,kept,R0000458,
+R0000459,kept,R0000459,
+R0000460,kept,R0000460,
+R0000461,kept,R0000461,
+R0000462,kept,R0000462,
+R0000463,kept,R0000463,
+R0000464,kept,R0000464,
+R0000465,kept,R0000465,
+R0000466,kept,R0000466,
+R0000467,kept,R0000467,
+R0000468,kept,R0000468,
+R0000469,kept,R0000469,
+R0000470,kept,R0000470,
+R0000471,kept,R0000471,
+R0000472,kept,R0000472,
+R0000473,kept,R0000473,
+R0000474,kept,R0000474,
+R0000475,kept,R0000475,
+R0000476,kept,R0000476,
+R0000477,kept,R0000477,
+R0000478,kept,R0000478,
+R0000479,kept,R0000479,
+R0000480,kept,R0000480,
+R0000481,kept,R0000481,
+R0000482,kept,R0000482,
+R0000483,kept,R0000483,
+R0000484,kept,R0000484,
+R0000485,kept,R0000485,
+R0000486,kept,R0000486,
+R0000487,kept,R0000487,
+R0000488,kept,R0000488,
+R0000489,kept,R0000489,
+R0000490,kept,R0000490,
+R0000491,kept,R0000491,
+R0000492,kept,R0000492,
+R0000493,kept,R0000493,
+R0000494,kept,R0000494,
+R0000495,kept,R0000495,
+R0000496,kept,R0000496,
+R0000497,kept,R0000497,
+R0000498,kept,R0000498,
+R0000499,kept,R0000499,
+R0000500,kept,R0000500,
+R0000501,kept,R0000501,
+R0000502,kept,R0000502,
+R0000503,kept,R0000503,
+R0000504,kept,R0000504,
+R0000505,kept,R0000505,
+R0000506,kept,R0000506,
+R0000507,kept,R0000507,
+R0000508,kept,R0000508,
+R0000509,kept,R0000509,
+R0000510,kept,R0000510,
+R0000511,kept,R0000511,
+R0000512,kept,R0000512,
+R0000513,kept,R0000513,
+R0000514,kept,R0000514,
+R0000515,kept,R0000515,
+R0000516,kept,R0000516,
+R0000517,kept,R0000517,
+R0000518,kept,R0000518,
+R0000519,kept,R0000519,
+R0000520,kept,R0000520,
+R0000521,kept,R0000521,
+R0000522,kept,R0000522,
+R0000523,kept,R0000523,
+R0000524,kept,R0000524,
+R0000525,kept,R0000525,
+R0000526,kept,R0000526,
+R0000527,kept,R0000527,
+R0000528,kept,R0000528,
+R0000529,kept,R0000529,
+R0000530,kept,R0000530,
+R0000531,kept,R0000531,
+R0000532,kept,R0000532,
+R0000533,kept,R0000533,
+R0000534,kept,R0000534,
+R0000535,kept,R0000535,
+R0000536,kept,R0000536,
+R0000537,kept,R0000537,
+R0000538,kept,R0000538,
+R0000539,kept,R0000539,
+R0000540,kept,R0000540,
+R0000541,kept,R0000541,
+R0000542,kept,R0000542,
+R0000543,kept,R0000543,
+R0000544,kept,R0000544,
+R0000545,kept,R0000545,
+R0000546,kept,R0000546,
+R0000547,kept,R0000547,
+R0000548,kept,R0000548,
+R0000549,kept,R0000549,
+R0000550,kept,R0000550,
+R0000551,kept,R0000551,
+R0000552,kept,R0000552,
+R0000553,kept,R0000553,
+R0000554,kept,R0000554,
+R0000555,kept,R0000555,
+R0000556,kept,R0000556,
+R0000557,kept,R0000557,
+R0000558,kept,R0000558,
+R0000559,kept,R0000559,
+R0000560,kept,R0000560,
+R0000561,kept,R0000561,
+R0000562,kept,R0000562,
+R0000563,kept,R0000563,
+R0000564,kept,R0000564,
+R0000565,kept,R0000565,
+R0000566,kept,R0000566,
+R0000567,kept,R0000567,
+R0000568,kept,R0000568,
+R0000569,kept,R0000569,
+R0000570,kept,R0000570,
+R0000571,kept,R0000571,
+R0000572,kept,R0000572,
+R0000573,kept,R0000573,
+R0000574,kept,R0000574,
+R0000575,kept,R0000575,
+R0000576,kept,R0000576,
+R0000577,kept,R0000577,
+R0000578,kept,R0000578,
+R0000579,kept,R0000579,
+R0000580,kept,R0000580,
+R0000581,kept,R0000581,
+R0000582,kept,R0000582,
+R0000583,kept,R0000583,
+R0000584,kept,R0000584,
+R0000585,kept,R0000585,
+R0000586,kept,R0000586,
+R0000587,kept,R0000587,
+R0000588,kept,R0000588,
+R0000589,kept,R0000589,
+R0000590,kept,R0000590,
+R0000591,kept,R0000591,
+R0000592,kept,R0000592,
+R0000593,kept,R0000593,
+R0000594,kept,R0000594,
+R0000595,kept,R0000595,
+R0000596,kept,R0000596,
+R0000597,kept,R0000597,
+R0000598,kept,R0000598,
+R0000599,kept,R0000599,
+R0000600,kept,R0000600,
+R0000601,kept,R0000601,
+R0000602,kept,R0000602,
+R0000603,kept,R0000603,
+R0000604,kept,R0000604,
+R0000605,kept,R0000605,
+R0000606,kept,R0000606,
+R0000607,kept,R0000607,
+R0000608,kept,R0000608,
+R0000609,kept,R0000609,
+R0000610,kept,R0000610,
+R0000611,kept,R0000611,
+R0000612,kept,R0000612,
+R0000613,kept,R0000613,
+R0000614,kept,R0000614,
+R0000615,kept,R0000615,
+R0000616,kept,R0000616,
+R0000617,kept,R0000617,
+R0000618,kept,R0000618,
+R0000619,kept,R0000619,
+R0000620,kept,R0000620,
+R0000621,kept,R0000621,
+R0000622,kept,R0000622,
+R0000623,kept,R0000623,
+R0000624,kept,R0000624,
+R0000625,kept,R0000625,
+R0000626,kept,R0000626,
+R0000627,kept,R0000627,
+R0000628,kept,R0000628,
+R0000629,kept,R0000629,
+R0000630,kept,R0000630,
+R0000631,kept,R0000631,
+R0000632,kept,R0000632,
+R0000633,kept,R0000633,
+R0000634,kept,R0000634,
+R0000635,kept,R0000635,
+R0000636,kept,R0000636,
+R0000637,kept,R0000637,
+R0000638,kept,R0000638,
+R0000639,kept,R0000639,
+R0000640,kept,R0000640,
+R0000641,kept,R0000641,
+R0000642,kept,R0000642,
+R0000643,kept,R0000643,
+R0000644,kept,R0000644,
+R0000645,kept,R0000645,
+R0000646,kept,R0000646,
+R0000647,kept,R0000647,
+R0000648,kept,R0000648,
+R0000649,kept,R0000649,
+R0000650,kept,R0000650,
+R0000651,kept,R0000651,
+R0000652,kept,R0000652,
+R0000653,merged_duplicate,R0000649,"same study/event/metric/statistic/value as R0000649 (dropped copy compiled_in="""", source label ""Wesnousky (2008)"")"
+R0000654,kept,R0000654,
+R0000655,kept,R0000655,
+R0000656,kept,R0000656,
+R0000657,kept,R0000657,
+R0000658,kept,R0000658,
+R0000659,kept,R0000659,
+R0000660,kept,R0000660,
+R0000789,replaced_by_array_view,A0033,minimum 0.3 recomputed from array = 0.3
+R0000790,replaced_by_array_view,A0033,mean 2.7583887720061906 recomputed from array = 2.75838877
+R0000791,replaced_by_array_view,A0033,median 1.0 recomputed from array = 1
+R0000792,replaced_by_array_view,A0033,maximum 7.07106781187 recomputed from array = 7.07106781
+R0000793,replaced_by_array_view,A0034,minimum 0.58 recomputed from array = 0.58
+R0000794,replaced_by_array_view,A0034,mean 1.1208 recomputed from array = 1.1208
+R0000795,replaced_by_array_view,A0034,median 1.11 recomputed from array = 1.11
+R0000796,replaced_by_array_view,A0034,maximum 1.84 recomputed from array = 1.84
+R0000797,replaced_by_array_view,A0035,minimum 0.04 recomputed from array = 0.04
+R0000798,replaced_by_array_view,A0035,mean 1.2972727272727271 recomputed from array = 1.29727273
+R0000799,replaced_by_array_view,A0035,median 1.3 recomputed from array = 1.3
+R0000800,replaced_by_array_view,A0035,maximum 2.18 recomputed from array = 2.18
+R0000801,replaced_by_array_view,A0036,minimum 0.31 recomputed from array = 0.31
+R0000802,replaced_by_array_view,A0036,mean 1.9627083333333333 recomputed from array = 1.96270833
+R0000803,replaced_by_array_view,A0036,median 1.895 recomputed from array = 1.895
+R0000804,replaced_by_array_view,A0036,maximum 4.87 recomputed from array = 4.87
+R0000805,replaced_by_array_view,A0037,minimum 0.5 recomputed from array = 0.5
+R0000806,replaced_by_array_view,A0037,mean 2.1077777777777778 recomputed from array = 2.10777778
+R0000807,replaced_by_array_view,A0037,median 1.0 recomputed from array = 1
+R0000808,replaced_by_array_view,A0037,maximum 10.07 recomputed from array = 10.07
+R0000809,replaced_by_array_view,A0038,minimum 0.6 recomputed from array = 0.6
+R0000810,replaced_by_array_view,A0038,mean 3.7263157894736842 recomputed from array = 3.72631579
+R0000811,replaced_by_array_view,A0038,median 3.7 recomputed from array = 3.7
+R0000812,replaced_by_array_view,A0038,maximum 5.8 recomputed from array = 5.8
+R0000813,replaced_by_array_view,A0039,minimum 0.075 recomputed from array = 0.075
+R0000814,replaced_by_array_view,A0039,mean 0.13333333333333333 recomputed from array = 0.133333333
+R0000815,replaced_by_array_view,A0039,median 0.125 recomputed from array = 0.125
+R0000816,replaced_by_array_view,A0039,maximum 0.2 recomputed from array = 0.2
+R0000817,replaced_by_array_view,A0040,minimum 0.5 recomputed from array = 0.5
+R0000818,replaced_by_array_view,A0040,mean 1.2130434782608697 recomputed from array = 1.21304348
+R0000819,replaced_by_array_view,A0040,median 1.2 recomputed from array = 1.2
+R0000820,replaced_by_array_view,A0040,maximum 2.7 recomputed from array = 2.7
+R0000821,replaced_by_array_view,A0041,minimum 0.0 recomputed from array = 0
+R0000822,replaced_by_array_view,A0041,mean 0.6857142857142857 recomputed from array = 0.685714286
+R0000823,replaced_by_array_view,A0041,median 0.5 recomputed from array = 0.5
+R0000824,replaced_by_array_view,A0041,maximum 3.8 recomputed from array = 3.8
+R0000825,replaced_by_array_view,A0042,minimum 2.8 recomputed from array = 2.8
+R0000826,replaced_by_array_view,A0042,mean 2.9 recomputed from array = 2.9
+R0000827,replaced_by_array_view,A0042,median 2.9 recomputed from array = 2.9
+R0000828,replaced_by_array_view,A0042,maximum 3.0 recomputed from array = 3
+R0000829,replaced_by_array_view,A0043,minimum 0.5 recomputed from array = 0.5
+R0000830,replaced_by_array_view,A0043,mean 1.35 recomputed from array = 1.35
+R0000831,replaced_by_array_view,A0043,median 1.25 recomputed from array = 1.25
+R0000832,replaced_by_array_view,A0043,maximum 2.0 recomputed from array = 2
+R0000833,replaced_by_array_view,A0044,minimum 0.0 recomputed from array = 0
+R0000834,replaced_by_array_view,A0044,mean 0.7515151515151515 recomputed from array = 0.751515152
+R0000835,replaced_by_array_view,A0044,median 0.6 recomputed from array = 0.6
+R0000836,replaced_by_array_view,A0044,maximum 2.8 recomputed from array = 2.8
+R0000837,replaced_by_array_view,A0045,minimum 0.29 recomputed from array = 0.29
+R0000838,replaced_by_array_view,A0045,mean 2.6536674259681092 recomputed from array = 2.65366743
+R0000839,replaced_by_array_view,A0045,median 2.42 recomputed from array = 2.42
+R0000840,replaced_by_array_view,A0045,maximum 6.76 recomputed from array = 6.76
+R0000841,replaced_by_array_view,A0046,minimum 0.091 recomputed from array = 0.091
+R0000842,replaced_by_array_view,A0046,mean 1.9819185185185186 recomputed from array = 1.98191852
+R0000843,replaced_by_array_view,A0046,median 1.83 recomputed from array = 1.83
+R0000844,replaced_by_array_view,A0046,maximum 5.4864 recomputed from array = 5.4864
+R0000845,replaced_by_array_view,A0047,minimum 0.005 recomputed from array = 0.005
+R0000846,replaced_by_array_view,A0047,mean 0.06771844660194175 recomputed from array = 0.0677184466
+R0000847,replaced_by_array_view,A0047,median 0.04 recomputed from array = 0.04
+R0000848,replaced_by_array_view,A0047,maximum 0.38 recomputed from array = 0.38
+R0000849,replaced_by_array_view,A0048,minimum 0.01 recomputed from array = 0.01
+R0000850,replaced_by_array_view,A0048,mean 0.0690625 recomputed from array = 0.0690625
+R0000851,replaced_by_array_view,A0048,median 0.05 recomputed from array = 0.05
+R0000852,replaced_by_array_view,A0048,maximum 0.36 recomputed from array = 0.36
+R0000853,replaced_by_array_view,A0049,minimum 0.038 recomputed from array = 0.038
+R0000854,replaced_by_array_view,A0049,mean 0.20514285714285713 recomputed from array = 0.205142857
+R0000855,replaced_by_array_view,A0049,median 0.089 recomputed from array = 0.089
+R0000856,replaced_by_array_view,A0049,maximum 0.89 recomputed from array = 0.89
+R0000857,replaced_by_array_view,A0050,minimum 0.051 recomputed from array = 0.051
+R0000858,replaced_by_array_view,A0050,mean 0.16685714285714284 recomputed from array = 0.166857143
+R0000859,replaced_by_array_view,A0050,median 0.152 recomputed from array = 0.152
+R0000860,replaced_by_array_view,A0050,maximum 0.381 recomputed from array = 0.381
+R0000861,replaced_by_array_view,A0051,minimum 0.04 recomputed from array = 0.04
+R0000862,replaced_by_array_view,A0051,mean 0.49724137931034484 recomputed from array = 0.497241379
+R0000863,replaced_by_array_view,A0051,median 0.45 recomputed from array = 0.45
+R0000864,replaced_by_array_view,A0051,maximum 1.26 recomputed from array = 1.26
+R0000865,replaced_by_array_view,A0052,minimum 0.009999999776482582 recomputed from array = 0.00999999978
+R0000866,replaced_by_array_view,A0052,mean 0.23305084758390815 recomputed from array = 0.233050848
+R0000867,replaced_by_array_view,A0052,median 0.03999999910593033 recomputed from array = 0.0399999991
+R0000868,replaced_by_array_view,A0052,maximum 1.0 recomputed from array = 1
+R0000869,replaced_by_array_view,A0053,minimum 0.300000011920929 recomputed from array = 0.300000012
+R0000870,replaced_by_array_view,A0053,mean 0.41615385504869323 recomputed from array = 0.416153855
+R0000871,replaced_by_array_view,A0053,median 0.300000011920929 recomputed from array = 0.300000012
+R0000872,replaced_by_array_view,A0053,maximum 0.8600000143051147 recomputed from array = 0.860000014
+R0000873,replaced_by_array_view,A0054,minimum 0.05 recomputed from array = 0.05
+R0000874,replaced_by_array_view,A0054,mean 0.382 recomputed from array = 0.382
+R0000875,replaced_by_array_view,A0054,median 0.3 recomputed from array = 0.3
+R0000876,replaced_by_array_view,A0054,maximum 1.0 recomputed from array = 1
+R0000877,replaced_by_array_view,A0055,minimum 0.25 recomputed from array = 0.25
+R0000878,replaced_by_array_view,A0055,mean 1.1914285648436773 recomputed from array = 1.19142856
+R0000879,replaced_by_array_view,A0055,median 1.0 recomputed from array = 1
+R0000880,replaced_by_array_view,A0055,maximum 1.899999976158142 recomputed from array = 1.89999998
+R0000881,replaced_by_array_view,A0056,minimum 0.02999999932944775 recomputed from array = 0.0299999993
+R0000882,replaced_by_array_view,A0056,mean 0.4610000093777974 recomputed from array = 0.461000009
+R0000883,replaced_by_array_view,A0056,median 0.33000001311302185 recomputed from array = 0.330000013
+R0000884,replaced_by_array_view,A0056,maximum 1.830000042915344 recomputed from array = 1.83000004
+R0000885,replaced_by_array_view,A0057,minimum 0.08 recomputed from array = 0.08
+R0000886,replaced_by_array_view,A0057,mean 0.4876190476190476 recomputed from array = 0.487619048
+R0000887,replaced_by_array_view,A0057,median 0.5 recomputed from array = 0.5
+R0000888,replaced_by_array_view,A0057,maximum 1.0 recomputed from array = 1
+R0000889,replaced_by_array_view,A0058,minimum 0.05000000074505806 recomputed from array = 0.0500000007
+R0000890,replaced_by_array_view,A0058,mean 0.4125000098720193 recomputed from array = 0.41250001
+R0000891,replaced_by_array_view,A0058,median 0.3450000062584877 recomputed from array = 0.345000006
+R0000892,replaced_by_array_view,A0058,maximum 0.9100000262260437 recomputed from array = 0.910000026
+R0000893,replaced_by_array_view,A0059,minimum 0.02999999932944775 recomputed from array = 0.0299999993
+R0000894,replaced_by_array_view,A0059,mean 0.38642857370099853 recomputed from array = 0.386428574
+R0000895,replaced_by_array_view,A0059,median 0.25 recomputed from array = 0.25
+R0000896,replaced_by_array_view,A0059,maximum 1.070000052452087 recomputed from array = 1.07000005
+R0000897,replaced_by_array_view,A0060,minimum 0.08 recomputed from array = 0.08
+R0000898,replaced_by_array_view,A0060,mean 0.3507692307692307 recomputed from array = 0.350769231
+R0000899,replaced_by_array_view,A0060,median 0.3 recomputed from array = 0.3
+R0000900,replaced_by_array_view,A0060,maximum 0.76 recomputed from array = 0.76
+R0000901,replaced_by_array_view,A0061,minimum 0.01 recomputed from array = 0.01
+R0000902,replaced_by_array_view,A0061,mean 0.02095 recomputed from array = 0.02095
+R0000903,replaced_by_array_view,A0061,median 0.02 recomputed from array = 0.02
+R0000904,replaced_by_array_view,A0061,maximum 0.045 recomputed from array = 0.045
+R0000905,replaced_by_array_view,A0062,minimum 0.0 recomputed from array = 0
+R0000906,replaced_by_array_view,A0062,mean 0.011571428571428571 recomputed from array = 0.0115714286
+R0000907,replaced_by_array_view,A0062,median 0.01 recomputed from array = 0.01
+R0000908,replaced_by_array_view,A0062,maximum 0.05 recomputed from array = 0.05
+R0000909,replaced_by_array_view,A0063,minimum 0.015 recomputed from array = 0.015
+R0000910,replaced_by_array_view,A0063,mean 0.02 recomputed from array = 0.02
+R0000911,replaced_by_array_view,A0063,median 0.02 recomputed from array = 0.02
+R0000912,replaced_by_array_view,A0063,maximum 0.025 recomputed from array = 0.025
+R0000913,replaced_by_array_view,A0064,minimum 0.03 recomputed from array = 0.03
+R0000914,replaced_by_array_view,A0064,mean 0.10615384615384617 recomputed from array = 0.106153846
+R0000915,replaced_by_array_view,A0064,median 0.1 recomputed from array = 0.1
+R0000916,replaced_by_array_view,A0064,maximum 0.4 recomputed from array = 0.4
+R0000917,replaced_by_array_view,A0065,minimum 0.012 recomputed from array = 0.012
+R0000918,replaced_by_array_view,A0065,mean 0.1386153846153846 recomputed from array = 0.138615385
+R0000919,replaced_by_array_view,A0065,median 0.12 recomputed from array = 0.12
+R0000920,replaced_by_array_view,A0065,maximum 0.5 recomputed from array = 0.5
+R0000921,replaced_by_array_view,A0066,minimum 0.005 recomputed from array = 0.005
+R0000922,replaced_by_array_view,A0066,mean 0.32011940298507463 recomputed from array = 0.320119403
+R0000923,replaced_by_array_view,A0066,median 0.23 recomputed from array = 0.23
+R0000924,replaced_by_array_view,A0066,maximum 0.782 recomputed from array = 0.782
+R0000925,replaced_by_array_view,A0067,minimum 0.005 recomputed from array = 0.005
+R0000926,replaced_by_array_view,A0067,mean 0.10213414634146341 recomputed from array = 0.102134146
+R0000927,replaced_by_array_view,A0067,median 0.09 recomputed from array = 0.09
+R0000928,replaced_by_array_view,A0067,maximum 0.37 recomputed from array = 0.37
+R0000929,replaced_by_array_view,A0068,minimum 0.001 recomputed from array = 0.001
+R0000930,replaced_by_array_view,A0068,mean 0.050505050505050504 recomputed from array = 0.0505050505
+R0000931,replaced_by_array_view,A0068,median 0.025 recomputed from array = 0.025
+R0000932,replaced_by_array_view,A0068,maximum 0.27 recomputed from array = 0.27
+R0000933,replaced_by_array_view,A0069,minimum 0.2 recomputed from array = 0.2
+R0000934,replaced_by_array_view,A0069,mean 0.5599999999999999 recomputed from array = 0.56
+R0000935,replaced_by_array_view,A0069,median 0.4 recomputed from array = 0.4
+R0000936,replaced_by_array_view,A0069,maximum 1.2 recomputed from array = 1.2
+R0000937,replaced_by_array_view,A0070,minimum 0.15 recomputed from array = 0.15
+R0000938,replaced_by_array_view,A0070,mean 1.2751851851851852 recomputed from array = 1.27518519
+R0000939,replaced_by_array_view,A0070,median 1.0 recomputed from array = 1
+R0000940,replaced_by_array_view,A0070,maximum 5.0 recomputed from array = 5
+R0000941,replaced_by_array_view,A0071,minimum 1.0 recomputed from array = 1
+R0000942,replaced_by_array_view,A0071,mean 1.0 recomputed from array = 1
+R0000943,replaced_by_array_view,A0071,median 1.0 recomputed from array = 1
+R0000944,replaced_by_array_view,A0071,maximum 1.0 recomputed from array = 1
+R0000945,replaced_by_array_view,A0072,minimum 1.0 recomputed from array = 1
+R0000946,replaced_by_array_view,A0072,mean 1.0 recomputed from array = 1
+R0000947,replaced_by_array_view,A0072,median 1.0 recomputed from array = 1
+R0000948,replaced_by_array_view,A0072,maximum 1.0 recomputed from array = 1
+R0000949,replaced_by_array_view,A0073,minimum 0.7 recomputed from array = 0.7
+R0000950,replaced_by_array_view,A0073,mean 1.325 recomputed from array = 1.325
+R0000951,replaced_by_array_view,A0073,median 1.25 recomputed from array = 1.25
+R0000952,replaced_by_array_view,A0073,maximum 2.1 recomputed from array = 2.1
+R0000953,replaced_by_array_view,A0074,minimum 0.3 recomputed from array = 0.3
+R0000954,replaced_by_array_view,A0074,mean 1.6500000000000001 recomputed from array = 1.65
+R0000955,replaced_by_array_view,A0074,median 0.8999999999999999 recomputed from array = 0.9
+R0000956,replaced_by_array_view,A0074,maximum 5.0 recomputed from array = 5
+R0000957,replaced_by_array_view,A0075,minimum 0.3 recomputed from array = 0.3
+R0000958,replaced_by_array_view,A0075,mean 1.8 recomputed from array = 1.8
+R0000959,replaced_by_array_view,A0075,median 1.2999999999999998 recomputed from array = 1.3
+R0000960,replaced_by_array_view,A0075,maximum 5.0 recomputed from array = 5
+R0000961,replaced_by_array_view,A0076,minimum 0.02 recomputed from array = 0.02
+R0000962,replaced_by_array_view,A0076,mean 0.3735294117647059 recomputed from array = 0.373529412
+R0000963,replaced_by_array_view,A0076,median 0.3 recomputed from array = 0.3
+R0000964,replaced_by_array_view,A0076,maximum 1.5 recomputed from array = 1.5
+R0000965,replaced_by_array_view,A0077,minimum 0.04 recomputed from array = 0.04
+R0000966,replaced_by_array_view,A0077,mean 0.5311111111111111 recomputed from array = 0.531111111
+R0000967,replaced_by_array_view,A0077,median 0.7 recomputed from array = 0.7
+R0000968,replaced_by_array_view,A0077,maximum 1.0 recomputed from array = 1
+R0000969,replaced_by_array_view,A0078,minimum 0.005 recomputed from array = 0.005
+R0000970,replaced_by_array_view,A0078,mean 0.07771428571428572 recomputed from array = 0.0777142857
+R0000971,replaced_by_array_view,A0078,median 0.06 recomputed from array = 0.06
+R0000972,replaced_by_array_view,A0078,maximum 0.2 recomputed from array = 0.2
+R0000973,replaced_by_array_view,A0079,minimum 0.03 recomputed from array = 0.03
+R0000974,replaced_by_array_view,A0079,mean 0.03 recomputed from array = 0.03
+R0000975,replaced_by_array_view,A0079,median 0.03 recomputed from array = 0.03
+R0000976,replaced_by_array_view,A0079,maximum 0.03 recomputed from array = 0.03
+R0000977,replaced_by_array_view,A0080,minimum 0.005 recomputed from array = 0.005
+R0000978,replaced_by_array_view,A0080,mean 0.1393859649122807 recomputed from array = 0.139385965
+R0000979,replaced_by_array_view,A0080,median 0.1 recomputed from array = 0.1
+R0000980,replaced_by_array_view,A0080,maximum 0.5 recomputed from array = 0.5
+R0000981,replaced_by_array_view,A0081,minimum 0.12 recomputed from array = 0.12
+R0000982,replaced_by_array_view,A0081,mean 0.3 recomputed from array = 0.3
+R0000983,replaced_by_array_view,A0081,median 0.13 recomputed from array = 0.13
+R0000984,replaced_by_array_view,A0081,maximum 0.65 recomputed from array = 0.65
+R0000985,replaced_by_array_view,A0082,minimum 0.015 recomputed from array = 0.015
+R0000986,replaced_by_array_view,A0082,mean 0.31951162790697674 recomputed from array = 0.319511628
+R0000987,replaced_by_array_view,A0082,median 0.25 recomputed from array = 0.25
+R0000988,replaced_by_array_view,A0082,maximum 1.8 recomputed from array = 1.8
+R0000989,replaced_by_array_view,A0083,minimum 0.02 recomputed from array = 0.02
+R0000990,replaced_by_array_view,A0083,mean 0.02 recomputed from array = 0.02
+R0000991,replaced_by_array_view,A0083,median 0.02 recomputed from array = 0.02
+R0000992,replaced_by_array_view,A0083,maximum 0.02 recomputed from array = 0.02
+R0000993,replaced_by_array_view,A0084,minimum 0.01 recomputed from array = 0.01
+R0000994,replaced_by_array_view,A0084,mean 0.6552672413793104 recomputed from array = 0.655267241
+R0000995,replaced_by_array_view,A0084,median 0.4175 recomputed from array = 0.4175
+R0000996,replaced_by_array_view,A0084,maximum 2.9 recomputed from array = 2.9
+R0000997,replaced_by_array_view,A0085,minimum 0.02 recomputed from array = 0.02
+R0000998,replaced_by_array_view,A0085,mean 0.27 recomputed from array = 0.27
+R0000999,replaced_by_array_view,A0085,median 0.27 recomputed from array = 0.27
+R0001000,replaced_by_array_view,A0085,maximum 0.52 recomputed from array = 0.52
+R0001001,replaced_by_array_view,A0086,minimum 0.05 recomputed from array = 0.05
+R0001002,replaced_by_array_view,A0086,mean 0.55 recomputed from array = 0.55
+R0001003,replaced_by_array_view,A0086,median 0.55 recomputed from array = 0.55
+R0001004,replaced_by_array_view,A0086,maximum 1.05 recomputed from array = 1.05
+R0001005,replaced_by_array_view,A0087,minimum 0.0 recomputed from array = 0
+R0001006,replaced_by_array_view,A0087,mean 0.29946666666666666 recomputed from array = 0.299466667
+R0001007,replaced_by_array_view,A0087,median 0.3 recomputed from array = 0.3
+R0001008,replaced_by_array_view,A0087,maximum 0.9 recomputed from array = 0.9
+R0001009,replaced_by_array_view,A0088,minimum 0.01 recomputed from array = 0.01
+R0001010,replaced_by_array_view,A0088,mean 0.02666666666666667 recomputed from array = 0.0266666667
+R0001011,replaced_by_array_view,A0088,median 0.03 recomputed from array = 0.03
+R0001012,replaced_by_array_view,A0088,maximum 0.04 recomputed from array = 0.04
+R0001013,replaced_by_array_view,A0089,minimum 0.0 recomputed from array = 0
+R0001014,replaced_by_array_view,A0089,mean 0.3787179487179487 recomputed from array = 0.378717949
+R0001015,replaced_by_array_view,A0089,median 0.22 recomputed from array = 0.22
+R0001016,replaced_by_array_view,A0089,maximum 1.16 recomputed from array = 1.16
+R0001017,replaced_by_array_view,A0090,minimum 0.02 recomputed from array = 0.02
+R0001018,replaced_by_array_view,A0090,mean 0.26249999999999996 recomputed from array = 0.2625
+R0001019,replaced_by_array_view,A0090,median 0.14500000000000002 recomputed from array = 0.145
+R0001020,replaced_by_array_view,A0090,maximum 1.6 recomputed from array = 1.6
+R0001021,replaced_by_array_view,A0091,minimum 0.0 recomputed from array = 0
+R0001022,replaced_by_array_view,A0091,mean 0.8855454545454545 recomputed from array = 0.885545455
+R0001023,replaced_by_array_view,A0091,median 0.8 recomputed from array = 0.8
+R0001024,replaced_by_array_view,A0091,maximum 3.4 recomputed from array = 3.4
+R0001025,replaced_by_array_view,A0092,minimum 0.001 recomputed from array = 0.001
+R0001026,replaced_by_array_view,A0092,mean 0.10962334217506632 recomputed from array = 0.109623342
+R0001027,replaced_by_array_view,A0092,median 0.031 recomputed from array = 0.031
+R0001028,replaced_by_array_view,A0092,maximum 0.64 recomputed from array = 0.64
+R0001029,replaced_by_array_view,A0093,minimum 0.0 recomputed from array = 0
+R0001030,replaced_by_array_view,A0093,mean 0.10996464646464646 recomputed from array = 0.109964646
+R0001031,replaced_by_array_view,A0093,median 0.0335 recomputed from array = 0.0335
+R0001032,replaced_by_array_view,A0093,maximum 0.64 recomputed from array = 0.64
+R0001033,replaced_by_array_view,A0094,minimum 0.4 recomputed from array = 0.4
+R0001034,replaced_by_array_view,A0094,mean 0.9 recomputed from array = 0.9
+R0001035,replaced_by_array_view,A0094,median 0.8 recomputed from array = 0.8
+R0001036,replaced_by_array_view,A0094,maximum 1.7 recomputed from array = 1.7
+R0001037,replaced_by_array_view,A0095,minimum 0.05 recomputed from array = 0.05
+R0001038,replaced_by_array_view,A0095,mean 0.5207692307692308 recomputed from array = 0.520769231
+R0001039,replaced_by_array_view,A0095,median 0.4 recomputed from array = 0.4
+R0001040,replaced_by_array_view,A0095,maximum 1.4 recomputed from array = 1.4
+R0001041,replaced_by_array_view,A0096,minimum 0.75 recomputed from array = 0.75
+R0001042,replaced_by_array_view,A0096,mean 0.75 recomputed from array = 0.75
+R0001043,replaced_by_array_view,A0096,median 0.75 recomputed from array = 0.75
+R0001044,replaced_by_array_view,A0096,maximum 0.75 recomputed from array = 0.75
+R0001045,replaced_by_array_view,A0097,minimum 0.2 recomputed from array = 0.2
+R0001046,replaced_by_array_view,A0097,mean 0.9600000000000001 recomputed from array = 0.96
+R0001047,replaced_by_array_view,A0097,median 1.0 recomputed from array = 1
+R0001048,replaced_by_array_view,A0097,maximum 1.6 recomputed from array = 1.6
+R0001049,replaced_by_array_view_duplicate_array,A0095,minimum 0.05 recomputed from array = 0.05
+R0001050,replaced_by_array_view_duplicate_array,A0095,mean 0.5207692307692308 recomputed from array = 0.520769231
+R0001051,replaced_by_array_view_duplicate_array,A0095,median 0.4 recomputed from array = 0.4
+R0001052,replaced_by_array_view_duplicate_array,A0095,maximum 1.4 recomputed from array = 1.4
+R0001053,replaced_by_array_view_duplicate_array,A0096,minimum 0.75 recomputed from array = 0.75
+R0001054,replaced_by_array_view_duplicate_array,A0096,mean 0.75 recomputed from array = 0.75
+R0001055,replaced_by_array_view_duplicate_array,A0096,median 0.75 recomputed from array = 0.75
+R0001056,replaced_by_array_view_duplicate_array,A0096,maximum 0.75 recomputed from array = 0.75
+R0001057,replaced_by_array_view_duplicate_array,A0097,minimum 0.2 recomputed from array = 0.2
+R0001058,replaced_by_array_view_duplicate_array,A0097,mean 0.9600000000000001 recomputed from array = 0.96
+R0001059,replaced_by_array_view_duplicate_array,A0097,median 1.0 recomputed from array = 1
+R0001060,replaced_by_array_view_duplicate_array,A0097,maximum 1.6 recomputed from array = 1.6
+R0001061,replaced_by_array_view,A0101,minimum 0.01 recomputed from array = 0.01
+R0001062,replaced_by_array_view,A0101,mean 0.7833414043583534 recomputed from array = 0.783341404
+R0001063,replaced_by_array_view,A0101,median 0.305 recomputed from array = 0.305
+R0001064,replaced_by_array_view,A0101,maximum 5.3 recomputed from array = 5.3
+R0001065,replaced_by_array_view,A0102,minimum 0.01 recomputed from array = 0.01
+R0001066,replaced_by_array_view,A0102,mean 0.21467213114754097 recomputed from array = 0.214672131
+R0001067,replaced_by_array_view,A0102,median 0.15 recomputed from array = 0.15
+R0001068,replaced_by_array_view,A0102,maximum 1.5 recomputed from array = 1.5
+R0001069,replaced_by_array_view,A0103,minimum 0.12 recomputed from array = 0.12
+R0001070,replaced_by_array_view,A0103,mean 0.325 recomputed from array = 0.325
+R0001071,replaced_by_array_view,A0103,median 0.325 recomputed from array = 0.325
+R0001072,replaced_by_array_view,A0103,maximum 0.53 recomputed from array = 0.53
+R0001073,replaced_by_array_view,A0104,minimum 0.1 recomputed from array = 0.1
+R0001074,replaced_by_array_view,A0104,mean 0.1 recomputed from array = 0.1
+R0001075,replaced_by_array_view,A0104,median 0.1 recomputed from array = 0.1
+R0001076,replaced_by_array_view,A0104,maximum 0.1 recomputed from array = 0.1
+R0001077,replaced_by_array_view,A0105,minimum 0.0 recomputed from array = 0
+R0001078,replaced_by_array_view,A0105,mean 0.7115920398009951 recomputed from array = 0.71159204
+R0001079,replaced_by_array_view,A0105,median 0.6 recomputed from array = 0.6
+R0001080,replaced_by_array_view,A0105,maximum 2.47 recomputed from array = 2.47
+R0001081,replaced_by_array_view,A0106,minimum 0.0 recomputed from array = 0
+R0001082,replaced_by_array_view,A0106,mean 1.7667510977513077 recomputed from array = 1.7667511
+R0001083,replaced_by_array_view,A0106,median 1.58473972626 recomputed from array = 1.58473973
+R0001084,replaced_by_array_view,A0106,maximum 5.1 recomputed from array = 5.1
+R0001085,replaced_by_array_view,A0107,minimum 0.32 recomputed from array = 0.32
+R0001086,replaced_by_array_view,A0107,mean 0.33499999999999996 recomputed from array = 0.335
+R0001087,replaced_by_array_view,A0107,median 0.33499999999999996 recomputed from array = 0.335
+R0001088,replaced_by_array_view,A0107,maximum 0.35 recomputed from array = 0.35
+R0001089,replaced_by_array_view,A0108,minimum 0.17 recomputed from array = 0.17
+R0001090,replaced_by_array_view,A0108,mean 1.505 recomputed from array = 1.505
+R0001091,replaced_by_array_view,A0108,median 1.505 recomputed from array = 1.505
+R0001092,replaced_by_array_view,A0108,maximum 2.84 recomputed from array = 2.84
+R0001093,replaced_by_array_view,A0109,minimum 1.62 recomputed from array = 1.62
+R0001094,replaced_by_array_view,A0109,mean 1.62 recomputed from array = 1.62
+R0001095,replaced_by_array_view,A0109,median 1.62 recomputed from array = 1.62
+R0001096,replaced_by_array_view,A0109,maximum 1.62 recomputed from array = 1.62
+R0001097,replaced_by_array_view,A0110,minimum 3.27 recomputed from array = 3.27
+R0001098,replaced_by_array_view,A0110,mean 3.27 recomputed from array = 3.27
+R0001099,replaced_by_array_view,A0110,median 3.27 recomputed from array = 3.27
+R0001100,replaced_by_array_view,A0110,maximum 3.27 recomputed from array = 3.27
+R0001101,replaced_by_array_view,A0111,minimum 0.3 recomputed from array = 0.3
+R0001102,replaced_by_array_view,A0111,mean 2.223809523809524 recomputed from array = 2.22380952
+R0001103,replaced_by_array_view,A0111,median 1.5 recomputed from array = 1.5
+R0001104,replaced_by_array_view,A0111,maximum 5.5 recomputed from array = 5.5
+R0001105,replaced_by_array_view,A0112,minimum 2.5 recomputed from array = 2.5
+R0001106,replaced_by_array_view,A0112,mean 5.833333333333333 recomputed from array = 5.83333333
+R0001107,replaced_by_array_view,A0112,median 5.0 recomputed from array = 5
+R0001108,replaced_by_array_view,A0112,maximum 10.0 recomputed from array = 10
+R0001109,replaced_by_array_view,A0113,minimum 0.1 recomputed from array = 0.1
+R0001110,replaced_by_array_view,A0113,mean 2.2605263157894737 recomputed from array = 2.26052632
+R0001111,replaced_by_array_view,A0113,median 2.0 recomputed from array = 2
+R0001112,replaced_by_array_view,A0113,maximum 6.0 recomputed from array = 6
+R0001113,replaced_by_array_view,A0114,minimum 0.1 recomputed from array = 0.1
+R0001114,replaced_by_array_view,A0114,mean 0.37 recomputed from array = 0.37
+R0001115,replaced_by_array_view,A0114,median 0.19 recomputed from array = 0.19
+R0001116,replaced_by_array_view,A0114,maximum 1.0 recomputed from array = 1
+R0001117,replaced_by_array_view,A0115,minimum 0.07 recomputed from array = 0.07
+R0001118,replaced_by_array_view,A0115,mean 0.47333333333333333 recomputed from array = 0.473333333
+R0001119,replaced_by_array_view,A0115,median 0.20500000000000002 recomputed from array = 0.205
+R0001120,replaced_by_array_view,A0115,maximum 1.7 recomputed from array = 1.7
+R0001121,replaced_by_array_view,A0116,minimum 0.63 recomputed from array = 0.63
+R0001122,replaced_by_array_view,A0116,mean 0.63 recomputed from array = 0.63
+R0001123,replaced_by_array_view,A0116,median 0.63 recomputed from array = 0.63
+R0001124,replaced_by_array_view,A0116,maximum 0.63 recomputed from array = 0.63
+R0001125,replaced_by_array_view,A0117,minimum 0.2 recomputed from array = 0.2
+R0001126,replaced_by_array_view,A0117,mean 1.2857142857142858 recomputed from array = 1.28571429
+R0001127,replaced_by_array_view,A0117,median 0.9 recomputed from array = 0.9
+R0001128,replaced_by_array_view,A0117,maximum 3.9 recomputed from array = 3.9
+R0001129,replaced_by_array_view,A0118,minimum 0.7 recomputed from array = 0.7
+R0001130,replaced_by_array_view,A0118,mean 1.28 recomputed from array = 1.28
+R0001131,replaced_by_array_view,A0118,median 0.9 recomputed from array = 0.9
+R0001132,replaced_by_array_view,A0118,maximum 3.0 recomputed from array = 3
+R0001133,replaced_by_array_view,A0119,minimum 0.35 recomputed from array = 0.35
+R0001134,replaced_by_array_view,A0119,mean 0.35 recomputed from array = 0.35
+R0001135,replaced_by_array_view,A0119,median 0.35 recomputed from array = 0.35
+R0001136,replaced_by_array_view,A0119,maximum 0.35 recomputed from array = 0.35
+R0001137,replaced_by_array_view,A0120,minimum 4.35 recomputed from array = 4.35
+R0001138,replaced_by_array_view,A0120,mean 4.35 recomputed from array = 4.35
+R0001139,replaced_by_array_view,A0120,median 4.35 recomputed from array = 4.35
+R0001140,replaced_by_array_view,A0120,maximum 4.35 recomputed from array = 4.35
+R0001141,replaced_by_array_view,A0121,minimum 4.0 recomputed from array = 4
+R0001142,replaced_by_array_view,A0121,mean 4.0 recomputed from array = 4
+R0001143,replaced_by_array_view,A0121,median 4.0 recomputed from array = 4
+R0001144,replaced_by_array_view,A0121,maximum 4.0 recomputed from array = 4
+R0001145,replaced_by_array_view,A0122,minimum 4.5 recomputed from array = 4.5
+R0001146,replaced_by_array_view,A0122,mean 4.5 recomputed from array = 4.5
+R0001147,replaced_by_array_view,A0122,median 4.5 recomputed from array = 4.5
+R0001148,replaced_by_array_view,A0122,maximum 4.5 recomputed from array = 4.5
+R0001149,replaced_by_array_view,A0123,minimum 0.0 recomputed from array = 0
+R0001150,replaced_by_array_view,A0123,mean 1.2785185185185186 recomputed from array = 1.27851852
+R0001151,replaced_by_array_view,A0123,median 0.9 recomputed from array = 0.9
+R0001152,replaced_by_array_view,A0123,maximum 7.7 recomputed from array = 7.7
+R0001153,replaced_by_array_view,A0124,minimum 0.03 recomputed from array = 0.03
+R0001154,replaced_by_array_view,A0124,mean 1.877738095238095 recomputed from array = 1.8777381
+R0001155,replaced_by_array_view,A0124,median 1.75 recomputed from array = 1.75
+R0001156,replaced_by_array_view,A0124,maximum 6.0 recomputed from array = 6
+R0001157,replaced_by_array_view,A0125,minimum 0.7 recomputed from array = 0.7
+R0001158,replaced_by_array_view,A0125,mean 3.0 recomputed from array = 3
+R0001159,replaced_by_array_view,A0125,median 3.0 recomputed from array = 3
+R0001160,replaced_by_array_view,A0125,maximum 9.8 recomputed from array = 9.8
+R0001161,replaced_by_array_view,A0126,minimum 0.7 recomputed from array = 0.7
+R0001162,replaced_by_array_view,A0126,mean 3.553253012048193 recomputed from array = 3.55325301
+R0001163,replaced_by_array_view,A0126,median 3.06 recomputed from array = 3.06
+R0001164,replaced_by_array_view,A0126,maximum 11.65 recomputed from array = 11.65
+R0001165,replaced_by_array_view,A0127,minimum 0.2 recomputed from array = 0.2
+R0001166,replaced_by_array_view,A0127,mean 2.65 recomputed from array = 2.65
+R0001167,replaced_by_array_view,A0127,median 2.0 recomputed from array = 2
+R0001168,replaced_by_array_view,A0127,maximum 5.0 recomputed from array = 5
+R0001169,replaced_by_array_view,A0128,minimum 0.2 recomputed from array = 0.2
+R0001170,replaced_by_array_view,A0128,mean 3.059375 recomputed from array = 3.059375
+R0001171,replaced_by_array_view,A0128,median 2.75 recomputed from array = 2.75
+R0001172,replaced_by_array_view,A0128,maximum 9.5 recomputed from array = 9.5
+R0001173,replaced_by_array_view,A0129,minimum 0.5 recomputed from array = 0.5
+R0001174,replaced_by_array_view,A0129,mean 1.3599999999999999 recomputed from array = 1.36
+R0001175,replaced_by_array_view,A0129,median 1.5 recomputed from array = 1.5
+R0001176,replaced_by_array_view,A0129,maximum 2.5 recomputed from array = 2.5
+R0001177,replaced_by_array_view,A0130,minimum 0.007 recomputed from array = 0.007
+R0001178,replaced_by_array_view,A0130,mean 1.4623241379310346 recomputed from array = 1.46232414
+R0001179,replaced_by_array_view,A0130,median 1.0 recomputed from array = 1
+R0001180,replaced_by_array_view,A0130,maximum 5.25 recomputed from array = 5.25
+R0001181,replaced_by_array_view,A0131,minimum 0.003 recomputed from array = 0.003
+R0001182,replaced_by_array_view,A0131,mean 0.2931980198019802 recomputed from array = 0.29319802
+R0001183,replaced_by_array_view,A0131,median 0.17 recomputed from array = 0.17
+R0001184,replaced_by_array_view,A0131,maximum 1.9 recomputed from array = 1.9
+R0001185,replaced_by_array_view,A0132,minimum 0.0 recomputed from array = 0
+R0001186,replaced_by_array_view,A0132,mean 4.008941808470758 recomputed from array = 4.00894181
+R0001187,replaced_by_array_view,A0132,median 4.154627532 recomputed from array = 4.15462753
+R0001188,replaced_by_array_view,A0132,maximum 8.8 recomputed from array = 8.8
+R0001189,replaced_by_array_view,A0133,minimum 0.6 recomputed from array = 0.6
+R0001190,replaced_by_array_view,A0133,mean 1.05 recomputed from array = 1.05
+R0001191,replaced_by_array_view,A0133,median 1.05 recomputed from array = 1.05
+R0001192,replaced_by_array_view,A0133,maximum 1.5 recomputed from array = 1.5
+R0001193,replaced_by_array_view,A0134,minimum 4.6 recomputed from array = 4.6
+R0001194,replaced_by_array_view,A0134,mean 4.6 recomputed from array = 4.6
+R0001195,replaced_by_array_view,A0134,median 4.6 recomputed from array = 4.6
+R0001196,replaced_by_array_view,A0134,maximum 4.6 recomputed from array = 4.6
+R0001197,replaced_by_array_view,A0135,minimum 0.2 recomputed from array = 0.2
+R0001198,replaced_by_array_view,A0135,mean 1.69296875 recomputed from array = 1.69296875
+R0001199,replaced_by_array_view,A0135,median 1.4249999999999998 recomputed from array = 1.425
+R0001200,replaced_by_array_view,A0135,maximum 7.05 recomputed from array = 7.05
+R0001201,replaced_by_array_view,A0136,minimum 2.5 recomputed from array = 2.5
+R0001202,replaced_by_array_view,A0136,mean 2.5 recomputed from array = 2.5
+R0001203,replaced_by_array_view,A0136,median 2.5 recomputed from array = 2.5
+R0001204,replaced_by_array_view,A0136,maximum 2.5 recomputed from array = 2.5
+R0001205,replaced_by_array_view,A0137,minimum 0.2 recomputed from array = 0.2
+R0001206,replaced_by_array_view,A0137,mean 1.063157894736842 recomputed from array = 1.06315789
+R0001207,replaced_by_array_view,A0137,median 0.7 recomputed from array = 0.7
+R0001208,replaced_by_array_view,A0137,maximum 3.3 recomputed from array = 3.3
+R0001209,replaced_by_array_view,A0138,minimum 0.36 recomputed from array = 0.36
+R0001210,replaced_by_array_view,A0138,mean 0.585 recomputed from array = 0.585
+R0001211,replaced_by_array_view,A0138,median 0.585 recomputed from array = 0.585
+R0001212,replaced_by_array_view,A0138,maximum 0.81 recomputed from array = 0.81
+R0001213,replaced_by_array_view,A0139,minimum 0.2 recomputed from array = 0.2
+R0001214,replaced_by_array_view,A0139,mean 1.2177777777777776 recomputed from array = 1.21777778
+R0001215,replaced_by_array_view,A0139,median 1.03 recomputed from array = 1.03
+R0001216,replaced_by_array_view,A0139,maximum 2.8 recomputed from array = 2.8
+R0001217,replaced_by_array_view,A0140,minimum 0.04 recomputed from array = 0.04
+R0001218,replaced_by_array_view,A0140,mean 1.1179831932773108 recomputed from array = 1.11798319
+R0001219,replaced_by_array_view,A0140,median 0.8 recomputed from array = 0.8
+R0001220,replaced_by_array_view,A0140,maximum 4.95 recomputed from array = 4.95
+R0001221,replaced_by_array_view,A0141,minimum 0.5 recomputed from array = 0.5
+R0001222,replaced_by_array_view,A0141,mean 1.3166666666666667 recomputed from array = 1.31666667
+R0001223,replaced_by_array_view,A0141,median 1.65 recomputed from array = 1.65
+R0001224,replaced_by_array_view,A0141,maximum 1.8 recomputed from array = 1.8
+R0001225,replaced_by_array_view,A0142,minimum 0.5 recomputed from array = 0.5
+R0001226,replaced_by_array_view,A0142,mean 1.1483333333333334 recomputed from array = 1.14833333
+R0001227,replaced_by_array_view,A0142,median 1.06 recomputed from array = 1.06
+R0001228,replaced_by_array_view,A0142,maximum 2.1 recomputed from array = 2.1
+R0001229,replaced_by_array_view,A0143,minimum 1.4 recomputed from array = 1.4
+R0001230,replaced_by_array_view,A0143,mean 1.6 recomputed from array = 1.6
+R0001231,replaced_by_array_view,A0143,median 1.6 recomputed from array = 1.6
+R0001232,replaced_by_array_view,A0143,maximum 1.8 recomputed from array = 1.8
+R0001233,replaced_by_array_view,A0144,minimum 1.6 recomputed from array = 1.6
+R0001234,replaced_by_array_view,A0144,mean 1.675 recomputed from array = 1.675
+R0001235,replaced_by_array_view,A0144,median 1.675 recomputed from array = 1.675
+R0001236,replaced_by_array_view,A0144,maximum 1.75 recomputed from array = 1.75
+R0001237,replaced_by_array_view,A0145,minimum 0.6 recomputed from array = 0.6
+R0001238,replaced_by_array_view,A0145,mean 0.6 recomputed from array = 0.6
+R0001239,replaced_by_array_view,A0145,median 0.6 recomputed from array = 0.6
+R0001240,replaced_by_array_view,A0145,maximum 0.6 recomputed from array = 0.6
+R0001241,replaced_by_array_view,A0146,minimum 0.95 recomputed from array = 0.95
+R0001242,replaced_by_array_view,A0146,mean 0.95 recomputed from array = 0.95
+R0001243,replaced_by_array_view,A0146,median 0.95 recomputed from array = 0.95
+R0001244,replaced_by_array_view,A0146,maximum 0.95 recomputed from array = 0.95
+R0001245,replaced_by_array_view,A0147,minimum 0.45 recomputed from array = 0.45
+R0001246,replaced_by_array_view,A0147,mean 0.45 recomputed from array = 0.45
+R0001247,replaced_by_array_view,A0147,median 0.45 recomputed from array = 0.45
+R0001248,replaced_by_array_view,A0147,maximum 0.45 recomputed from array = 0.45
+R0001249,replaced_by_array_view,A0148,minimum 0.63 recomputed from array = 0.63
+R0001250,replaced_by_array_view,A0148,mean 0.63 recomputed from array = 0.63
+R0001251,replaced_by_array_view,A0148,median 0.63 recomputed from array = 0.63
+R0001252,replaced_by_array_view,A0148,maximum 0.63 recomputed from array = 0.63
+R0001253,replaced_by_array_view,A0149,minimum 0.71 recomputed from array = 0.71
+R0001254,replaced_by_array_view,A0149,mean 0.71 recomputed from array = 0.71
+R0001255,replaced_by_array_view,A0149,median 0.71 recomputed from array = 0.71
+R0001256,replaced_by_array_view,A0149,maximum 0.71 recomputed from array = 0.71
+R0001257,replaced_by_array_view,A0150,minimum 0.9 recomputed from array = 0.9
+R0001258,replaced_by_array_view,A0150,mean 0.9 recomputed from array = 0.9
+R0001259,replaced_by_array_view,A0150,median 0.9 recomputed from array = 0.9
+R0001260,replaced_by_array_view,A0150,maximum 0.9 recomputed from array = 0.9
+R0001261,replaced_by_array_view,A0151,minimum 1.25 recomputed from array = 1.25
+R0001262,replaced_by_array_view,A0151,mean 1.25 recomputed from array = 1.25
+R0001263,replaced_by_array_view,A0151,median 1.25 recomputed from array = 1.25
+R0001264,replaced_by_array_view,A0151,maximum 1.25 recomputed from array = 1.25
+R0001265,replaced_by_array_view,A0152,minimum 0.59 recomputed from array = 0.59
+R0001266,replaced_by_array_view,A0152,mean 1.7974999999999999 recomputed from array = 1.7975
+R0001267,replaced_by_array_view,A0152,median 1.0899999999999999 recomputed from array = 1.09
+R0001268,replaced_by_array_view,A0152,maximum 4.42 recomputed from array = 4.42
+R0001269,replaced_by_array_view,A0153,minimum 2.12 recomputed from array = 2.12
+R0001270,replaced_by_array_view,A0153,mean 2.91 recomputed from array = 2.91
+R0001271,replaced_by_array_view,A0153,median 2.91 recomputed from array = 2.91
+R0001272,replaced_by_array_view,A0153,maximum 3.7 recomputed from array = 3.7
+R0001273,replaced_by_array_view_duplicate_array,A0150,minimum 0.9 recomputed from array = 0.9
+R0001274,replaced_by_array_view_duplicate_array,A0150,mean 0.9 recomputed from array = 0.9
+R0001275,replaced_by_array_view_duplicate_array,A0150,median 0.9 recomputed from array = 0.9
+R0001276,replaced_by_array_view_duplicate_array,A0150,maximum 0.9 recomputed from array = 0.9
+R0001277,replaced_by_array_view,A0155,minimum 0.51 recomputed from array = 0.51
+R0001278,replaced_by_array_view,A0155,mean 0.855 recomputed from array = 0.855
+R0001279,replaced_by_array_view,A0155,median 0.855 recomputed from array = 0.855
+R0001280,replaced_by_array_view,A0155,maximum 1.2 recomputed from array = 1.2
+R0001281,replaced_by_array_view,A0156,minimum 1.5 recomputed from array = 1.5
+R0001282,replaced_by_array_view,A0156,mean 1.5 recomputed from array = 1.5
+R0001283,replaced_by_array_view,A0156,median 1.5 recomputed from array = 1.5
+R0001284,replaced_by_array_view,A0156,maximum 1.5 recomputed from array = 1.5
+R0001285,replaced_by_array_view,A0157,minimum 2.65 recomputed from array = 2.65
+R0001286,replaced_by_array_view,A0157,mean 2.65 recomputed from array = 2.65
+R0001287,replaced_by_array_view,A0157,median 2.65 recomputed from array = 2.65
+R0001288,replaced_by_array_view,A0157,maximum 2.65 recomputed from array = 2.65
+R0001289,replaced_by_array_view,A0158,minimum 0.18 recomputed from array = 0.18
+R0001290,replaced_by_array_view,A0158,mean 2.023846153846154 recomputed from array = 2.02384615
+R0001291,replaced_by_array_view,A0158,median 2.24 recomputed from array = 2.24
+R0001292,replaced_by_array_view,A0158,maximum 6.3 recomputed from array = 6.3
+R0001293,replaced_by_array_view,A0159,minimum 0.27 recomputed from array = 0.27
+R0001294,replaced_by_array_view,A0159,mean 1.9021739130434783 recomputed from array = 1.90217391
+R0001295,replaced_by_array_view,A0159,median 1.8 recomputed from array = 1.8
+R0001296,replaced_by_array_view,A0159,maximum 4.6 recomputed from array = 4.6
+R0001297,replaced_by_array_view,A0160,minimum 3.5 recomputed from array = 3.5
+R0001298,replaced_by_array_view,A0160,mean 3.5 recomputed from array = 3.5
+R0001299,replaced_by_array_view,A0160,median 3.5 recomputed from array = 3.5
+R0001300,replaced_by_array_view,A0160,maximum 3.5 recomputed from array = 3.5
+R0001301,replaced_by_array_view,A0161,minimum 8.2 recomputed from array = 8.2
+R0001302,replaced_by_array_view,A0161,mean 8.2 recomputed from array = 8.2
+R0001303,replaced_by_array_view,A0161,median 8.2 recomputed from array = 8.2
+R0001304,replaced_by_array_view,A0161,maximum 8.2 recomputed from array = 8.2
+R0001305,replaced_by_array_view,A0162,minimum 2.55 recomputed from array = 2.55
+R0001306,replaced_by_array_view,A0162,mean 2.55 recomputed from array = 2.55
+R0001307,replaced_by_array_view,A0162,median 2.55 recomputed from array = 2.55
+R0001308,replaced_by_array_view,A0162,maximum 2.55 recomputed from array = 2.55
+R0001309,replaced_by_array_view,A0163,minimum 1.9 recomputed from array = 1.9
+R0001310,replaced_by_array_view,A0163,mean 1.9 recomputed from array = 1.9
+R0001311,replaced_by_array_view,A0163,median 1.9 recomputed from array = 1.9
+R0001312,replaced_by_array_view,A0163,maximum 1.9 recomputed from array = 1.9
+R0001313,replaced_by_array_view,A0164,minimum 0.3 recomputed from array = 0.3
+R0001314,replaced_by_array_view,A0164,mean 0.9666666666666667 recomputed from array = 0.966666667
+R0001315,replaced_by_array_view,A0164,median 0.5 recomputed from array = 0.5
+R0001316,replaced_by_array_view,A0164,maximum 2.1 recomputed from array = 2.1
+R0001317,replaced_by_array_view,A0165,minimum 0.42 recomputed from array = 0.42
+R0001318,replaced_by_array_view,A0165,mean 0.7375 recomputed from array = 0.7375
+R0001319,replaced_by_array_view,A0165,median 0.615 recomputed from array = 0.615
+R0001320,replaced_by_array_view,A0165,maximum 1.3 recomputed from array = 1.3
+R0001321,replaced_by_array_view,A0166,minimum 1.2 recomputed from array = 1.2
+R0001322,replaced_by_array_view,A0166,mean 1.2 recomputed from array = 1.2
+R0001323,replaced_by_array_view,A0166,median 1.2 recomputed from array = 1.2
+R0001324,replaced_by_array_view,A0166,maximum 1.2 recomputed from array = 1.2
+R0001325,replaced_by_array_view,A0167,minimum 1.23 recomputed from array = 1.23
+R0001326,replaced_by_array_view,A0167,mean 1.23 recomputed from array = 1.23
+R0001327,replaced_by_array_view,A0167,median 1.23 recomputed from array = 1.23
+R0001328,replaced_by_array_view,A0167,maximum 1.23 recomputed from array = 1.23
+R0001329,replaced_by_array_view,A0168,minimum 0.6 recomputed from array = 0.6
+R0001330,replaced_by_array_view,A0168,mean 0.6 recomputed from array = 0.6
+R0001331,replaced_by_array_view,A0168,median 0.6 recomputed from array = 0.6
+R0001332,replaced_by_array_view,A0168,maximum 0.6 recomputed from array = 0.6
+R0001333,replaced_by_array_view,A0169,minimum 0.77 recomputed from array = 0.77
+R0001334,replaced_by_array_view,A0169,mean 0.77 recomputed from array = 0.77
+R0001335,replaced_by_array_view,A0169,median 0.77 recomputed from array = 0.77
+R0001336,replaced_by_array_view,A0169,maximum 0.77 recomputed from array = 0.77
+R0001337,replaced_by_array_view,A0170,minimum 1.1 recomputed from array = 1.1
+R0001338,replaced_by_array_view,A0170,mean 1.9874999999999998 recomputed from array = 1.9875
+R0001339,replaced_by_array_view,A0170,median 2.025 recomputed from array = 2.025
+R0001340,replaced_by_array_view,A0170,maximum 2.8 recomputed from array = 2.8
+R0001341,replaced_by_array_view,A0171,minimum 1.4 recomputed from array = 1.4
+R0001342,replaced_by_array_view,A0171,mean 2.3666666666666667 recomputed from array = 2.36666667
+R0001343,replaced_by_array_view,A0171,median 2.3 recomputed from array = 2.3
+R0001344,replaced_by_array_view,A0171,maximum 3.4 recomputed from array = 3.4
+R0001345,replaced_by_array_view,A0172,minimum 2.25 recomputed from array = 2.25
+R0001346,replaced_by_array_view,A0172,mean 2.9 recomputed from array = 2.9
+R0001347,replaced_by_array_view,A0172,median 2.9749999999999996 recomputed from array = 2.975
+R0001348,replaced_by_array_view,A0172,maximum 3.4 recomputed from array = 3.4
+R0001349,replaced_by_array_view,A0173,minimum 2.2 recomputed from array = 2.2
+R0001350,replaced_by_array_view,A0173,mean 2.35 recomputed from array = 2.35
+R0001351,replaced_by_array_view,A0173,median 2.35 recomputed from array = 2.35
+R0001352,replaced_by_array_view,A0173,maximum 2.5 recomputed from array = 2.5
+R0001353,replaced_by_array_view,A0174,minimum 2.3 recomputed from array = 2.3
+R0001354,replaced_by_array_view,A0174,mean 2.5 recomputed from array = 2.5
+R0001355,replaced_by_array_view,A0174,median 2.4 recomputed from array = 2.4
+R0001356,replaced_by_array_view,A0174,maximum 2.8 recomputed from array = 2.8
+R0001357,replaced_by_array_view,A0175,minimum 1.34 recomputed from array = 1.34
+R0001358,replaced_by_array_view,A0175,mean 1.745 recomputed from array = 1.745
+R0001359,replaced_by_array_view,A0175,median 1.745 recomputed from array = 1.745
+R0001360,replaced_by_array_view,A0175,maximum 2.15 recomputed from array = 2.15
+R0001361,replaced_by_array_view,A0176,minimum 2.4 recomputed from array = 2.4
+R0001362,replaced_by_array_view,A0176,mean 2.8499999999999996 recomputed from array = 2.85
+R0001363,replaced_by_array_view,A0176,median 2.8499999999999996 recomputed from array = 2.85
+R0001364,replaced_by_array_view,A0176,maximum 3.3 recomputed from array = 3.3
+R0001365,replaced_by_array_view,A0177,minimum 0.66 recomputed from array = 0.66
+R0001366,replaced_by_array_view,A0177,mean 0.66 recomputed from array = 0.66
+R0001367,replaced_by_array_view,A0177,median 0.66 recomputed from array = 0.66
+R0001368,replaced_by_array_view,A0177,maximum 0.66 recomputed from array = 0.66
+R0001369,replaced_by_array_view,A0178,minimum 2.6 recomputed from array = 2.6
+R0001370,replaced_by_array_view,A0178,mean 2.6 recomputed from array = 2.6
+R0001371,replaced_by_array_view,A0178,median 2.6 recomputed from array = 2.6
+R0001372,replaced_by_array_view,A0178,maximum 2.6 recomputed from array = 2.6
+R0001373,replaced_by_array_view,A0179,minimum 0.3 recomputed from array = 0.3
+R0001374,replaced_by_array_view,A0179,mean 2.0625 recomputed from array = 2.0625
+R0001375,replaced_by_array_view,A0179,median 2.45 recomputed from array = 2.45
+R0001376,replaced_by_array_view,A0179,maximum 3.05 recomputed from array = 3.05
+R0001377,replaced_by_array_view,A0180,minimum 1.0 recomputed from array = 1
+R0001378,replaced_by_array_view,A0180,mean 2.6257142857142854 recomputed from array = 2.62571429
+R0001379,replaced_by_array_view,A0180,median 2.3 recomputed from array = 2.3
+R0001380,replaced_by_array_view,A0180,maximum 4.83 recomputed from array = 4.83
+R0001381,replaced_by_array_view,A0181,minimum 0.47 recomputed from array = 0.47
+R0001382,replaced_by_array_view,A0181,mean 0.8799999999999999 recomputed from array = 0.88
+R0001383,replaced_by_array_view,A0181,median 0.47 recomputed from array = 0.47
+R0001384,replaced_by_array_view,A0181,maximum 1.7 recomputed from array = 1.7
+R0001385,replaced_by_array_view,A0182,minimum 1.15 recomputed from array = 1.15
+R0001386,replaced_by_array_view,A0182,mean 1.4666666666666668 recomputed from array = 1.46666667
+R0001387,replaced_by_array_view,A0182,median 1.15 recomputed from array = 1.15
+R0001388,replaced_by_array_view,A0182,maximum 2.1 recomputed from array = 2.1
+R0001389,replaced_by_array_view,A0183,minimum 1.3 recomputed from array = 1.3
+R0001390,replaced_by_array_view,A0183,mean 1.3 recomputed from array = 1.3
+R0001391,replaced_by_array_view,A0183,median 1.3 recomputed from array = 1.3
+R0001392,replaced_by_array_view,A0183,maximum 1.3 recomputed from array = 1.3
+R0001393,replaced_by_array_view,A0184,minimum 2.5 recomputed from array = 2.5
+R0001394,replaced_by_array_view,A0184,mean 4.05 recomputed from array = 4.05
+R0001395,replaced_by_array_view,A0184,median 4.05 recomputed from array = 4.05
+R0001396,replaced_by_array_view,A0184,maximum 5.6 recomputed from array = 5.6
+R0001397,replaced_by_array_view,A0185,minimum 1.4 recomputed from array = 1.4
+R0001398,replaced_by_array_view,A0185,mean 1.4 recomputed from array = 1.4
+R0001399,replaced_by_array_view,A0185,median 1.4 recomputed from array = 1.4
+R0001400,replaced_by_array_view,A0185,maximum 1.4 recomputed from array = 1.4
+R0001401,replaced_by_array_view,A0186,minimum 1.75 recomputed from array = 1.75
+R0001402,replaced_by_array_view,A0186,mean 1.75 recomputed from array = 1.75
+R0001403,replaced_by_array_view,A0186,median 1.75 recomputed from array = 1.75
+R0001404,replaced_by_array_view,A0186,maximum 1.75 recomputed from array = 1.75
+R0001405,replaced_by_array_view,A0187,minimum 1.2 recomputed from array = 1.2
+R0001406,replaced_by_array_view,A0187,mean 1.8 recomputed from array = 1.8
+R0001407,replaced_by_array_view,A0187,median 1.8 recomputed from array = 1.8
+R0001408,replaced_by_array_view,A0187,maximum 2.4 recomputed from array = 2.4
+R0001409,replaced_by_array_view,A0188,minimum 1.2 recomputed from array = 1.2
+R0001410,replaced_by_array_view,A0188,mean 2.38 recomputed from array = 2.38
+R0001411,replaced_by_array_view,A0188,median 1.8 recomputed from array = 1.8
+R0001412,replaced_by_array_view,A0188,maximum 4.9 recomputed from array = 4.9
+R0001413,replaced_by_array_view,A0189,minimum 0.57 recomputed from array = 0.57
+R0001414,replaced_by_array_view,A0189,mean 0.57 recomputed from array = 0.57
+R0001415,replaced_by_array_view,A0189,median 0.57 recomputed from array = 0.57
+R0001416,replaced_by_array_view,A0189,maximum 0.57 recomputed from array = 0.57
+R0001417,replaced_by_array_view,A0190,minimum 1.13 recomputed from array = 1.13
+R0001418,replaced_by_array_view,A0190,mean 1.13 recomputed from array = 1.13
+R0001419,replaced_by_array_view,A0190,median 1.13 recomputed from array = 1.13
+R0001420,replaced_by_array_view,A0190,maximum 1.13 recomputed from array = 1.13
+R0001421,replaced_by_array_view,A0191,minimum 0.8 recomputed from array = 0.8
+R0001422,replaced_by_array_view,A0191,mean 2.2359999999999998 recomputed from array = 2.236
+R0001423,replaced_by_array_view,A0191,median 2.315 recomputed from array = 2.315
+R0001424,replaced_by_array_view,A0191,maximum 4.3 recomputed from array = 4.3
+R0001425,replaced_by_array_view,A0192,minimum 5.0 recomputed from array = 5
+R0001426,replaced_by_array_view,A0192,mean 5.0 recomputed from array = 5
+R0001427,replaced_by_array_view,A0192,median 5.0 recomputed from array = 5
+R0001428,replaced_by_array_view,A0192,maximum 5.0 recomputed from array = 5
+R0001429,replaced_by_array_view,A0193,minimum 0.85 recomputed from array = 0.85
+R0001430,replaced_by_array_view,A0193,mean 1.15 recomputed from array = 1.15
+R0001431,replaced_by_array_view,A0193,median 1.15 recomputed from array = 1.15
+R0001432,replaced_by_array_view,A0193,maximum 1.45 recomputed from array = 1.45
+R0001433,replaced_by_array_view,A0194,minimum 0.25 recomputed from array = 0.25
+R0001434,replaced_by_array_view,A0194,mean 0.64 recomputed from array = 0.64
+R0001435,replaced_by_array_view,A0194,median 0.65 recomputed from array = 0.65
+R0001436,replaced_by_array_view,A0194,maximum 1.1 recomputed from array = 1.1
+R0001437,replaced_by_array_view,A0195,minimum 2.6 recomputed from array = 2.6
+R0001438,replaced_by_array_view,A0195,mean 2.6 recomputed from array = 2.6
+R0001439,replaced_by_array_view,A0195,median 2.6 recomputed from array = 2.6
+R0001440,replaced_by_array_view,A0195,maximum 2.6 recomputed from array = 2.6
+R0001441,replaced_by_array_view,A0196,minimum 2.25 recomputed from array = 2.25
+R0001442,replaced_by_array_view,A0196,mean 2.25 recomputed from array = 2.25
+R0001443,replaced_by_array_view,A0196,median 2.25 recomputed from array = 2.25
+R0001444,replaced_by_array_view,A0196,maximum 2.25 recomputed from array = 2.25
+R0001445,replaced_by_array_view,A0197,minimum 1.7 recomputed from array = 1.7
+R0001446,replaced_by_array_view,A0197,mean 1.7 recomputed from array = 1.7
+R0001447,replaced_by_array_view,A0197,median 1.7 recomputed from array = 1.7
+R0001448,replaced_by_array_view,A0197,maximum 1.7 recomputed from array = 1.7
+R0001449,replaced_by_array_view,A0198,minimum 0.2 recomputed from array = 0.2
+R0001450,replaced_by_array_view,A0198,mean 1.9961904761904763 recomputed from array = 1.99619048
+R0001451,replaced_by_array_view,A0198,median 1.43 recomputed from array = 1.43
+R0001452,replaced_by_array_view,A0198,maximum 4.8 recomputed from array = 4.8
+R0001453,replaced_by_array_view,A0199,minimum 0.13 recomputed from array = 0.13
+R0001454,replaced_by_array_view,A0199,mean 1.9171186440677965 recomputed from array = 1.91711864
+R0001455,replaced_by_array_view,A0199,median 1.6 recomputed from array = 1.6
+R0001456,replaced_by_array_view,A0199,maximum 5.2 recomputed from array = 5.2
+R0001457,replaced_by_array_view,A0200,minimum 2.3 recomputed from array = 2.3
+R0001458,replaced_by_array_view,A0200,mean 2.4 recomputed from array = 2.4
+R0001459,replaced_by_array_view,A0200,median 2.4 recomputed from array = 2.4
+R0001460,replaced_by_array_view,A0200,maximum 2.5 recomputed from array = 2.5
+R0001461,replaced_by_array_view,A0201,minimum 2.5 recomputed from array = 2.5
+R0001462,replaced_by_array_view,A0201,mean 2.51 recomputed from array = 2.51
+R0001463,replaced_by_array_view,A0201,median 2.51 recomputed from array = 2.51
+R0001464,replaced_by_array_view,A0201,maximum 2.52 recomputed from array = 2.52
+R0001465,replaced_by_array_view,A0202,minimum 0.4 recomputed from array = 0.4
+R0001466,replaced_by_array_view,A0202,mean 0.4 recomputed from array = 0.4
+R0001467,replaced_by_array_view,A0202,median 0.4 recomputed from array = 0.4
+R0001468,replaced_by_array_view,A0202,maximum 0.4 recomputed from array = 0.4
+R0001469,replaced_by_array_view,A0203,minimum 3.7 recomputed from array = 3.7
+R0001470,replaced_by_array_view,A0203,mean 3.7 recomputed from array = 3.7
+R0001471,replaced_by_array_view,A0203,median 3.7 recomputed from array = 3.7
+R0001472,replaced_by_array_view,A0203,maximum 3.7 recomputed from array = 3.7
+R0001473,replaced_by_array_view,A0204,minimum 1.3 recomputed from array = 1.3
+R0001474,replaced_by_array_view,A0204,mean 1.3 recomputed from array = 1.3
+R0001475,replaced_by_array_view,A0204,median 1.3 recomputed from array = 1.3
+R0001476,replaced_by_array_view,A0204,maximum 1.3 recomputed from array = 1.3
+R0001477,replaced_by_array_view,A0205,minimum 4.0 recomputed from array = 4
+R0001478,replaced_by_array_view,A0205,mean 4.0 recomputed from array = 4
+R0001479,replaced_by_array_view,A0205,median 4.0 recomputed from array = 4
+R0001480,replaced_by_array_view,A0205,maximum 4.0 recomputed from array = 4
+R0001481,replaced_by_array_view,A0206,minimum 4.6 recomputed from array = 4.6
+R0001482,replaced_by_array_view,A0206,mean 4.6 recomputed from array = 4.6
+R0001483,replaced_by_array_view,A0206,median 4.6 recomputed from array = 4.6
+R0001484,replaced_by_array_view,A0206,maximum 4.6 recomputed from array = 4.6
+R0001485,replaced_by_array_view,A0207,minimum 3.1 recomputed from array = 3.1
+R0001486,replaced_by_array_view,A0207,mean 3.1 recomputed from array = 3.1
+R0001487,replaced_by_array_view,A0207,median 3.1 recomputed from array = 3.1
+R0001488,replaced_by_array_view,A0207,maximum 3.1 recomputed from array = 3.1
+R0001489,replaced_by_array_view,A0208,minimum 1.2 recomputed from array = 1.2
+R0001490,replaced_by_array_view,A0208,mean 1.5 recomputed from array = 1.5
+R0001491,replaced_by_array_view,A0208,median 1.3 recomputed from array = 1.3
+R0001492,replaced_by_array_view,A0208,maximum 2.0 recomputed from array = 2
+R0001493,replaced_by_array_view,A0209,minimum 1.0 recomputed from array = 1
+R0001494,replaced_by_array_view,A0209,mean 1.9125 recomputed from array = 1.9125
+R0001495,replaced_by_array_view,A0209,median 1.825 recomputed from array = 1.825
+R0001496,replaced_by_array_view,A0209,maximum 3.0 recomputed from array = 3
+R0001497,replaced_by_array_view,A0210,minimum 2.35 recomputed from array = 2.35
+R0001498,replaced_by_array_view,A0210,mean 3.2750000000000004 recomputed from array = 3.275
+R0001499,replaced_by_array_view,A0210,median 3.2750000000000004 recomputed from array = 3.275
+R0001500,replaced_by_array_view,A0210,maximum 4.2 recomputed from array = 4.2
+R0001501,replaced_by_array_view,A0211,minimum 3.8 recomputed from array = 3.8
+R0001502,replaced_by_array_view,A0211,mean 4.5 recomputed from array = 4.5
+R0001503,replaced_by_array_view,A0211,median 4.5 recomputed from array = 4.5
+R0001504,replaced_by_array_view,A0211,maximum 5.2 recomputed from array = 5.2
+R0001505,replaced_by_array_view,A0212,minimum 1.7 recomputed from array = 1.7
+R0001506,replaced_by_array_view,A0212,mean 2.6 recomputed from array = 2.6
+R0001507,replaced_by_array_view,A0212,median 2.4000000000000004 recomputed from array = 2.4
+R0001508,replaced_by_array_view,A0212,maximum 3.9 recomputed from array = 3.9
+R0001509,replaced_by_array_view,A0213,minimum 0.4 recomputed from array = 0.4
+R0001510,replaced_by_array_view,A0213,mean 2.0083333333333333 recomputed from array = 2.00833333
+R0001511,replaced_by_array_view,A0213,median 1.875 recomputed from array = 1.875
+R0001512,replaced_by_array_view,A0213,maximum 3.6 recomputed from array = 3.6
+R0001513,replaced_by_array_view,A0214,minimum 2.3 recomputed from array = 2.3
+R0001514,replaced_by_array_view,A0214,mean 3.175 recomputed from array = 3.175
+R0001515,replaced_by_array_view,A0214,median 3.2 recomputed from array = 3.2
+R0001516,replaced_by_array_view,A0214,maximum 4.0 recomputed from array = 4
+R0001517,replaced_by_array_view,A0215,minimum 0.7 recomputed from array = 0.7
+R0001518,replaced_by_array_view,A0215,mean 2.685714285714286 recomputed from array = 2.68571429
+R0001519,replaced_by_array_view,A0215,median 1.7 recomputed from array = 1.7
+R0001520,replaced_by_array_view,A0215,maximum 6.0 recomputed from array = 6
+R0001521,replaced_by_array_view,A0216,minimum 0.6 recomputed from array = 0.6
+R0001522,replaced_by_array_view,A0216,mean 1.5 recomputed from array = 1.5
+R0001523,replaced_by_array_view,A0216,median 1.5 recomputed from array = 1.5
+R0001524,replaced_by_array_view,A0216,maximum 2.4 recomputed from array = 2.4
+R0001525,replaced_by_array_view,A0217,minimum 1.0 recomputed from array = 1
+R0001526,replaced_by_array_view,A0217,mean 1.29 recomputed from array = 1.29
+R0001527,replaced_by_array_view,A0217,median 1.29 recomputed from array = 1.29
+R0001528,replaced_by_array_view,A0217,maximum 1.58 recomputed from array = 1.58
+R0001529,replaced_by_array_view,A0218,minimum 0.3 recomputed from array = 0.3
+R0001530,replaced_by_array_view,A0218,mean 0.3 recomputed from array = 0.3
+R0001531,replaced_by_array_view,A0218,median 0.3 recomputed from array = 0.3
+R0001532,replaced_by_array_view,A0218,maximum 0.3 recomputed from array = 0.3
+R0001533,replaced_by_array_view,A0219,minimum 0.5 recomputed from array = 0.5
+R0001534,replaced_by_array_view,A0219,mean 0.5 recomputed from array = 0.5
+R0001535,replaced_by_array_view,A0219,median 0.5 recomputed from array = 0.5
+R0001536,replaced_by_array_view,A0219,maximum 0.5 recomputed from array = 0.5
+R0001537,replaced_by_array_view,A0220,minimum 0.4 recomputed from array = 0.4
+R0001538,replaced_by_array_view,A0220,mean 1.788 recomputed from array = 1.788
+R0001539,replaced_by_array_view,A0220,median 1.7 recomputed from array = 1.7
+R0001540,replaced_by_array_view,A0220,maximum 7.5 recomputed from array = 7.5
+R0001541,replaced_by_array_view,A0221,minimum 1.7 recomputed from array = 1.7
+R0001542,replaced_by_array_view,A0221,mean 1.7 recomputed from array = 1.7
+R0001543,replaced_by_array_view,A0221,median 1.7 recomputed from array = 1.7
+R0001544,replaced_by_array_view,A0221,maximum 1.7 recomputed from array = 1.7
+R0001545,replaced_by_array_view,A0222,minimum 1.4 recomputed from array = 1.4
+R0001546,replaced_by_array_view,A0222,mean 2.33 recomputed from array = 2.33
+R0001547,replaced_by_array_view,A0222,median 2.2 recomputed from array = 2.2
+R0001548,replaced_by_array_view,A0222,maximum 3.7 recomputed from array = 3.7
+R0001549,replaced_by_array_view,A0223,minimum 0.94 recomputed from array = 0.94
+R0001550,replaced_by_array_view,A0223,mean 2.6138461538461537 recomputed from array = 2.61384615
+R0001551,replaced_by_array_view,A0223,median 2.8 recomputed from array = 2.8
+R0001552,replaced_by_array_view,A0223,maximum 3.69 recomputed from array = 3.69
+R0001553,replaced_by_array_view,A0224,minimum 3.1 recomputed from array = 3.1
+R0001554,replaced_by_array_view,A0224,mean 3.1 recomputed from array = 3.1
+R0001555,replaced_by_array_view,A0224,median 3.1 recomputed from array = 3.1
+R0001556,replaced_by_array_view,A0224,maximum 3.1 recomputed from array = 3.1
+R0001557,replaced_by_array_view,A0225,minimum 0.0 recomputed from array = 0
+R0001558,replaced_by_array_view,A0225,mean 0.017029891304347827 recomputed from array = 0.0170298913
+R0001559,replaced_by_array_view,A0225,median 0.01225 recomputed from array = 0.01225
+R0001560,replaced_by_array_view,A0225,maximum 0.12 recomputed from array = 0.12
+R0001561,replaced_by_array_view,A0226,minimum 0.0 recomputed from array = 0
+R0001562,replaced_by_array_view,A0226,mean 0.011494565217391306 recomputed from array = 0.0114945652
+R0001563,replaced_by_array_view,A0226,median 0.0 recomputed from array = 0
+R0001564,replaced_by_array_view,A0226,maximum 0.105 recomputed from array = 0.105
+R0001565,replaced_by_array_view,A0227,minimum 0.0 recomputed from array = 0
+R0001566,replaced_by_array_view,A0227,mean 0.033049180327868855 recomputed from array = 0.0330491803
+R0001567,replaced_by_array_view,A0227,median 0.02 recomputed from array = 0.02
+R0001568,replaced_by_array_view,A0227,maximum 0.13 recomputed from array = 0.13
+R0001569,replaced_by_array_view,A0228,minimum 0.0 recomputed from array = 0
+R0001570,replaced_by_array_view,A0228,mean 0.028225806451612902 recomputed from array = 0.0282258065
+R0001571,replaced_by_array_view,A0228,median 0.0 recomputed from array = 0
+R0001572,replaced_by_array_view,A0228,maximum 0.2 recomputed from array = 0.2
+R0001605,replaced_by_array_view,A0237,minimum 0.0 recomputed from array = 0
+R0001606,replaced_by_array_view,A0237,mean 0.13565168539325842 recomputed from array = 0.135651685
+R0001607,replaced_by_array_view,A0237,median 0.07 recomputed from array = 0.07
+R0001608,replaced_by_array_view,A0237,maximum 0.9 recomputed from array = 0.9
+R0001609,replaced_by_array_view,A0238,minimum 0.001 recomputed from array = 0.001
+R0001610,replaced_by_array_view,A0238,mean 0.012544943820224719 recomputed from array = 0.0125449438
+R0001611,replaced_by_array_view,A0238,median 0.011 recomputed from array = 0.011
+R0001612,replaced_by_array_view,A0238,maximum 0.049 recomputed from array = 0.049
+R0001613,replaced_by_array_view,A0239,minimum 0.2 recomputed from array = 0.2
+R0001614,replaced_by_array_view,A0239,mean 2.7020408163265306 recomputed from array = 2.70204082
+R0001615,replaced_by_array_view,A0239,median 2.8 recomputed from array = 2.8
+R0001616,replaced_by_array_view,A0239,maximum 5.2 recomputed from array = 5.2
+R0001617,replaced_by_array_view,A0240,minimum 0.0 recomputed from array = 0
+R0001618,replaced_by_array_view,A0240,mean 0.5622522522522522 recomputed from array = 0.562252252
+R0001619,replaced_by_array_view,A0240,median 0.5 recomputed from array = 0.5
+R0001620,replaced_by_array_view,A0240,maximum 1.65 recomputed from array = 1.65
+R0001621,replaced_by_array_view,A0241,minimum 0.02 recomputed from array = 0.02
+R0001622,replaced_by_array_view,A0241,mean 0.1525 recomputed from array = 0.1525
+R0001623,replaced_by_array_view,A0241,median 0.08499999999999999 recomputed from array = 0.085
+R0001624,replaced_by_array_view,A0241,maximum 0.48 recomputed from array = 0.48
+R0001625,replaced_by_array_view,A0242,minimum 0.04 recomputed from array = 0.04
+R0001626,replaced_by_array_view,A0242,mean 0.31083333333333335 recomputed from array = 0.310833333
+R0001627,replaced_by_array_view,A0242,median 0.16999999999999998 recomputed from array = 0.17
+R0001628,replaced_by_array_view,A0242,maximum 0.96 recomputed from array = 0.96
+R0001633,replaced_by_array_view,A0244,minimum 0.1 recomputed from array = 0.1
+R0001634,replaced_by_array_view,A0244,mean 0.6599999999999999 recomputed from array = 0.66
+R0001635,replaced_by_array_view,A0244,median 0.85 recomputed from array = 0.85
+R0001636,replaced_by_array_view,A0244,maximum 1.0 recomputed from array = 1
+R0001637,replaced_by_array_view,A0245,minimum 0.04 recomputed from array = 0.04
+R0001638,replaced_by_array_view,A0245,mean 0.095 recomputed from array = 0.095
+R0001639,replaced_by_array_view,A0245,median 0.095 recomputed from array = 0.095
+R0001640,replaced_by_array_view,A0245,maximum 0.15 recomputed from array = 0.15
+R0001641,replaced_by_array_view,A0246,minimum 0.01 recomputed from array = 0.01
+R0001642,replaced_by_array_view,A0246,mean 0.13294117647058823 recomputed from array = 0.132941176
+R0001643,replaced_by_array_view,A0246,median 0.05 recomputed from array = 0.05
+R0001644,replaced_by_array_view,A0246,maximum 0.6 recomputed from array = 0.6
+R0001645,replaced_by_array_view,A0247,minimum 0.02 recomputed from array = 0.02
+R0001646,replaced_by_array_view,A0247,mean 0.3613636363636364 recomputed from array = 0.361363636
+R0001647,replaced_by_array_view,A0247,median 0.35 recomputed from array = 0.35
+R0001648,replaced_by_array_view,A0247,maximum 0.9 recomputed from array = 0.9
+R0001649,replaced_by_array_view,A0248,minimum 0.01 recomputed from array = 0.01
+R0001650,replaced_by_array_view,A0248,mean 0.2827777777777778 recomputed from array = 0.282777778
+R0001651,replaced_by_array_view,A0248,median 0.20500000000000002 recomputed from array = 0.205
+R0001652,replaced_by_array_view,A0248,maximum 0.9 recomputed from array = 0.9
+R0001653,replaced_by_array_view,A0249,minimum 0.2 recomputed from array = 0.2
+R0001654,replaced_by_array_view,A0249,mean 0.2 recomputed from array = 0.2
+R0001655,replaced_by_array_view,A0249,median 0.2 recomputed from array = 0.2
+R0001656,replaced_by_array_view,A0249,maximum 0.2 recomputed from array = 0.2
+R0001657,replaced_by_array_view,A0250,minimum 0.3 recomputed from array = 0.3
+R0001658,replaced_by_array_view,A0250,mean 0.495 recomputed from array = 0.495
+R0001659,replaced_by_array_view,A0250,median 0.45 recomputed from array = 0.45
+R0001660,replaced_by_array_view,A0250,maximum 0.78 recomputed from array = 0.78
+R0001661,replaced_by_array_view,A0251,minimum 0.4 recomputed from array = 0.4
+R0001662,replaced_by_array_view,A0251,mean 0.56 recomputed from array = 0.56
+R0001663,replaced_by_array_view,A0251,median 0.5 recomputed from array = 0.5
+R0001664,replaced_by_array_view,A0251,maximum 0.78 recomputed from array = 0.78
+R0001665,replaced_by_array_view,A0252,minimum 0.01 recomputed from array = 0.01
+R0001666,replaced_by_array_view,A0252,mean 0.456140756302521 recomputed from array = 0.456140756
+R0001667,replaced_by_array_view,A0252,median 0.3 recomputed from array = 0.3
+R0001668,replaced_by_array_view,A0252,maximum 2.9 recomputed from array = 2.9
+R0001669,replaced_by_array_view,A0253,minimum 0.033 recomputed from array = 0.033
+R0001670,replaced_by_array_view,A0253,mean 0.23167307692307693 recomputed from array = 0.231673077
+R0001671,replaced_by_array_view,A0253,median 0.189 recomputed from array = 0.189
+R0001672,replaced_by_array_view,A0253,maximum 0.96 recomputed from array = 0.96
+R0001673,replaced_by_array_view,A0254,minimum 0.07 recomputed from array = 0.07
+R0001674,replaced_by_array_view,A0254,mean 0.4645192307692308 recomputed from array = 0.464519231
+R0001675,replaced_by_array_view,A0254,median 0.375 recomputed from array = 0.375
+R0001676,replaced_by_array_view,A0254,maximum 1.92 recomputed from array = 1.92
+R0001677,replaced_by_array_view,A0255,minimum 0.0 recomputed from array = 0
+R0001678,replaced_by_array_view,A0255,mean 0.06677227722772278 recomputed from array = 0.0667722772
+R0001679,replaced_by_array_view,A0255,median 0.05 recomputed from array = 0.05
+R0001680,replaced_by_array_view,A0255,maximum 0.3 recomputed from array = 0.3
+R0001681,replaced_by_array_view,A0256,minimum 0.0 recomputed from array = 0
+R0001682,replaced_by_array_view,A0256,mean 0.08583663366336633 recomputed from array = 0.0858366337
+R0001683,replaced_by_array_view,A0256,median 0.07 recomputed from array = 0.07
+R0001684,replaced_by_array_view,A0256,maximum 0.27 recomputed from array = 0.27
+R0001685,replaced_by_array_view,A0257,minimum 0.07 recomputed from array = 0.07
+R0001686,replaced_by_array_view,A0257,mean 0.14555555555555555 recomputed from array = 0.145555556
+R0001687,replaced_by_array_view,A0257,median 0.15 recomputed from array = 0.15
+R0001688,replaced_by_array_view,A0257,maximum 0.25 recomputed from array = 0.25
+R0001689,replaced_by_array_view,A0258,minimum 0.008 recomputed from array = 0.008
+R0001690,replaced_by_array_view,A0258,mean 0.0116 recomputed from array = 0.0116
+R0001691,replaced_by_array_view,A0258,median 0.01 recomputed from array = 0.01
+R0001692,replaced_by_array_view,A0258,maximum 0.015 recomputed from array = 0.015
+R0001693,replaced_by_array_view,A0259,minimum 0.0 recomputed from array = 0
+R0001694,replaced_by_array_view,A0259,mean 0.007000000000000001 recomputed from array = 0.007
+R0001695,replaced_by_array_view,A0259,median 0.01 recomputed from array = 0.01
+R0001696,replaced_by_array_view,A0259,maximum 0.013 recomputed from array = 0.013
+R0001697,replaced_by_array_view,A0260,minimum 0.02 recomputed from array = 0.02
+R0001698,replaced_by_array_view,A0260,mean 0.12499641434262948 recomputed from array = 0.124996414
+R0001699,replaced_by_array_view,A0260,median 0.1138 recomputed from array = 0.1138
+R0001700,replaced_by_array_view,A0260,maximum 0.435 recomputed from array = 0.435
+R0001701,replaced_by_array_view,A0261,minimum 0.0148 recomputed from array = 0.0148
+R0001702,replaced_by_array_view,A0261,mean 0.3431850267379679 recomputed from array = 0.343185027
+R0001703,replaced_by_array_view,A0261,median 0.2029 recomputed from array = 0.2029
+R0001704,replaced_by_array_view,A0261,maximum 2.1714 recomputed from array = 2.1714
+R0001705,replaced_by_array_view,A0262,minimum 0.045 recomputed from array = 0.045
+R0001706,replaced_by_array_view,A0262,mean 0.3480315789473684 recomputed from array = 0.348031579
+R0001707,replaced_by_array_view,A0262,median 0.22 recomputed from array = 0.22
+R0001708,replaced_by_array_view,A0262,maximum 2.22 recomputed from array = 2.22
+R0001709,replaced_by_array_view,A0263,minimum 0.005 recomputed from array = 0.005
+R0001710,replaced_by_array_view,A0263,mean 0.1608489010989011 recomputed from array = 0.160848901
+R0001711,replaced_by_array_view,A0263,median 0.1 recomputed from array = 0.1
+R0001712,replaced_by_array_view,A0263,maximum 1.82 recomputed from array = 1.82
+R0001713,replaced_by_array_view,A0264,minimum 0.005 recomputed from array = 0.005
+R0001714,replaced_by_array_view,A0264,mean 0.29314903323919184 recomputed from array = 0.293149033
+R0001715,replaced_by_array_view,A0264,median 0.2 recomputed from array = 0.2
+R0001716,replaced_by_array_view,A0264,maximum 2.34 recomputed from array = 2.34
+R0001717,replaced_by_array_view,A0265,minimum 0.005 recomputed from array = 0.005
+R0001718,replaced_by_array_view,A0265,mean 0.648458904109589 recomputed from array = 0.648458904
+R0001719,replaced_by_array_view,A0265,median 0.52 recomputed from array = 0.52
+R0001720,replaced_by_array_view,A0265,maximum 2.46 recomputed from array = 2.46
+R0001721,replaced_by_array_view,A0266,minimum 0.0 recomputed from array = 0
+R0001722,replaced_by_array_view,A0266,mean 0.02423076923076923 recomputed from array = 0.0242307692
+R0001723,replaced_by_array_view,A0266,median 0.01 recomputed from array = 0.01
+R0001724,replaced_by_array_view,A0266,maximum 0.25 recomputed from array = 0.25
+R0001725,replaced_by_array_view,A0267,minimum 0.0 recomputed from array = 0
+R0001726,replaced_by_array_view,A0267,mean 0.05846153846153846 recomputed from array = 0.0584615385
+R0001727,replaced_by_array_view,A0267,median 0.04 recomputed from array = 0.04
+R0001728,replaced_by_array_view,A0267,maximum 0.27 recomputed from array = 0.27
+R0001729,replaced_by_array_view,A0268,minimum 0.0 recomputed from array = 0
+R0001730,replaced_by_array_view,A0268,mean 0.29157051282051283 recomputed from array = 0.291570513
+R0001731,replaced_by_array_view,A0268,median 0.11 recomputed from array = 0.11
+R0001732,replaced_by_array_view,A0268,maximum 1.64 recomputed from array = 1.64
+R0001733,replaced_by_array_view,A0269,minimum 0.0 recomputed from array = 0
+R0001734,replaced_by_array_view,A0269,mean 0.04826923076923077 recomputed from array = 0.0482692308
+R0001735,replaced_by_array_view,A0269,median 0.045 recomputed from array = 0.045
+R0001736,replaced_by_array_view,A0269,maximum 0.2 recomputed from array = 0.2
+R0001737,replaced_by_array_view,A0270,minimum 0.0 recomputed from array = 0
+R0001738,replaced_by_array_view,A0270,mean 0.9195278592316716 recomputed from array = 0.919527859
+R0001739,replaced_by_array_view,A0270,median 0.37 recomputed from array = 0.37
+R0001740,replaced_by_array_view,A0270,maximum 5.2 recomputed from array = 5.2
+R0001741,replaced_by_array_view,A0271,minimum 0.0 recomputed from array = 0
+R0001742,replaced_by_array_view,A0271,mean 0.27090909090909093 recomputed from array = 0.270909091
+R0001743,replaced_by_array_view,A0271,median 0.15 recomputed from array = 0.15
+R0001744,replaced_by_array_view,A0271,maximum 3.74 recomputed from array = 3.74
+R0001745,replaced_by_array_view,A0272,minimum 0.05 recomputed from array = 0.05
+R0001746,replaced_by_array_view,A0272,mean 0.05 recomputed from array = 0.05
+R0001747,replaced_by_array_view,A0272,median 0.05 recomputed from array = 0.05
+R0001748,replaced_by_array_view,A0272,maximum 0.05 recomputed from array = 0.05
+R0001749,replaced_by_array_view,A0273,minimum 0.01 recomputed from array = 0.01
+R0001750,replaced_by_array_view,A0273,mean 0.04041666666666666 recomputed from array = 0.0404166667
+R0001751,replaced_by_array_view,A0273,median 0.026250000000000002 recomputed from array = 0.02625
+R0001752,replaced_by_array_view,A0273,maximum 0.11 recomputed from array = 0.11
+R0001753,replaced_by_array_view,A0274,minimum 0.015 recomputed from array = 0.015
+R0001754,replaced_by_array_view,A0274,mean 0.0886842105263158 recomputed from array = 0.0886842105
+R0001755,replaced_by_array_view,A0274,median 0.07 recomputed from array = 0.07
+R0001756,replaced_by_array_view,A0274,maximum 0.23 recomputed from array = 0.23
+R0001757,kept,R0001757,
+R0001758,kept,R0001758,
+R0001759,kept,R0001759,
+R0001760,kept,R0001760,
+R0001761,kept,R0001761,
+R0001762,kept,R0001762,
+R0001763,kept,R0001763,
+R0001764,kept,R0001764,
+R0001765,kept,R0001765,
+R0001766,kept,R0001766,
+R0001767,kept,R0001767,
+R0001768,kept,R0001768,
+R0001769,kept,R0001769,
+R0001770,kept,R0001770,
+R0001771,kept,R0001771,
+R0001772,kept,R0001772,
+R0001773,kept,R0001773,
+R0001774,kept,R0001774,
+R0001775,kept,R0001775,
+R0001776,kept,R0001776,
+R0001777,kept,R0001777,
+R0001778,kept,R0001778,
+R0001779,kept,R0001779,
+R0001780,kept,R0001780,
+R0001781,kept,R0001781,
+R0001782,kept,R0001782,
+R0001783,kept,R0001783,
+R0001784,kept,R0001784,
+R0001785,kept,R0001785,
+R0001786,kept,R0001786,
+R0001787,kept,R0001787,
+R0001788,kept,R0001788,
+R0001789,kept,R0001789,
+R0001790,kept,R0001790,
+R0001791,kept,R0001791,
+R0001792,kept,R0001792,
+R0001793,kept,R0001793,
+R0001794,kept,R0001794,
+R0001795,kept,R0001795,
+R0001796,kept,R0001796,
+R0001797,kept,R0001797,
+R0001798,kept,R0001798,
+R0001799,kept,R0001799,
+R0001800,kept,R0001800,
+R0001801,kept,R0001801,
+R0001802,kept,R0001802,
+R0001803,kept,R0001803,
+R0001804,kept,R0001804,
+R0001805,kept,R0001805,
+R0001806,kept,R0001806,
+R0001807,kept,R0001807,
+R0001808,kept,R0001808,
+R0001809,kept,R0001809,
+R0001810,kept,R0001810,
+R0001811,kept,R0001811,
+R0001812,kept,R0001812,
+R0001813,kept,R0001813,
+R0001814,kept,R0001814,
+R0001815,kept,R0001815,
+R0001816,kept,R0001816,
+R0001817,kept,R0001817,
+R0001818,kept,R0001818,
+R0001819,kept,R0001819,
+R0001820,kept,R0001820,
+R0001821,kept,R0001821,
+R0001822,kept,R0001822,
+R0001823,merged_duplicate,R0001821,"same study/event/metric/statistic/value as R0001821 (dropped copy compiled_in="""", source label ""Antoine et al. (2024)"")"
+R0001824,kept,R0001824,
+R0001825,kept,R0001825,
+R0001826,kept,R0001826,
+R0001827,kept,R0001827,
+R0001828,kept,R0001828,
+R0001829,kept,R0001829,
+R0001830,kept,R0001830,
+R0001831,kept,R0001831,
+R0001832,kept,R0001832,
+R0001833,kept,R0001833,
+R0001834,kept,R0001834,
+R0001835,kept,R0001835,
+R0001836,kept,R0001836,
+R0001837,kept,R0001837,
+R0001838,kept,R0001838,
+R0001839,kept,R0001839,
+R0001840,kept,R0001840,
+R0001841,kept,R0001841,
+R0001842,kept,R0001842,
+R0001843,kept,R0001843,
+R0001844,kept,R0001844,
+R0001845,kept,R0001845,
+R0001846,kept,R0001846,
+R0001847,kept,R0001847,
+R0001848,kept,R0001848,
+R0001849,kept,R0001849,
+R0001850,kept,R0001850,
+R0001851,kept,R0001851,
+R0001852,kept,R0001852,
+R0001853,kept,R0001853,
+R0001854,kept,R0001854,
+R0001855,kept,R0001855,
+R0001856,kept,R0001856,
+R0001857,kept,R0001857,
+R0001858,kept,R0001858,
+R0001859,kept,R0001859,
+R0001860,kept,R0001860,
+R0001861,kept,R0001861,
+R0001862,kept,R0001862,
+R0001863,kept,R0001863,
+R0001864,kept,R0001864,
+R0001865,kept,R0001865,
+R0001866,kept,R0001866,
+R0001867,kept,R0001867,
+R0001868,kept,R0001868,
+R0001869,kept,R0001869,
+R0001870,kept,R0001870,
+R0001871,kept,R0001871,
+R0001872,dropped_metric_out_of_scope,,off_fault_deformation_absolute: OFD/SSD are ingested as % fractions only
+R0001873,kept,R0001873,
+R0001874,kept,R0001874,
+R0001875,kept,R0001875,
+R0001876,dropped_metric_out_of_scope,,off_fault_deformation_absolute: OFD/SSD are ingested as % fractions only
+R0001877,kept,R0001877,
+R0001878,kept,R0001878,
+R0001879,kept,R0001879,
+R0001880,kept,R0001880,
+R0001881,kept,R0001881,
+R0001882,kept,R0001882,
+R0001883,kept,R0001883,
+R0001884,kept,R0001884,
+R0001885,kept,R0001885,
+R0001886,kept,R0001886,
+R0001887,kept,R0001887,
+R0001888,kept,R0001888,
+R0001889,kept,R0001889,
+R0001890,kept,R0001890,
+R0001891,kept,R0001891,
+R0001892,kept,R0001892,
+R0001893,kept,R0001893,
+R0001894,kept,R0001894,
+R0001895,kept,R0001895,
+R0001896,kept,R0001896,
+R0001897,kept,R0001897,
+R0001898,kept,R0001898,
+R0001899,kept,R0001899,
+R0001900,kept,R0001900,
+R0001901,kept,R0001901,
+R0001902,kept,R0001902,
+R0001903,kept,R0001903,
+R0001904,kept,R0001904,
+R0001905,kept,R0001905,
+R0001906,kept,R0001906,
+R0001907,kept,R0001907,
+R0001908,kept,R0001908,
+R0001909,kept,R0001909,
+R0001910,kept,R0001910,
+R0001911,kept,R0001911,
+R0001912,kept,R0001912,
+R0001913,kept,R0001913,
+R0001914,kept,R0001914,
+R0001915,kept,R0001915,
+R0001916,kept,R0001916,
+R0001917,kept,R0001917,
+R0001918,kept,R0001918,
+R0001919,kept,R0001919,
+R0001920,kept,R0001920,
+R0001921,kept,R0001921,
+R0001922,kept,R0001922,
+R0001923,kept,R0001923,
+R0001924,kept,R0001924,
+R0001925,kept,R0001925,
+R0001926,kept,R0001926,
+R0001927,kept,R0001927,
+R0001928,kept,R0001928,
+R0001929,kept,R0001929,
+R0001930,kept,R0001930,
+R0001931,kept,R0001931,
+R0001932,kept,R0001932,
+R0001933,kept,R0001933,
+R0001934,kept,R0001934,
+R0001935,kept,R0001935,
+R0001936,kept,R0001936,
+R0001937,kept,R0001937,
+R0001938,kept,R0001938,
+R0001939,kept,R0001939,
+R0001940,kept,R0001940,
+R0001941,kept,R0001941,
+R0001942,kept,R0001942,
+R0001943,kept,R0001943,
+R0001944,kept,R0001944,
+R0001945,kept,R0001945,
+R0001946,kept,R0001946,
+R0001947,kept,R0001947,
+R0001948,kept,R0001948,
+R0001949,kept,R0001949,
+R0001950,kept,R0001950,
+R0001951,kept,R0001951,
+R0001952,kept,R0001952,
+R0001953,kept,R0001953,
+R0001954,kept,R0001954,
+R0001955,kept,R0001955,
+R0001956,kept,R0001956,
+R0001957,kept,R0001957,
+R0001958,kept,R0001958,
+R0001959,kept,R0001959,
+R0001960,kept,R0001960,
+R0001961,kept,R0001961,
+R0001962,kept,R0001962,
+R0001963,kept,R0001963,
+R0001964,kept,R0001964,
+R0001965,kept,R0001965,
+R0001966,kept,R0001966,
+R0001967,kept,R0001967,
+R0001968,kept,R0001968,
+R0001969,kept,R0001969,
+R0001970,kept,R0001970,
+R0001971,kept,R0001971,
+R0001972,kept,R0001972,
+R0001973,kept,R0001973,
+R0001974,kept,R0001974,
+R0001975,kept,R0001975,
+R0001976,kept,R0001976,
+R0001977,kept,R0001977,
+R0001978,kept,R0001978,
+R0001979,kept,R0001979,
+R0001980,kept,R0001980,
+R0001981,kept,R0001981,
+R0001982,kept,R0001982,
+R0001983,kept,R0001983,
+R0001984,kept,R0001984,
+R0001985,kept,R0001985,
+R0001986,kept,R0001986,
+R0001987,kept,R0001987,
+R0001988,kept,R0001988,
+R0001989,kept,R0001989,
+R0001990,kept,R0001990,
+R0001991,kept,R0001991,
+R0001992,kept,R0001992,
+R0001993,kept,R0001993,
+R0001994,kept,R0001994,
+R0001995,kept,R0001995,
+R0001996,kept,R0001996,
+R0001997,kept,R0001997,
+R0001998,kept,R0001998,
+R0001999,kept,R0001999,
+R0002000,kept,R0002000,
+R0002001,kept,R0002001,
+R0002002,kept,R0002002,
+R0002003,kept,R0002003,
+R0002004,kept,R0002004,
+R0002005,kept,R0002005,
+R0002006,kept,R0002006,
+R0002007,kept,R0002007,
+R0002008,kept,R0002008,
+R0002009,kept,R0002009,
+R0002010,kept,R0002010,
+R0002011,kept,R0002011,
+R0002012,kept,R0002012,
+R0002013,kept,R0002013,
+R0002014,kept,R0002014,
+R0002015,kept,R0002015,
+R0002016,kept,R0002016,
+R0002017,kept,R0002017,
+R0002018,kept,R0002018,
+R0002019,kept,R0002019,
+R0002020,kept,R0002020,
+R0002021,kept,R0002021,
+R0002022,kept,R0002022,
+R0002023,kept,R0002023,
+R0002024,kept,R0002024,
+R0002025,kept,R0002025,
+R0002026,kept,R0002026,
+R0002027,kept,R0002027,
+R0002028,kept,R0002028,
+R0002029,kept,R0002029,
+R0002030,kept,R0002030,
+R0002031,kept,R0002031,
+R0002032,kept,R0002032,
+R0002033,kept,R0002033,
+R0002034,kept,R0002034,
+R0002035,kept,R0002035,
+R0002036,kept,R0002036,
+R0002037,kept,R0002037,
+R0002038,kept,R0002038,
+R0002039,kept,R0002039,
+R0002040,kept,R0002040,
+R0002041,kept,R0002041,
+R0002042,kept,R0002042,
+R0002043,kept,R0002043,
+R0002044,kept,R0002044,
+R0002045,kept,R0002045,
+R0002046,kept,R0002046,
+R0002047,kept,R0002047,
+R0002048,kept,R0002048,
+R0002049,kept,R0002049,
+R0002050,kept,R0002050,
+R0002051,kept,R0002051,
+R0002052,kept,R0002052,
+R0002053,kept,R0002053,
+R0002054,kept,R0002054,
+R0002055,kept,R0002055,
+R0002056,kept,R0002056,
+R0002057,kept,R0002057,
+R0002058,kept,R0002058,
+R0002059,kept,R0002059,
+R0002060,kept,R0002060,
+R0002061,kept,R0002061,
+R0002062,kept,R0002062,
+R0002063,kept,R0002063,
+R0002064,kept,R0002064,
+R0002065,kept,R0002065,
+R0002066,kept,R0002066,
+R0002067,kept,R0002067,
+R0002068,kept,R0002068,
+R0002069,kept,R0002069,
+R0002070,kept,R0002070,
+R0002071,kept,R0002071,
+R0002072,kept,R0002072,
+R0002073,kept,R0002073,
+R0002074,kept,R0002074,
+R0002075,kept,R0002075,
+R0002076,kept,R0002076,
+R0002077,kept,R0002077,
+R0002078,kept,R0002078,
+R0002079,kept,R0002079,
+R0002080,kept,R0002080,
+R0002081,kept,R0002081,
+R0002082,kept,R0002082,
+R0002083,kept,R0002083,
+R0002084,kept,R0002084,
+R0002085,kept,R0002085,
+R0002086,kept,R0002086,
+R0002087,kept,R0002087,
+R0002088,kept,R0002088,
+R0002089,kept,R0002089,
+R0002090,kept,R0002090,
+R0002091,kept,R0002091,
+R0002092,kept,R0002092,
+R0002093,kept,R0002093,
+R0002094,kept,R0002094,
+R0002095,kept,R0002095,
+R0002096,kept,R0002096,
+R0002097,kept,R0002097,
+R0002098,kept,R0002098,
+R0002099,kept,R0002099,
+R0002100,kept,R0002100,
+R0002101,kept,R0002101,
+R0002102,kept,R0002102,
+R0002103,kept,R0002103,
+R0002104,kept,R0002104,
+R0002105,kept,R0002105,
+R0002106,kept,R0002106,
