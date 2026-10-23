@@ -4,11 +4,10 @@
 # Created: 10/22/2026
 # Last update: 10/22/2026
 
-A literature-based database of surface-rupture earthquake metrics (slip, rupture length, off-fault deformation, shallow slip deficit, stress drop, ...). Every number is published in a study and stored with its provenance, source location, method, and uncertainty. Live observation tables are intentionally empty; contributors enter values manually using the Excel workbook.
+This tool is a literature-based database of metrics characterizing surface-rupturing earthquakes and associated deformation (slip, rupture length, off-fault deformation, shallow slip deficit, stress drop, etc). Metric values are extracted from peer-reviewed publications, and are stored in the database with their provenance, source location, method, and uncertainty. Contributors enter values manually using the Excel workbook. Values are plotted on three visual interfaces including: 1) a map that shows the global distribution of values for a given metric, 2) a 2D correlation plot tool to look at relations between two metrics, and 3) a tool that compares all published values for a similar metric.
 
 ```text
-data/*.csv  ──(validate)──►  scripts/build.py  ──►  site/ (ignored build product)
-													   └─► map · correlations · study comparison
+INGESTION workbook ──► scripts/ingest.py ──► data/*.csv ──► scripts/build.py ──► map · correlations · study comparison
 ```
 
 ## Quick start
@@ -43,7 +42,7 @@ python tests/ui_smoke.py
 
 `data/*.csv` are the canonical tables. `scripts/ingest.py` imports the single `INGESTION` worksheet defined by `scripts/workbook_spec.py`; related series rows share an `observation_group_id`. For a column-by-column explanation, see [docs/INGESTION_FIELDS.md](docs/INGESTION_FIELDS.md). `scripts/build.py` creates the ignored `site/` output and the three static interfaces. `fixtures/v7_migrated/` is unverified demo/test data only; it is not live data. See `docs/ARCHITECTURE.md`, `docs/INGESTION_PROTOCOL.md`, `docs/SCHEMA.md`, `docs/DECISIONS.md`, and `CONTRIBUTING.md`.
 
-To build the fixture demo on macOS/Linux:
+To build a demonstration version of the database and interfaces from fixture (small and controlled dataset) data on macOS/Linux:
 
 ```bash
 RUPTURE_DATA_DIR=fixtures/v7_migrated/data RUPTURE_BASELINES_DIR=fixtures/v7_migrated/baselines RUPTURE_REPORTS_DIR=/tmp/rep RUPTURE_SITE_DIR=/tmp/demo_site python scripts/build.py
