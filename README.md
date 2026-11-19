@@ -42,9 +42,5 @@ python tests/ui_smoke.py
 
 ## Architecture and files
 
-`data/*.csv` are the canonical tables
-`scripts/ingest.py` imports the single `INGESTION` worksheet defined by `scripts/workbook_spec.py`; related series rows share an `observation_group_id`. For a column-by-column explanation, see [docs/INGESTION_FIELDS.md](docs/INGESTION_FIELDS.md). 
-`scripts/build.py` creates the ignored `site/` output and the three static interfaces. 
-`fixtures/v7_migrated/` is unverified demo/test data only; it is not live data. 
-See `docs/ARCHITECTURE.md`, `docs/INGESTION_PROTOCOL.md`, `docs/SCHEMA.md`, `docs/DECISIONS.md`, and `CONTRIBUTING.md`.
+Submitted workbooks are archived in `ingestions/<Event>/` using `Event_by_Submitter_on_YYYY-MM-DD.xlsx`; `data/*.csv` are the canonical tables. `scripts/ingest.py` imports the single `INGESTION` worksheet defined by `scripts/workbook_spec.py`; related series rows share an `observation_group_id`. For a column-by-column explanation, see [docs/INGESTION_FIELDS.md](docs/INGESTION_FIELDS.md). `scripts/build.py` creates the ignored `site/` output and the three static interfaces. See `docs/ARCHITECTURE.md`, `docs/INGESTION_PROTOCOL.md`, `docs/SCHEMA.md`, `docs/DECISIONS.md`, and `CONTRIBUTING.md`.
 

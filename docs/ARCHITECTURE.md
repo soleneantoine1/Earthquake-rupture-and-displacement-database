@@ -30,7 +30,7 @@ Each observation names the **original study** (`pub_ids`, pipe-separated if seve
 One event, one preferred `mw` in `events.csv`; every other published Mw is an observation of metric `moment_magnitude`. The build reports `mw_range` (e.g. "7.3–7.6") and the interfaces show it.
 
 ## Environment overrides
-`RUPTURE_DATA_DIR`, `RUPTURE_REPORTS_DIR`, `RUPTURE_BASELINES_DIR`, `RUPTURE_SITE_DIR` redirect the scripts (used by tests and the fixture demo).
+`RUPTURE_DATA_DIR`, `RUPTURE_REPORTS_DIR`, `RUPTURE_BASELINES_DIR`, `RUPTURE_SITE_DIR` redirect the scripts for tests and alternate workspaces.
 
 ## Phase 2 (designed for, not built)
 - Fault and fault-section records (`target_type` fault / fault_section: slip rates, cumulative displacement) through a `faults` table; phase 1 holds earthquake events only.

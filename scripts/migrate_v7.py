@@ -10,9 +10,7 @@ Principles
   * Statistics computed from arrays (v7 'database_derived' rows) are NOT stored any more;
     they are verified against the arrays and then re-computed at build time.
 
-Run (fixture only; refuses to touch live data/):
-  RUPTURE_DATA_DIR=fixtures/v7_migrated/data RUPTURE_REPORTS_DIR=fixtures/v7_migrated/reports \
-  RUPTURE_BASELINES_DIR=fixtures/v7_migrated/baselines python scripts/migrate_v7.py
+Run with external prototype paths supplied through RUPTURE_* environment variables.
 """
 import collections
 import json
@@ -171,10 +169,8 @@ def convert_unc(value, lo, hi, utype):
 # ---------------------------------------------------------------------------
 def main():
     if schema.DATA.resolve() == (schema.ROOT / "data").resolve() and "--force-live" not in sys.argv:
-        sys.exit("Refusing to overwrite the LIVE data/ tables (they are meant to stay empty until contributors ingest).\n"
-                 "Run against the fixture instead:\n"
-                 "  RUPTURE_DATA_DIR=fixtures/v7_migrated/data RUPTURE_REPORTS_DIR=fixtures/v7_migrated/reports \\\n"
-                 "  RUPTURE_BASELINES_DIR=fixtures/v7_migrated/baselines python scripts/migrate_v7.py")
+        sys.exit("Refusing to overwrite the LIVE data/ tables.\n"
+                 "Use external prototype paths through RUPTURE_DATA_DIR, RUPTURE_REPORTS_DIR, and RUPTURE_BASELINES_DIR.")
     con = sqlite3.connect(f"file:{LEGACY_DB}?mode=ro", uri=True)
     ing = q(con, "select * from ingestion")
     events_v7 = q(con, "select * from event_catalog")

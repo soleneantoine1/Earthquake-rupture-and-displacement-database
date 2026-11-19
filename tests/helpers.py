@@ -10,11 +10,11 @@ PY = sys.executable
 
 
 class Sandbox:
-    """A throw-away copy of the data (live or fixture) with its own reports/baselines/site dirs."""
+    """A throw-away copy of the live data with its own reports, baselines, and site directories."""
 
-    def __init__(self, source="fixture"):
+    def __init__(self, source="live"):
         self.tmp = Path(tempfile.mkdtemp(prefix="rupture_test_"))
-        src = ROOT / "fixtures" / "v7_migrated" if source == "fixture" else ROOT
+        src = ROOT
         self.data, self.reports, self.baselines, self.site = (self.tmp / n for n in ("data", "reports", "baselines", "site"))
         shutil.copytree(src / "data", self.data)
         shutil.copytree(src / "baselines", self.baselines)

@@ -8,8 +8,8 @@ import os
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-# Directories can be redirected with environment variables (used by the tests and by
-# the demo fixture), so that the same scripts run on live data or on a fixture.
+# Directories can be redirected with environment variables (used by tests),
+# so the same scripts can run against another dataset directory.
 DATA = Path(os.environ.get("RUPTURE_DATA_DIR", ROOT / "data"))
 REPORTS = Path(os.environ.get("RUPTURE_REPORTS_DIR", ROOT / "reports"))
 BASELINES = Path(os.environ.get("RUPTURE_BASELINES_DIR", ROOT / "baselines"))

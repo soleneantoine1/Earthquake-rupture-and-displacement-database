@@ -12,9 +12,11 @@ friction_coefficient,Friction coefficient,General rupture context,numeric,coeffi
 hypocenter_depth,Hypocentral depth,General rupture context,numeric,km,individual|minimum|mean|median|maximum,0,100,reported event value with reference datum and location method,Definitions of metrics.docx plus approved addition
 mapped_surface_rupture_length,Mapped surface-rupture length,Coseismic surface deformation,numeric,km,individual|minimum|mean|median|maximum,0,1500,reported event value,Definitions of metrics.docx
 moment_magnitude,Moment magnitude,General rupture context,numeric,Mw,individual|minimum|mean|median|maximum,3,10,reported preferred value,Definitions of metrics.docx
+off_fault_deformation_absolute,Off-fault deformation absolute,Coseismic surface deformation,numeric,m,individual|minimum|mean|median|maximum,,,"plot minimum, maximum, mean/average, and median; retain array",Definitions of metrics.docx
 off_fault_deformation_fraction,Off-fault deformation fraction,Coseismic surface deformation,numeric,%,individual|minimum|mean|median|maximum,0,100,"plot minimum, maximum, mean/average, and median; retain array",Definitions of metrics.docx
 rupture_length_depth,Rupture length at depth,General rupture context,numeric,km,individual|minimum|mean|median|maximum,,,reported value with boundary criterion,Definitions of metrics.docx
 rupture_velocity,Rupture velocity,General rupture context,numeric,km/s,individual|minimum|mean|median|maximum,0,8,"plot minimum, maximum, mean/average, and median; retain array",Definitions of metrics.docx plus approved addition
+ssd_absolute,Shallow slip deficit absolute,Coseismic surface deformation,numeric,m,individual|minimum|mean|median|maximum,,,"plot minimum, maximum, mean/average, and median; retain array and SSD subtype",Definitions of metrics.docx
 ssd_fraction,Shallow slip deficit fraction,Coseismic surface deformation,numeric,%,individual|minimum|mean|median|maximum,-300,100,"plot minimum, maximum, mean/average, and median; retain array and SSD subtype",Definitions of metrics.docx
 stress,Stress,General rupture context,numeric,,individual|minimum|mean|median|maximum,,,retain stress quantity and sign convention,Definitions of metrics.docx
 stress_drop,Stress drop,General rupture context,numeric,MPa,individual|minimum|mean|median|maximum,0,100,reported average or peak,Definitions of metrics.docx

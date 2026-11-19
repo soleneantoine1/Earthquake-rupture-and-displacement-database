@@ -1,7 +1,7 @@
 # Contributing
 
 ## Adding data (contributors)
-Follow `docs/INGESTION_PROTOCOL.md`. In short: fill the INGESTION sheet of the workbook → `python scripts/ingest.py file.xlsx` (dry run) → fix every reported row → `--apply --submitter "Name (ORCID)"` → open a pull request from a branch named `data/<your-name>-<topic>`.
+Follow `docs/INGESTION_PROTOCOL.md`. Store workbooks in `ingestions/<Event>/` using `Event_by_Submitter_on_YYYY-MM-DD.xlsx`, for example `Ridgecrest_by_Antoine_on_2026-11-19.xlsx`. In short: fill the INGESTION sheet of the workbook → `python scripts/ingest.py file.xlsx` (dry run) → fix every reported row → `--apply --submitter "Name (ORCID)"` → open a pull request from a branch named `data/<your-name>-<topic>`.
 Do **not** edit `data/*.csv` by hand unless you are fixing a registry (events, aliases, sources); the importer keeps files sorted and ids consistent.
 
 ## Reviewing (SURE database team, Milliner, Dolan, Reitman, ...)

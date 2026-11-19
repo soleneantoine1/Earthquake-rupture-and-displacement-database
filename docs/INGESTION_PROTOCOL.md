@@ -32,6 +32,9 @@ Bold = always required; other fields are required only in the cases named in the
 **Not (yet) supported:** `target_type` other than earthquake events (faults and fault sections are phase 2), `statistic_type = percentile`, `geometry_id`.
 
 ## Workflow
+
+Store completed or in-progress ingestion workbooks outside the repository root in `ingestions/<Event>/`. Use an `Event_by_Submitter_on_YYYY-MM-DD.xlsx` filename, for example `Ridgecrest_by_Antoine_on_2026-11-19.xlsx`. The event and submitter portions use stable, readable names; do not use spaces or slashes in the filename. Keep the matching ingestion report under `reports/` when reviewing or regenerating it.
+
 1. Open `templates/ingestion_template.xlsx` (regenerate with `make_template.py` after the registries change). Orange headers are required, yellow ones in some cases, blue ones optional.
 2. New earthquake → `NEW_EVENTS`; other names for an existing one → `EVENT_ALIASES`; new paper → `NEW_PUBLICATIONS` (full reference + DOI or `no_doi_reason`).
 3. Values → `INGESTION` (one row per value). Along-fault series: one row per measurement, same `observation_group_id`.
@@ -43,5 +46,3 @@ Bold = always required; other fields are required only in the cases named in the
 ## What the importer rejects (examples)
 unknown event/metric/publication · missing `source_location` or `method` · `value_origin = database_derived` · both value and range · range with only one end · uncertainty without `unc_type` or with negative offsets · qualitative uncertainty without a note · non-canonical unit · statistic not allowed for the metric · digitization without method/uncertainty · identical row already in the database or twice in the file · event that looks like an existing one (same name prefix within 2 days, unless `confirm_distinct=yes`) · publication whose DOI or id already exists.
 Warnings (do not block): value outside the plausible range for the metric (check the unit); several individual values from one study (should they be distinguished?).
-
-Legacy fixture note: pre-existing zero array offsets in `fixtures/v7_migrated/` are reported as `A004` warnings for source review. They are left unchanged because fixture values are unverified; new workbook imports reject zero offsets.

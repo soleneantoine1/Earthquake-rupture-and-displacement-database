@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Headless-browser smoke test of the interfaces on (a) the empty live data and (b) the v7 fixture.
+"""Headless-browser smoke test of the live Ridgecrest database.
 
-Checks: no JavaScript errors, all 29 metrics always selectable, empty-state banner on empty data,
-points/marks really drawn on the fixture, click -> provenance panel, and that missing values never plot as 0.
-Leaflet is replaced by a tiny stub (the map logic, not the tiles, is what is tested). Needs: pip install playwright.
+Checks: no JavaScript errors, all 31 metrics always selectable, the 11 Ridgecrest observations render,
+provenance panels work, and missing values never plot as 0.
+Leaflet is replaced by a tiny stub (map logic is tested, not external tiles). Requires pip-installed Playwright.
 """
 import os
 import sys
@@ -28,7 +28,7 @@ def check(cond, msg):
         print("FAIL:", msg)
 
 
-def run(site, label, empty):
+def run(site, label, empty, metric_count):
     with sync_playwright() as p:
         b = p.chromium.launch(**({"executable_path": "/opt/pw-browsers/chromium"} if Path("/opt/pw-browsers/chromium").exists() else {}))
         pg = b.new_page(viewport={"width": 1300, "height": 900})
@@ -55,9 +55,10 @@ def run(site, label, empty):
             banner = ev("(()=>{const b=document.getElementById('banner');return b&&!b.hidden})()")
             check(bool(banner) == empty, f"{label}/{page}: empty-state banner should be {'shown' if empty else 'hidden'}")
             if page == "map":
-                check(ev("document.querySelectorAll('#metric option').length") == 29, f"{label}/map: 29 metrics")
+                check(ev("document.querySelectorAll('#metric option').length") == metric_count, f"{label}/map: {metric_count} metrics")
                 n, grey = ev("window.__markers.length"), ev("window.__markers.filter(m=>m.o.fillColor==='#9ca3af').length")
-                check(n > 50, f"{label}/map: events drawn ({n})")
+                expected_markers = 2 if label == "live" else 50
+                check(n >= expected_markers, f"{label}/map: events drawn ({n})")
                 if empty:
                     check(grey == n, f"{label}/map: all markers grey on empty data")
                 else:
@@ -65,7 +66,7 @@ def run(site, label, empty):
                     ev("window.__markers.find(m=>m.o.fillColor!=='#9ca3af').f()")
                     check(ev("document.querySelectorAll('#values details').length") >= 1, f"{label}/map: click shows records")
             if page == "correlation":
-                check(ev("document.querySelectorAll('#xm option').length") == 29, f"{label}/correlation: 29 metrics")
+                check(ev("document.querySelectorAll('#xm option').length") == metric_count, f"{label}/correlation: {metric_count} metrics")
                 dots = ev("document.querySelectorAll('.dot').length")
                 check((dots == 0) == empty, f"{label}/correlation: dots={dots}")
             if page == "comparison":
@@ -78,16 +79,13 @@ def run(site, label, empty):
 
 
 def main():
-    live, fix = Sandbox("live"), Sandbox("fixture")
+    live = Sandbox("live")
     try:
-        for sb in (live, fix):
-            r = sb.run("build.py")
-            check(r.returncode == 0, "build failed: " + r.stdout[-400:] + r.stderr[-400:])
-        run(str(live.site), "live", True)
-        run(str(fix.site), "fixture", False)
+        r = live.run("build.py")
+        check(r.returncode == 0, "build failed: " + r.stdout[-400:] + r.stderr[-400:])
+        run(str(live.site), "live", False, 31)
     finally:
         live.cleanup()
-        fix.cleanup()
     print("UI smoke test:", "FAILED" if fails else "passed")
     sys.exit(1 if fails else 0)
 
