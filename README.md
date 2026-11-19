@@ -44,3 +44,14 @@ python tests/ui_smoke.py
 
 Submitted workbooks are archived in `ingestions/<Event>/` using `Event_by_Submitter_on_YYYY-MM-DD.xlsx`; `data/*.csv` are the canonical tables. `scripts/ingest.py` imports the single `INGESTION` worksheet defined by `scripts/workbook_spec.py`; related series rows share an `observation_group_id`. For a column-by-column explanation, see [docs/INGESTION_FIELDS.md](docs/INGESTION_FIELDS.md). `scripts/build.py` creates the ignored `site/` output and the three static interfaces. See `docs/ARCHITECTURE.md`, `docs/INGESTION_PROTOCOL.md`, `docs/SCHEMA.md`, `docs/DECISIONS.md`, and `CONTRIBUTING.md`.
 
+## Database interfaces
+
+The dynamic database interface is published through GitHub Pages:
+
+- [Open the database interfaces](https://soleneantoine1.github.io/Earthquake-rupture-and-displacement-database/)
+- [Map](https://soleneantoine1.github.io/Earthquake-rupture-and-displacement-database/map.html)
+- [Correlation explorer](https://soleneantoine1.github.io/Earthquake-rupture-and-displacement-database/correlation.html)
+- [Study comparison](https://soleneantoine1.github.io/Earthquake-rupture-and-displacement-database/comparison.html)
+
+GitHub Pages displays the interfaces separately below the README-style repository landing page; README content cannot execute or embed the application directly.
+
