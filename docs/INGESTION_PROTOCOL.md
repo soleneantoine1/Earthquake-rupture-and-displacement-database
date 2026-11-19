@@ -46,5 +46,3 @@ Store completed or in-progress ingestion workbooks outside the repository root i
 ## What the importer rejects (examples)
 unknown event/metric/publication · missing `source_location` or `method` · `value_origin = database_derived` · both value and range · range with only one end · uncertainty without `unc_type` or with negative offsets · qualitative uncertainty without a note · non-canonical unit · statistic not allowed for the metric · digitization without method/uncertainty · identical row already in the database or twice in the file · event that looks like an existing one (same name prefix within 2 days, unless `confirm_distinct=yes`) · publication whose DOI or id already exists.
 Warnings (do not block): value outside the plausible range for the metric (check the unit); several individual values from one study (should they be distinguished?).
-
-Legacy fixture note: pre-existing zero array offsets in `fixtures/v7_migrated/` are reported as `A004` warnings for source review. They are left unchanged because fixture values are unverified; new workbook imports reject zero offsets.
