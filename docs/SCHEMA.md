@@ -60,5 +60,5 @@ One measurement of an array (value, optional positive offsets, optional lat/lon)
 - `value_num` with `qualifier` (`<`,`>`,`~`) is a bound, not a measurement; `value_lo/value_hi` is a published range. Neither is ever plotted as a point.
 - `pub_ids` is pipe-separated for joint attribution; `compiled_in` is a single `pub_id`.
 - Arrays: `derive_stats=true` -> the build computes min/mean/median/max (never stored).
-- OFD and SSD exist only as `off_fault_deformation_fraction` and `ssd_fraction` (unit `%`).
+- OFD and SSD fractions and absolute metrics are catalogued separately: `off_fault_deformation_fraction`, `off_fault_deformation_absolute`, `ssd_fraction`, and `ssd_absolute`.
 

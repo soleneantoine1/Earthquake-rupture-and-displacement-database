@@ -4,7 +4,7 @@
 Kept in the repo as documentation of where the registries came from:
   data/events.csv         <- the 100 events of the v7 catalogue (duplicates merged, see event_aliases.csv)
   data/event_aliases.csv  <- legacy ids / name variants that resolve to those events
-  data/metrics.csv        <- the 29-metric catalogue
+  data/metrics.csv        <- the 31-metric catalogue
   data/sources.csv        <- only publications with a DOI and the agencies/catalogues/databases
   data/observations.csv, arrays.csv, array_values.csv  <- EMPTY (headers only)
 

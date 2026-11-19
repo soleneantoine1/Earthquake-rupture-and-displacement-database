@@ -199,7 +199,7 @@ class EmptyLiveTests(unittest.TestCase):
             self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
             d = read_data_js(sb)
             self.assertEqual(d["records"], [])
-            self.assertEqual(len(d["metrics"]), 29)
+            self.assertEqual(len(d["metrics"]), 31)
             self.assertGreater(len(d["events"]), 50)
         finally:
             sb.cleanup()

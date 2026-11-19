@@ -17,3 +17,16 @@ A TypeScript/Vite stack and a CLI package (adds a toolchain contributors do not 
 
 ## Open curation items inherited from v7 (counts are for the fixture)
 18 conflict groups that need `model_id`/`segment` (e.g. SSD per slip model); 48 unparsed-text values (mostly slip rates); 84 compound attributions; 8 near-duplicate publications; ~108 publications without a full reference; 23 events without coordinates (`E001`) and 12 without date (`E002`); event merges to confirm: Superstition Hills (not Elmore Ranch?), Kekerengu↔Kaikōura, Marryat.
+
+## 2026-11-19 — Ingestion phase decisions
+
+1. **Scope of this database for now:** only published values: single reported values (e.g. Mw, mapped rupture length, depths, mechanism) and published minimum, mean, median and maximum, each with its published uncertainty, uncertainty type and sample count. No arrays: along-strike series and individual measurements are stored in the 3D database. No values derived from raw data and no figure digitization in this phase; derived metrics may be added in a later phase as a clearly separate category.
+2. **Exception:** `surface_rupture_discontinuity` may be derived from a published `surface_rupture_span` and a published `mapped_surface_rupture_length` from the same study, flagged as derived.
+3. **Ingestion order:** event by event (starting with the 2019 Ridgecrest foreshock `sure:20190704` and mainshock `sure:20190705`), paper by paper, entering every metric each paper reports. Only whole-rupture values for each event; per-segment values are not entered for now.
+4. **Metric meanings:**
+   - `total_surface_displacement` = displacement envelope across the whole deformation zone.
+   - `surface_fault_slip` = slip offsets measured on surface fault ruptures (localized slip).
+   - Diffuse deformation (e.g. Antoine et al., 2021) is entered under `off_fault_deformation_fraction` / `off_fault_deformation_absolute`, with its definition in `method_details`; differences between definitions are visible in the study-to-study comparison.
+5. **Vertical motion:** vertical offsets across a fault are entered with the existing component `vertical/throw (source code T)`. Uplift or subsidence of a single block (not an offset across a fault) is not entered. No new components.
+6. **Uncertainty:** a published ± whose convention is not stated in the paper is entered as `unspecified`, with the most likely interpretation explained in `uncertainty_description`.
+7. **New metrics:** `off_fault_deformation_absolute` and `ssd_absolute` added (definitions from the v7 prototype).
